@@ -1,0 +1,13 @@
+name = "EarthExile"
+author = "Mazzy"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "4a518f60f30bb4236101d9d5dc18a0359cb3f2306fd4870c9ace9ad379ed8b0d"
+
+[versions]
+forge = "47.3.12"
+minecraft = "1.20.1"
