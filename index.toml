@@ -1142,7 +1142,7 @@ hash = "0c112b911b9bc32cb098534c716b7528a5963bc560f0dbf862fa0ec8cba877ae"
 
 [[files]]
 file = "config/fancymenu/assets/mahj_1294853429_mainmenu.fma"
-hash = "966d5c433bd9ceddf77b2ddada90567baf9064c6e53c43a514c3722a4a948a55"
+hash = "d89cc2e4435bfc70326d5a9a0461f5a2a69c655b60dec5fc670d128b4b539c29"
 
 [[files]]
 file = "config/fancymenu/assets/mainaudio.wav"
@@ -21135,6 +21135,11 @@ hash = "2a1eb851bbde3506fdb00e85466915ff5c19204aa220d487220d5671adb6913d"
 metafile = true
 
 [[files]]
+file = "mods/dimensional-worldborder-continuation.pw.toml"
+hash = "e899641e3474aa1fe250ed1fb1c4877a2b41c6e05fc688472316fc72aaba4aec"
+metafile = true
+
+[[files]]
 file = "mods/disenchantingforge.pw.toml"
 hash = "7f5d118219135a4a700e5b2527a2015b9c8382e97f88e51699db75411e626e56"
 metafile = true
@@ -21671,7 +21676,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcuniversal-0.1.0.jar"
-hash = "da812655a28bf5ccc9e53679b7e641c07d3681e263843142d07b1f3df907ae9e"
+hash = "bd3fd11a416c5c23e66760a3b249c14184eee15bd70d303d8ed62da755e1b8fd"
 
 [[files]]
 file = "mods/mekanism-generators.pw.toml"
@@ -22376,7 +22381,3 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "fa202c052bee239aa8c074e13da7c843cda83a2b768769b3d6ae0bc47b11de8e"
 metafile = true
-
-[[files]]
-file = "options.txt"
-hash = "05c0f3fade2571740271c02c387a7c599c971735c07a14676d5519220a8558dd"
