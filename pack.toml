@@ -1,4 +1,4 @@
-name = "EarthExile"
+name = "Earth Exile"
 author = "Mazzy"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3fc1cb0c64ce952c7b20af25ca15ea499213c2c404f81c1f16e4d71f927c6a9a"
+hash = "193cb96264ce9aafed248b5e05a781c913b9b574223f12b3e56d510dccc8206b"
 
 [versions]
 forge = "47.3.12"
