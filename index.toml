@@ -21664,7 +21664,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcuniversal-0.1.0.jar"
-hash = "4c0c4bbc434c1e2ba47fbe13e03fe141a35cdb425ff0214ea0af6524a6a80ec1"
+hash = "ebb38821357676fad19d61185342ae0027bee2763640cdd34e93463521a79527"
 
 [[files]]
 file = "mods/mekanism-generators.pw.toml"
@@ -22369,10 +22369,6 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "fa202c052bee239aa8c074e13da7c843cda83a2b768769b3d6ae0bc47b11de8e"
 metafile = true
-
-[[files]]
-file = "options.txt"
-hash = "05a5ff2d0d868c7f1e7ac84deb2e60536227a62b014335589c438fae5232fbad"
 
 [[files]]
 file = "servers.dat"
