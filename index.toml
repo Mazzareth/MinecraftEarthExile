@@ -21780,8 +21780,8 @@ hash = "7428d76392d1c976db8ff731d2d889c88ddf515e6813712f5b58b490d427f8f1"
 metafile = true
 
 [[files]]
-file = "mods/mcuniversal-0.1.0.jar"
-hash = "ebb38821357676fad19d61185342ae0027bee2763640cdd34e93463521a79527"
+file = "mods/mcuniversal-0.1.1.jar"
+hash = "cad80c2436e63a78db0851faf2368db803dfde855658e40982814fea5e53b23a"
 
 [[files]]
 file = "mods/mekanism-generators.pw.toml"
@@ -22076,10 +22076,6 @@ metafile = true
 file = "mods/quickstack.pw.toml"
 hash = "c3a2bb0e0048cb9993fd293d6a5690b1a5b0f95f7023c01fb85a6edf5e568c00"
 metafile = true
-
-[[files]]
-file = "mods/radium-mc1.20.1-0.12.4+git.26c9d8e.jar"
-hash = "b42584e2672d6b5329959ec2b0f342395b19389fed0ee4d86ea71072f42f77a0"
 
 [[files]]
 file = "mods/ratsdelight-1.1.0.1-1.20.1.jar"
@@ -22427,10 +22423,6 @@ metafile = true
 file = "mods/wither-skeleton-tweaks.pw.toml"
 hash = "b8c9c00fe71df49cfbda00dd8160e02f4a408c397ac588842eb1412b4498ae03"
 metafile = true
-
-[[files]]
-file = "mods/xlpackets-forge-1.20.1-1.0.5.jar"
-hash = "963cece41e7752554e7230ffcfd96c5b4aec955866b46bf89b12b51f07f33423"
 
 [[files]]
 file = "mods/xnet-gases.pw.toml"
