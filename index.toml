@@ -24566,11 +24566,6 @@ hash = "c4032dc8c4f85576b7d89f719aa56241fbcdede45d3fc8bad43c86e499d01a67"
 metafile = true
 
 [[files]]
-file = "mods/flan-forge.pw.toml"
-hash = "ec4f6264850205ad2a2af013a8b2213c6176bef7157fc8b0dcc4b6d2db6c1a16"
-metafile = true
-
-[[files]]
 file = "mods/flickerfix.pw.toml"
 hash = "c0aee4eedcbdab214dc04eb23ab98aace056c9473ac7d326c5f5edc5e1da58fb"
 metafile = true
