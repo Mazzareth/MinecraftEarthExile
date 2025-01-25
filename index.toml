@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "YOU BETTER COMMIT.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "commit.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/CoroUtil/General.toml"
 hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
@@ -20629,8 +20637,32 @@ file = "fancymenu_data/last_world.fmdata"
 hash = "8d11253a67bf23be0028504348a329035cc7d6806e7d4a77a6a2692627108353"
 
 [[files]]
+file = "mods/AdvancedPeripherals-1.20.1-0.7.41r.jar"
+hash = "acfd815b5a7481f06608ab99ad4b816e10a7f083ff7ea4b0a7450ade97c79aca"
+
+[[files]]
 file = "mods/DamageVignette-2.0.2-forge+mc1.20.jar"
 hash = "3d548feec36ca4c7125f430eeeafe8b1ccda5913e25bafcb93741fe9552056de"
+
+[[files]]
+file = "mods/ItemLocks-Forge-1.20.1-1.3.8.jar"
+hash = "b75dfb3d5bb5ff9b10b030cad94f324e28a54ee02c43ab865de7b5b4af8f0471"
+
+[[files]]
+file = "mods/L_Enders_Cataclysm-2.43- 1.20.1.jar"
+hash = "e19bdfd31e23cfdb6b96811de064a11617d119d45b2c597e758f899851db3d71"
+
+[[files]]
+file = "mods/Rats-1.20.1-8.1.3.jar"
+hash = "9a73aa327f8d48a06208bb6f47f03799e061eac8714f09301df0ef5d34ca5f3c"
+
+[[files]]
+file = "mods/Shrink-1.20.1-1.4.5.jar"
+hash = "a7af6dc3bc080c470a27ff691152c974bd13ce61e0c0948daf5eefece432abb1"
+
+[[files]]
+file = "mods/TinyCoal-forge-1.20.1-1.1.5.jar"
+hash = "3dd11b2f088cbc00d3948581d61bbf6d99d52993e98917da871b79bf9314a6df"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
@@ -20758,6 +20790,11 @@ hash = "cf7b7c28b558e9a923bd1fe1420887d0f71b59e849178c14b1fff51b51efe94c"
 metafile = true
 
 [[files]]
+file = "mods/bellsandwhistles.pw.toml"
+hash = "48ddfc4225936a611f738b22b22b48cdc5977715ab75c21ffaa4d36d536e1147"
+metafile = true
+
+[[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "d1b283363d1599ea3900400275b3405362bfe062b03f7d15346aaec5a7e1671e"
 metafile = true
@@ -20808,6 +20845,14 @@ hash = "f7574bbc725128a0fa6a44c959c67d706d2279ed442dfedf2d135fd955e5ca6b"
 metafile = true
 
 [[files]]
+file = "mods/blueskiesdelight-1.0.5-1.20.1.jar"
+hash = "0426e712cd4efef83ba9d0a75f2471d3cdab4c5b2add348b1b6e6ccb6718649d"
+
+[[files]]
+file = "mods/bluiesthighhighs1.20.1.jar"
+hash = "cbf17651b0fa6175e89963b3b82e463bf765f3203af64b2c5d9592225d45ebce"
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "058699e4832d0cf5396c5ea29244100f0c0e39a8d7aa5b64c2afdcc3cb8c8145"
 metafile = true
@@ -20848,6 +20893,10 @@ hash = "1adcb5d466522d7bfa7a74e60c16b64e5192af85a1cb283bd2faf6cf991cfbf0"
 metafile = true
 
 [[files]]
+file = "mods/buildinggadgets2-1.0.7.jar"
+hash = "81e4bf64a0d1136de899d68f2693f0bc6439c520884bbb39c5c2a2fa82056f12"
+
+[[files]]
 file = "mods/cable-facades.pw.toml"
 hash = "92f9ff046bbfa45ec547cd1ee2054b3640ec08ce7b646d5051c164e7eb0d252c"
 metafile = true
@@ -20868,9 +20917,21 @@ hash = "b741a14460455f39b801d112b40e244e1c3e31ba8aa5450ba2adc8a745bb9688"
 metafile = true
 
 [[files]]
+file = "mods/cataclysmiccombat-1.4.jar"
+hash = "c1ec495af967da6be9660d0d4dbe508c2416583d5d1ef3f0958626e3eaa582fe"
+
+[[files]]
 file = "mods/catalogue.pw.toml"
 hash = "0722da0022c3d9dcf6be08f561828222f61911b62aed7d8c75f71c126e12e1b8"
 metafile = true
+
+[[files]]
+file = "mods/cc-tweaked-1.20.1-forge-1.113.1.jar"
+hash = "12dedbf3436c214edd10a94762d57161eb0f5e966b36935a9c2a0964cf2b7e9f"
+
+[[files]]
+file = "mods/cccbridge-mc1.20.1-forge-1.6.3.jar"
+hash = "ebdde3d104757c50f0a052b7807c4b7464bf12217a1cc7155387f665fb578d22"
 
 [[files]]
 file = "mods/cerbons-api.pw.toml"
@@ -20988,6 +21049,11 @@ hash = "7e07544c64f07f8f651eb49902c46674409bfe440457fd7f864964b5d134b637"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "b398f76eb373a7a47a26a63ea2b52676859fb01b764e49c19dfdc09e005cd4e2"
+metafile = true
+
+[[files]]
 file = "mods/corgilib.pw.toml"
 hash = "8a86fc09e720b26bb48a117fccd8a3c9bfe5791bcebeca9ced5be018759682cb"
 metafile = true
@@ -21033,8 +21099,28 @@ hash = "8b0e68470cf87f5165c7286b9675d9e644aa7ca36e8dd026606c1cc6a88f1edc"
 metafile = true
 
 [[files]]
+file = "mods/create-copper-zinc.pw.toml"
+hash = "62b6a54dc2e8ac4c1f322fa01167c1792aeee5f08f2f61a24fcc6c72c8d62bb7"
+metafile = true
+
+[[files]]
+file = "mods/create-crystal-clear.pw.toml"
+hash = "1834c0180f9f41dd3ec57776cc9ee30cf93ddcb1adf16c04aed46eab677378ea"
+metafile = true
+
+[[files]]
+file = "mods/create-design-n-decor.pw.toml"
+hash = "c43a74ed73563267145327df57332d64e5d1236a400d3335dc5a3417ef3fe92a"
+metafile = true
+
+[[files]]
 file = "mods/create-diesel-generators.pw.toml"
 hash = "55e774a83edf2998fd3cb94a5a8e848648e2ea102d4cd689924b56424ff93f33"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "cc6024c02ab4cfcadea22833dd439456f726a23525d05ef2dfde0bb5e2d541af"
 metafile = true
 
 [[files]]
@@ -21048,6 +21134,11 @@ hash = "4c8be1c0bc09cf2a6ef82e4fdab03d17fa4f403cea043898d2b57d1162663d92"
 metafile = true
 
 [[files]]
+file = "mods/create-ratatouille.pw.toml"
+hash = "ff39a37509e28ffb97a7748ba8049fc9255eeadd2c99a7ef2ea3507eb8640238"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "cb7b31c785f6e7466951c7b2b221d9c89f065e7930a36ac1a575e40d54404bb3"
 metafile = true
@@ -21056,6 +21147,10 @@ metafile = true
 file = "mods/create.pw.toml"
 hash = "8782d120f8b3e8439595af87a84d8e955ecdcf2e7abcf1a2ce85c413f085daa3"
 metafile = true
+
+[[files]]
+file = "mods/create_blue_skies_compat-forge-1.20.1-1.0.1.jar"
+hash = "d017524f4ea4993e4d7f3a4168085ccf34d157d464ac4cd17df65cb9082bee2e"
 
 [[files]]
 file = "mods/creativecore.pw.toml"
@@ -21091,6 +21186,10 @@ metafile = true
 file = "mods/cupboard.pw.toml"
 hash = "2eb26b157c4159bfeff6a00147afa35284397d558f84b55367d1a41064d7456a"
 metafile = true
+
+[[files]]
+file = "mods/curios-forge-5.11.1+1.20.1.jar"
+hash = "6ab1eb98d412bd505933abb3cdbc625035ce1256d290d9fdc36ed535d267011b"
 
 [[files]]
 file = "mods/curios.pw.toml"
@@ -21283,6 +21382,11 @@ hash = "180ca9ed174ae6685ef8e692bdeb46e6ac4df42a073fc1f278d24e5b816da18d"
 metafile = true
 
 [[files]]
+file = "mods/faster-ladder-climbing.pw.toml"
+hash = "0639428f4c47ca067f5265aa40c55e19fd9ad10337b9b00524b81789f247a9ff"
+metafile = true
+
+[[files]]
 file = "mods/fastfurnace.pw.toml"
 hash = "932ddad36de5cc064fd285cff392872050de95e262029d336e99f44e0ce01d97"
 metafile = true
@@ -21301,6 +21405,10 @@ metafile = true
 file = "mods/fastworkbench.pw.toml"
 hash = "77095e78d0432b58d1243f271e953c8c6b318bf8dbd0563358b07e15baf30a9c"
 metafile = true
+
+[[files]]
+file = "mods/ferritecore-6.0.1-forge.jar"
+hash = "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
 
 [[files]]
 file = "mods/ferritecore.pw.toml"
@@ -21478,6 +21586,11 @@ hash = "eca3b243e94bcafb9c119ea9159ac3aad48fdc9487790838f2afbd94c6abcb46"
 metafile = true
 
 [[files]]
+file = "mods/interiors.pw.toml"
+hash = "ba66d23c40149b26ce4c4a5a27a78c9443d6ddeb8591e18fd625d27e9806ab20"
+metafile = true
+
+[[files]]
 file = "mods/inventory-essentials.pw.toml"
 hash = "fd0787257d819af194fc1ef52c17d72b1d9e20d5102c5b7d151fd52a1459365d"
 metafile = true
@@ -21603,6 +21716,10 @@ hash = "878a3069359f061c056ccd1ff8d859eab37feab4fe6031b425bc204cc323f20c"
 metafile = true
 
 [[files]]
+file = "mods/lionfishapi-2.4-Fix.jar"
+hash = "7f54de417aae331bf39f2847d3029d0976b90b50f217f9b4cc856433d34aee6f"
+
+[[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "ecd97a02b33bcd6bc4f0898d9602c23ef5811958bd097b5d9e5ba1b2ffef5637"
 metafile = true
@@ -21725,6 +21842,10 @@ metafile = true
 file = "mods/modern-ui.pw.toml"
 hash = "e326ed18d653eef21e51937fb59efb2231f8949fa62e1c9ca5f3a63e05060462"
 metafile = true
+
+[[files]]
+file = "mods/modernfix-forge-5.20.0+mc1.20.1.jar"
+hash = "a806fbcc09d3b34a11cd978cd4d6e069257e9eb8e96a84fba61d6cf8e1f33e09"
 
 [[files]]
 file = "mods/modernfix.pw.toml"
@@ -21857,6 +21978,11 @@ hash = "fd382cec52297ec03c27c9127dcc2d0b2c288262ce5680a1e7b6d9d8bfc04ece"
 metafile = true
 
 [[files]]
+file = "mods/observable.pw.toml"
+hash = "5d0eae777859369335212a6a68a0c835fc7487ace8016749fe9f377de1c4b392"
+metafile = true
+
+[[files]]
 file = "mods/oceans-delight.pw.toml"
 hash = "57f6793fdca748db18eb33a34344f68804e881af07c5e032073d8b33ee683a54"
 metafile = true
@@ -21950,6 +22076,14 @@ metafile = true
 file = "mods/quickstack.pw.toml"
 hash = "c3a2bb0e0048cb9993fd293d6a5690b1a5b0f95f7023c01fb85a6edf5e568c00"
 metafile = true
+
+[[files]]
+file = "mods/radium-mc1.20.1-0.12.4+git.26c9d8e.jar"
+hash = "b42584e2672d6b5329959ec2b0f342395b19389fed0ee4d86ea71072f42f77a0"
+
+[[files]]
+file = "mods/ratsdelight-1.1.0.1-1.20.1.jar"
+hash = "6a7e71da81c056098f4664cabae13e754d2decb15003d4d1291cf9b1beaee06f"
 
 [[files]]
 file = "mods/realm-rpg-dragon-wyrms.pw.toml"
@@ -22221,6 +22355,10 @@ hash = "51e82d9320effbd610ccfe4571c048c7d0f9c98362b9884faabfaa6f63aa9737"
 metafile = true
 
 [[files]]
+file = "mods/trade-cycling-forge-1.20.1-1.0.15.jar"
+hash = "b844e4f86d2c5fc2246c3f192dae0f42c1add70291e1add339c5320af8dcaf5c"
+
+[[files]]
 file = "mods/transmog.pw.toml"
 hash = "db4b2b5b71221804c3238b8a06445f4baefcce589fbdd77348a7ff5435a1436e"
 metafile = true
@@ -22289,6 +22427,10 @@ metafile = true
 file = "mods/wither-skeleton-tweaks.pw.toml"
 hash = "b8c9c00fe71df49cfbda00dd8160e02f4a408c397ac588842eb1412b4498ae03"
 metafile = true
+
+[[files]]
+file = "mods/xlpackets-forge-1.20.1-1.0.5.jar"
+hash = "963cece41e7752554e7230ffcfd96c5b4aec955866b46bf89b12b51f07f33423"
 
 [[files]]
 file = "mods/xnet-gases.pw.toml"
