@@ -6,8 +6,8 @@
   "stats": [
     {
       "type": "MORE",
-      "max": 27.0,
-      "min": 9.0,
+      "max": 24.0,
+      "min": 8.0,
       "stat": "int_dmg"
     },
     {

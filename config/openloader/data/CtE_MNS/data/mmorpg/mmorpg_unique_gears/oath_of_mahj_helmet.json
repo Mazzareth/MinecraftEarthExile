@@ -18,12 +18,6 @@
     },
     {
       "type": "FLAT",
-      "max": 1.0,
-      "min": 1.0,
-      "stat": "plus_lvl_all_spells"
-    },
-    {
-      "type": "FLAT",
       "max": 14.0,
       "min": 10.0,
       "stat": "health"

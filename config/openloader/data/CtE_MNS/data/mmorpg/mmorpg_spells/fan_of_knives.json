@@ -59,7 +59,7 @@
               "type": "sound",
               "map": {
                 "pitch": 2.0,
-                "sound": "minecraft:entity.generic.hit",
+                "sound": "minecraft:entity.generic.hurt",
                 "volume": 1.0
               }
             }

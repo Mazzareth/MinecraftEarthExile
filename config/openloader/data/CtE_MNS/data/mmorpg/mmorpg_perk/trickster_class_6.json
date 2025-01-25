@@ -15,7 +15,7 @@
       "type": "FLAT",
       "scale_to_lvl": false,
       "stat": "dmg_reduction",
-      "v1": 8.0
+      "v1": 6.0
     }
   ]
 }

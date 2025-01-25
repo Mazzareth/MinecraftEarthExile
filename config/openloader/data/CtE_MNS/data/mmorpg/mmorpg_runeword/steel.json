@@ -6,7 +6,8 @@
   ],
   "slots": [
     "sword",
-	"axe"
+	"axe",
+	"greatsword"
   ],
   "stats": [
     {
@@ -18,13 +19,13 @@
     {
       "type": "FLAT",
       "max": 30.0,
-      "min": 25.0,
+      "min": 20.0,
       "stat": "accuracy"
     },
     {
       "type": "FLAT",
       "max": 15.0,
-      "min": 15.0,
+      "min": 10.0,
       "stat": "attack_speed"
     },
     {

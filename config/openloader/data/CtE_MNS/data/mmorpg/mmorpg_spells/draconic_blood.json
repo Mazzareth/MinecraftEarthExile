@@ -54,7 +54,7 @@
               "count": 1.0,
               "exile_potion_id": "draconic_blood",
               "potion_action": "GIVE_STACKS",
-              "potion_dur": 1200.0
+              "potion_dur": 6000.0
             }
           }
         ],

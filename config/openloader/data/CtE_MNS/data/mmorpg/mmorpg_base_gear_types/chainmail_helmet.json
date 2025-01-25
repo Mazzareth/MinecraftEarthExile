@@ -2,14 +2,14 @@
   "base_stats": [
     {
       "type": "FLAT",
-      "max": 2.25,
-      "min": 1.125,
+      "max": 4.5,
+      "min": 2.25,
       "stat": "armor"
     },
     {
       "type": "FLAT",
-      "max": 6.0,
-      "min": 3.0,
+      "max": 7.5,
+      "min": 3.75,
       "stat": "magic_shield"
     }
   ],

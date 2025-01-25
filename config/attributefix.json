@@ -198,6 +198,17 @@
         "value": 1024
       }
     },
+    "kubejs:plus_lvl_all_spells": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "obscure_api:magic_resistance": {
       "enabled": false,
       "min": {
@@ -229,6 +240,17 @@
       "max": {
         "default": 100000,
         "value": 100000
+      }
+    },
+    "kubejs:move_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "combatroll:distance": {
@@ -440,6 +462,17 @@
         "value": 4
       }
     },
+    "kubejs:magic_find": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -482,6 +515,17 @@
       "max": {
         "default": 34,
         "value": 34
+      }
+    },
+    "kubejs:critical_hit": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "minecraft:generic.flying_speed": {

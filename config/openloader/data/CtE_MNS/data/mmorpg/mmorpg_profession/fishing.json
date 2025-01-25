@@ -2,14 +2,14 @@
   "chance_drops": [],
   "exp_sources": {
     "default_xp": {
-      "exp": 50,
+      "exp": 100,
       "req": [],
       "tier": 0
     },
     "map": {}
   },
   "id": "fishing",
-  "misc_chance": 5.0,
+  "misc_chance": 2.0,
   "tiered_drops": {
     "TIER0": [
       {

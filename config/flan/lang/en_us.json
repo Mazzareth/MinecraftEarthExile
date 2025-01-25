@@ -200,6 +200,7 @@
   "flan:chorus_fruit": "Chorus Fruit",
   "flan:animal_interact": "Animal Interact",
   "flan:hurt_animal": "Hurt Animal",
+  "flan:hurt_named": "Hurt Named",
   "flan:xp": "Xp",
   "flan:trading": "Trading",
   "flan:armorstand": "Armorstand",
@@ -211,6 +212,7 @@
   "flan:teleport": "Teleport",
   "flan:no_hunger": "No Hunger",
   "flan:claim_message": "Claim Message",
+  "flan:archeology": "Archeology",
   "flan:hurt_player": "Hurt Player",
   "flan:explosions": "Explosions",
   "flan:wither": "Wither",
@@ -226,8 +228,6 @@
   "flan:fake_player": "Fake Player",
   "flan:player_mob_spawn": "Player Mob Spawn",
   "flan:sculk": "Sculk",
-  "flan:archeology": "Archeology",
-  "flan:create_contraption": "Create Contraption",
   "flan:edit_claim.desc": [
     "Gives permission to edit (resize, delete...) the claim"
   ],
@@ -346,6 +346,9 @@
   "flan:hurt_animal.desc": [
     "Permission to hurt animals"
   ],
+  "flan:hurt_named.desc": [
+    "Permission to hurt named mobs"
+  ],
   "flan:xp.desc": [
     "Permission to pick up xp orbs"
   ],
@@ -378,6 +381,9 @@
   ],
   "flan:claim_message.desc": [
     "Permission to edit the enter/leave message"
+  ],
+  "flan:archeology.desc": [
+    "Allow players to brush blocks in this claim"
   ],
   "flan:hurt_player.desc": [
     "Permission to hurt other players"
@@ -429,13 +435,6 @@
   "flan:sculk.desc": [
     "Permission for sculk sensors.",
     "Shriekers are handled under PLAYERMOBSPAWN"
-  ],
-  "flan:archeology.desc": [
-    "Allow players to brush blocks in this claim"
-  ],
-  "flan:create_contraption.desc": [
-    "Gives permission to allow minecart contraptions to pass through claim border.",
-    "Note if this is disabled and your contraption goes out of the claim it can't go back in!"
   ],
   "command.help": [
     "help <page> | (cmd <command>)",

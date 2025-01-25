@@ -10,7 +10,7 @@
   "drops_uber_frags": false,
   "favor_loot_multi": 1.0,
   "favor_needed": 0,
-  "favor_per_hour": 500,
+  "favor_per_hour": 250,
   "guid": "common",
   "higher_rar": "uncommon",
   "is_unique_item": false,

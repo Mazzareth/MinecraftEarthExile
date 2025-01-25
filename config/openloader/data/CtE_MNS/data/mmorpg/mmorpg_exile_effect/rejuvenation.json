@@ -60,7 +60,9 @@
     "on_cast": []
   },
   "spell_tags": {
-    "tags": []
+    "tags": [
+	"rejuvenation"
+	]
   },
   "stacks_affect_stats": true,
   "stats": [

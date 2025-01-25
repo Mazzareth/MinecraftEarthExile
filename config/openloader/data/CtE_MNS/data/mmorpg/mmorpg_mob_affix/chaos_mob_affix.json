@@ -15,6 +15,12 @@
       "max": 15.0,
       "min": 15.0,
       "stat": "all_chaos_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 100.0,
+      "min": 100.0,
+      "stat": "proc_chaos_id"
     }
   ],
   "weight": 1000

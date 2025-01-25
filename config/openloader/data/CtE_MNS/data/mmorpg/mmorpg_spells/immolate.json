@@ -1,0 +1,126 @@
+{
+  "attached": {
+    "entity_components": {},
+    "on_cast": [
+      {
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "pitch": 1.0,
+              "sound": "minecraft:entity.generic.burn",
+              "volume": 1.0
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "particles_in_radius",
+            "map": {
+              "motion": "None",
+              "particle_count": 50.0,
+              "particle_type": "minecraft:small_flame",
+              "radius": 1.0
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "damage",
+            "map": {
+              "disable_knockback": true,
+              "allow_self_damage": true,
+              "element": "Fire",
+              "value_calculation": "immolate"
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": [
+          {
+            "type": "self",
+            "map": {}
+          }
+        ]
+      }
+    ]
+  },
+  "cast_animation": {
+    "id": "steady_cast"
+  },
+  "cast_finish_animation": {
+    "id": "cast_finish"
+  },
+  "config": {
+    "aggro_radius": 10,
+    "cast_time_ticks": 0,
+    "castingWeapon": "ANY_WEAPON",
+    "charge_name": "",
+    "charge_regen": 0,
+    "charges": 0,
+    "cooldown_ticks": 5,
+    "ene_cost": {
+      "max": 0.0,
+      "min": 0.0
+    },
+    "imbues": 0,
+    "mana_cost": {
+      "max": 0.0,
+      "min": 0.0
+    },
+    "slows_when_casting": true,
+    "style": "int",
+    "summonType": "NONE",
+    "summon_basic_atk": "pet_basic",
+    "swing_arm": true,
+    "tags": {
+      "tags": [
+        "magic",
+        "damage",
+        "fire"
+      ]
+    },
+    "times_to_cast": 1,
+    "tracking_radius": 5,
+    "tracks": "enemies",
+    "use_support_gems_from": ""
+  },
+  "default_lvl": 1,
+  "disabled_dims": [],
+  "effect_tip": "",
+  "identifier": "immolate",
+  "loc_name": "Immolate",
+  "lvl_based_on_spell": "",
+  "manual_tip": true,
+  "max_lvl": 1,
+  "min_lvl": 1,
+  "show_other_spell_tooltip": "",
+  "statsForSkillGem": [],
+  "weight": 1000
+}

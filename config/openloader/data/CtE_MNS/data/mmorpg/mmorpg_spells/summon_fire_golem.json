@@ -123,7 +123,6 @@
       "damage",
       "golem",
       "has_pet_ability",
-	  "magic",
       "fire",
 	  "cast_speed_to_cooldown"
       ]
@@ -152,9 +151,15 @@
     },
     {
       "type": "FLAT",
-      "max": 80.0,
-      "min": 8.0,
+      "max": 40.0,
+      "min": 4.0,
       "stat": "summon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "golem_spell_chance"
     }
   ],
   "weight": 1000

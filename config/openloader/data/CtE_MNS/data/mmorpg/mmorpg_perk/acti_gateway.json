@@ -1,6 +1,6 @@
 {
   "type": "STAT",
-  "icon": "mmorpg:textures/gui/spells/icons/black_hole.png",
+  "icon": "mmorpg:textures/gui/spells/icons/acti_gateway.png",
   "id": "acti_gateway",
   "is_entry": false,
   "max_lvls": 16,

@@ -24,8 +24,8 @@
     },
     {
       "type": "FLAT",
-      "max": 100.0,
-      "min": 100.0,
+      "max": 50.0,
+      "min": 50.0,
       "stat": "bleed_resistance"
     },
     {

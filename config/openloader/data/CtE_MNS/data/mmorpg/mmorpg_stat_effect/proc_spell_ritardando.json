@@ -4,5 +4,6 @@
   "ser": "proc_spell",
   "spellId": "ritardando",
   "source": "Source",
-  "target": "Target"
+  "target": "Target",
+  "use_resource_costs": true
 }

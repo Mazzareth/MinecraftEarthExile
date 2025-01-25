@@ -13,8 +13,8 @@
               "type": "particles_in_radius",
               "map": {
                 "motion": "None",
-                "particle_count": 1.0,
-                "particle_type": "minecraft:poof",
+                "particle_count": 2.0,
+                "particle_type": "born_in_chaos_v1:stimulatingbubbles",
                 "radius": 1.0
               }
             }

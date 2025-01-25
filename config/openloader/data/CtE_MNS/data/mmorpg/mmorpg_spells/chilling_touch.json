@@ -135,9 +135,9 @@
           {
             "type": "in_front",
             "map": {
-              "distance": 2.0,
+              "distance": 4.0,
               "en_predicate": "enemies",
-              "width": 3.0
+              "width": 2.0
             }
           }
         ]

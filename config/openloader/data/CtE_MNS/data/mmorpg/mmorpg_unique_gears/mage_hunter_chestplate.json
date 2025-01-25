@@ -24,8 +24,8 @@
     },
     {
       "type": "FLAT",
-      "max": 8.0,
-      "min": 8.0,
+      "max": 6.0,
+      "min": 6.0,
       "stat": "physical_resist"
     },
     {
@@ -45,12 +45,6 @@
       "max": 3.0,
       "min": 3.0,
       "stat": "cast_speed"
-    },
-    {
-      "type": "FLAT",
-      "max": 5.0,
-      "min": 5.0,
-      "stat": "magic_find"
     }
   ],
   "weight": 250

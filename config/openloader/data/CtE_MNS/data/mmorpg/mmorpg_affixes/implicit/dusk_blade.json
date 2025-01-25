@@ -8,7 +8,9 @@
     "tag_requirements": [
       {
         "type": "GearSlot",
-        "excluded": [],
+        "excluded": [
+          "two_handed"
+        ],
         "included": [
           "sword"
         ],

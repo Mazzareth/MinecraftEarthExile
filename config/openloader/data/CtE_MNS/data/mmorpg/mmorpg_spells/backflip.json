@@ -48,11 +48,9 @@
       }
     ]
   },
-  "cast_animation": {
-    "id": "hand_up_cast"
-  },
+  "cast_animation": {},
   "cast_finish_animation": {
-    "id": "cast_finish"
+    "id": "spell_backflip"
   },
   "config": {
     "aggro_radius": 10,

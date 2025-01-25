@@ -2,7 +2,7 @@
   "base_gear": "cloth_chest",
   "guid": "skin_of_the_vipermagi",
   "flavor_text": "",
-  "force_item_id": "",
+  "force_item_id": "cte2modpackarmors:undead_psionic_robes_chestplate",
   "league": "",
   "min_drop_lvl": 30,
   "min_tier": 0,

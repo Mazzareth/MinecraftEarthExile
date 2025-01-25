@@ -17,7 +17,16 @@
 	"undergardendelight:forgotten_knife",
 	"undergardendelight:frosteel_knife",
 	"undergardendelight:utherium_knife",
-	"aquaculturedelight:neptunium_knife"
+	"aquaculturedelight:neptunium_knife",
+	"roe_weapons:dagger_0",
+	"roe_weapons:dagger_1",
+	"roe_weapons:dagger_2",
+	"roe_weapons:dagger_3",
+	"roe_weapons:dagger_4",
+	"roe_weapons:dagger_5",
+	"roe_weapons:dagger_6",
+	"roe_weapons:dagger_7",
+	"roe_weapons:cursed_dagger"
   ],
   "incompatible": []
 }

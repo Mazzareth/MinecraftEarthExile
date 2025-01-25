@@ -97,6 +97,20 @@
         },
         {
           "type": "minecraft:item",
+          "name": "born_in_chaos_v1:death_totem",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "born_in_chaos_v1:great_reaper_axe",
           "weight": 1,
           "functions": [

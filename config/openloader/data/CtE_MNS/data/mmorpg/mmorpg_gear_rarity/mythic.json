@@ -9,7 +9,7 @@
   "can_have_runewords": false,
   "drops_uber_frags": true,
   "favor_loot_multi": 1.25,
-  "favor_needed": 100000,
+  "favor_needed": 2500,
   "favor_per_hour": 0,
   "guid": "mythic",
   "higher_rar": "",

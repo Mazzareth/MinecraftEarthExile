@@ -7,7 +7,9 @@
     "fey"
   ],
   "slots": [
-    "sword"
+    "sword",
+	"gauntlet",
+	"greatsword"
   ],
   "stats": [
     {
@@ -25,13 +27,13 @@
     {
       "type": "MORE",
       "max": 20.0,
-      "min": 20.0,
+      "min": 15.0,
       "stat": "area_dmg"
     },
     {
       "type": "FLAT",
       "max": 30.0,
-      "min": 30.0,
+      "min": 25.0,
       "stat": "inc_aoe"
     },
     {
@@ -55,7 +57,7 @@
     {
       "type": "FLAT",
       "max": 15.0,
-      "min": 15.0,
+      "min": 10.0,
       "stat": "attack_speed"
     }
   ]

@@ -36,12 +36,6 @@
     },
     {
       "type": "FLAT",
-      "max": 10.0,
-      "min": 10.0,
-      "stat": "magic_find"
-    },
-    {
-      "type": "FLAT",
       "max": 18.0,
       "min": 15.0,
       "stat": "move_speed"

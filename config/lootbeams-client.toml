@@ -155,7 +155,7 @@
 		sound_only_rare = true
 		#If sounds should only be played on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)
 		sound_only_equipment = false
-		#Registry names of items that sounds should play on. Example: "minecraft:stone", "minecraft:iron_ingot", You can also specify modids for a whole mod's items.
+		#Registry names of items that sounds should additionally play on. Example: "minecraft:stone", "minecraft:iron_ingot", You can also specify modids for a whole mod's items.
 		sound_whitelist = []
 		#Registry names of items that sounds should NOT play on. This has priority over everything. You can also specify modids for a whole mod's items.
 		sound_blacklist = []

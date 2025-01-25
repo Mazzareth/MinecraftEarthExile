@@ -130,7 +130,9 @@
     "tags": {
       "tags": [
       "heal",
-	  "magic"
+	  "magic",
+	  "area",
+	  "song"
       ]
     },
     "times_to_cast": 1,

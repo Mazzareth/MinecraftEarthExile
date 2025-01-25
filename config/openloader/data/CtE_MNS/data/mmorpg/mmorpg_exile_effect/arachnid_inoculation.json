@@ -14,7 +14,7 @@
               "map": {
                 "motion": "None",
                 "particle_count": 1.0,
-                "particle_type": "minecraft:",
+                "particle_type": "minecraft:witch",
                 "radius": 1.0
               }
             }

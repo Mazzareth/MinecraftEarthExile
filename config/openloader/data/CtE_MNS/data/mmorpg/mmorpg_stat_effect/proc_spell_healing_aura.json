@@ -4,5 +4,6 @@
   "ser": "proc_spell",
   "spellId": "healing_aura",
   "source": "Source",
-  "target": "Target"
+  "target": "Target",
+  "use_resource_costs": true
 }

@@ -8,7 +8,8 @@
 	show_durability = true
 	render_mob_hp_gui = false
 	only_render_mob_looked_at = true
-	render_floating_damage = true
+	#Allowed Values: DEFAULT, ON, OFF
+	render_floating_damage = "DEFAULT"
 	MODIFY_TOOLTIP_LENGTH = true
 	IN_DEPTH_TOOLTIPS_BY_DEFAULT = true
 	#Range: 0.0 ~ 1.0
@@ -35,13 +36,16 @@
 	USE_SPELL_ANIMATIONS = true
 	#Allowed Values: DEFAULT, IN_A_ROW
 	DAMAGE_PARTICLE_STYLE = "DEFAULT"
+	#If false, gui bars will only render when they aren't full
+	#Allowed Values: DEFAULT, ALWAYS, WHEN_NOT_FULL
+	RENDER_FILLED_GUI_BARS = "DEFAULT"
 
 	#Overlays
 	[general.overlays]
 		#Allowed Values: HORIZONTAL, VERTICAL
 		STATUS_EFFECTS_OVERLAY_TYPE = "HORIZONTAL"
 		#Allowed Values: HORIZONTAL, VERTICAL
-		SPELL_HOTBAR_OVERLAY_TYPE = "VERTICAL"
+		SPELL_HOTBAR_OVERLAY_TYPE = "HORIZONTAL"
 		#Allowed Values: DISABLE_OVERLAY, SPELL_CAST_BAR, HOTBAR_HORIZONTAL, HOTBAR_VERTICAL, EFFECTS_UNDER_VERTICAL_HOTBAR, EFFECTS_BOTTOM_RIGHT
 		SPELL_HOTBAR_HORIZONTAL_CONFIG = "HOTBAR_HORIZONTAL"
 		#Allowed Values: DISABLE_OVERLAY, SPELL_CAST_BAR, HOTBAR_HORIZONTAL, HOTBAR_VERTICAL, EFFECTS_UNDER_VERTICAL_HOTBAR, EFFECTS_BOTTOM_RIGHT
@@ -56,15 +60,15 @@
 		#Spell Cast Bar Overlay Preset
 		[general.overlays.spell_cast_bar]
 			#Allowed Values: SCREEN, SPELL_HOTBAR_HORIZONTAL, SPELL_HOTBAR_VERTICAL, EFFECTS_VERTICAL, EFFECTS_HORIZONTAL, SPELL_CAST_BAR
-			ANCHOR_TO = "SCREEN"
+			ANCHOR_TO = "SPELL_HOTBAR_HORIZONTAL"
 			#Allowed Values: START, END, MIDDLE
 			ANCHOR_X = "MIDDLE"
 			#Allowed Values: START, END, MIDDLE
-			ANCHOR_Y = "END"
+			ANCHOR_Y = "MIDDLE"
 			#Range: -50000 ~ 50000
 			X_OFFSET = -86
 			#Range: -50000 ~ 50000
-			Y_OFFSET = -125
+			Y_OFFSET = -40
 
 		#Horizontal Spell Hotbar Overlay Preset
 		[general.overlays.horizontal_spell_hotbar]
@@ -77,7 +81,7 @@
 			#Range: -50000 ~ 50000
 			X_OFFSET = -81
 			#Range: -50000 ~ 50000
-			Y_OFFSET = -65
+			Y_OFFSET = -100
 
 		#Vertical Spell Hotbar Overlay Preset
 		[general.overlays.vertical_spell_hotbar]
@@ -108,13 +112,13 @@
 		#Status Effects Under Vertical Hotbar Overlay Preset
 		[general.overlays.status_effects_under_vertical_hotbar]
 			#Allowed Values: SCREEN, SPELL_HOTBAR_HORIZONTAL, SPELL_HOTBAR_VERTICAL, EFFECTS_VERTICAL, EFFECTS_HORIZONTAL, SPELL_CAST_BAR
-			ANCHOR_TO = "SPELL_HOTBAR_VERTICAL"
+			ANCHOR_TO = "SCREEN"
 			#Allowed Values: START, END, MIDDLE
 			ANCHOR_X = "START"
 			#Allowed Values: START, END, MIDDLE
-			ANCHOR_Y = "END"
+			ANCHOR_Y = "START"
 			#Range: -50000 ~ 50000
-			X_OFFSET = 2
+			X_OFFSET = 4
 			#Range: -50000 ~ 50000
-			Y_OFFSET = 2
+			Y_OFFSET = 78
 

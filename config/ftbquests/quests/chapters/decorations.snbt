@@ -27,13 +27,13 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one Glass Wind Chime"
+			subtitle: "Chimes"
 			tasks: [{
 				id: "3355405161F752F4"
 				item: "chimes:glass_bells"
 				type: "item"
 			}]
-			title: "Chimes"
+			title: "The Wind Blows"
 			x: 4.5d
 			y: -4.5d
 		}
@@ -50,7 +50,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each item type"
+			subtitle: "Night Lights"
 			tasks: [
 				{
 					id: "77BD1CD948CBC5A5"
@@ -63,9 +63,9 @@
 					type: "item"
 				}
 			]
-			title: "Night Lights"
-			x: 3.0d
-			y: -4.5d
+			title: "Lighting With Style"
+			x: -4.5d
+			y: -6.0d
 		}
 		{
 			description: ["&eSupplementaries&r and &eSupplementaries Squared&r adds numerous &edecoration and functional&r blocks that are relatively easy to craft and use."]
@@ -80,7 +80,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Supplementaries"
 			tasks: [
 				{
 					id: "3D5A39806227B36B"
@@ -108,9 +108,9 @@
 					type: "item"
 				}
 			]
-			title: "Supplementaries' Decorations"
-			x: -4.5d
-			y: -4.5d
+			title: "Interior Designer"
+			x: -3.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -129,7 +129,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft any type of board, pillow, sheet, and hammer"
+			subtitle: "Handcrafted"
 			tasks: [
 				{
 					id: "7C737EF24A0DD366"
@@ -147,7 +147,7 @@
 					type: "item"
 				}
 			]
-			title: "Handcrafted"
+			title: "Specialized Furniture"
 			x: -3.0d
 			y: -4.5d
 		}
@@ -170,7 +170,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Macaw's Decorations"
 			tasks: [
 				{
 					id: "6B06D8650053E266"
@@ -188,9 +188,9 @@
 					type: "item"
 				}
 			]
-			title: "Macaw's Decorations"
+			title: "Enhanced Construction"
 			x: -4.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			description: ["&eFloral Enchantment&r adds flower bushes with which you can obtain the &evines&r of each flower. Flower vines are obtained from &ebushes.&r You can get &emossy cobblestone&r from each flower to decorate. It also adds some other floral themed &egear&r and decorations."]
@@ -205,19 +205,20 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one Floral Basket"
+			subtitle: "Floral Enchantment"
 			tasks: [{
 				id: "4F4158D32907A7C0"
 				item: "floralench:floral_basket"
 				type: "item"
 			}]
-			title: "Floral Enchantment"
-			x: -3.0d
-			y: -6.0d
+			title: "Gardener+"
+			x: 3.0d
+			y: -4.5d
 		}
 		{
+			dependencies: ["5E71DC1D9E7A83BB"]
 			description: [
-				"Chipped adds workbenches that allow you to craft variations of blocks. &eChipped is compatible with Domum Ornamentum!&r"
+				"Chipped adds workbenches that allow you to craft variations of blocks. &eChipped is compatible with FramedBlocks!&r"
 				""
 				"The &eAlchemy Bench&r allows you to craft variations of obsidian, glowstone, sea lanterns, and soul sand."
 				""
@@ -242,17 +243,17 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "7BF0D4BE713CE528"
 					silent: true
-					title: "100 Experience x Lv."
+					title: "250 Experience x Lv."
 					type: "command"
 				}
 			]
 			size: 1.25d
-			subtitle: "Craft one of each item type"
+			subtitle: "Chipped"
 			tasks: [
 				{
 					id: "4D48B532F654158B"
@@ -291,8 +292,8 @@
 				}
 			]
 			title: "Chipped With Options"
-			x: 3.75d
-			y: -6.25d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -302,7 +303,7 @@
 				"- There are many interaction options with villagers such as gifting, chatting, and much more!"
 				"- You can build relationships by interacting with villagers, each having their own personality and moods."
 				"- Once you have enough hearts, you can marry them!"
-				"- After marriage, you can have children who you have to do chores such as farming, lumber, and more!"
+				"- After marriage, you can have children who can do chores such as farming, cutting trees, and more!"
 				"- Your children will eventually grow up and live their own lives."
 				"- You can marry other players in a LAN or SMP server."
 				"- Help to extend a village and increase your rank, eventually becoming a king!"
@@ -566,16 +567,23 @@
 			dependencies: ["57B5209F6744960D"]
 			description: ["In rare cases, villagers can become infected - resulting in possible death. Read up on the ailments and how to cure them to prevent this from happening!"]
 			id: "6AEF98877F6AF6CA"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
-				icon: "botania:lexicon"
-				id: "24CC02F15B2D516B"
-				silent: true
-				title: "100 Experience x Lv."
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "botania:lexicon"
+					id: "24CC02F15B2D516B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "037FB8A8F0CBF9EB"
+					item: "simplehats:doctorhat"
+					type: "item"
+				}
+			]
 			subtitle: "Village Management"
 			tasks: [{
 				id: "1A7691EF79F81ED9"
@@ -716,38 +724,6 @@
 		}
 		{
 			description: [
-				"&eChunk Loaders&r allow you to keep areas loaded at all times. This is useful certain activities such as automation, and crops will continue to process/grow even while you're away from the area."
-				""
-				"There are 4 different types of Chunk Loaders:"
-				"&8Single Chunk Loader&r - 1 Chunk"
-				"Basic Chunk Loader - 3x3 Chunks"
-				"&eAdvanced Chunk Loader&r - 5x5 Chunks"
-				"&bUltimate Chunk Loader&r - 7x7 Chunks"
-				""
-				"&eYou can view the Chunk Loader map with Default Key: \"&cF8&r&e\".&r"
-			]
-			id: "4CAF49FF4EF1D032"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
-				icon: "botania:lexicon"
-				id: "4629593A99491F1E"
-				silent: true
-				title: "100 Experience x Lv."
-				type: "command"
-			}]
-			subtitle: "Craft one Basic Chunk Loader"
-			tasks: [{
-				id: "79183CB9BE4244B7"
-				item: "chunkloaders:basic_chunk_loader"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			description: [
 				"With a Construction Wand you can place multiple blocks at once, extending your build on the side you're facing. If that's not enough: you can upgrade your wand with additional cores, allowing you to place a block behind the block you are facing, or conjure blocks in mid air."
 				""
 				"Every wand comes with a Construction Core. You can make your wand even better by putting aditional cores into it. Put your new core together with your wand in a crafting grid to install it. To switch between cores, hold down OPTKEY (CTRL) and left click empty space with your wand. &cStone wands can't be upgraded.&r"
@@ -881,6 +857,191 @@
 			}]
 			x: -4.5d
 			y: -3.0d
+		}
+		{
+			description: [
+				"&eFramedBlocks&r adds blocks of various shapes that can be made to look like almost any other block in the game. You can do this by first crafting a basic &eFramed Block&r."
+				""
+				"Craft a &eFraming Saw&r, which acts as a Stonecutter but for Framed Blocks. It lets you easily manage what Framed Block shape you want."
+			]
+			id: "03D703094F2DC94A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "botania:lexicon"
+				id: "0370DBFA598A59EC"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "FramedBlocks"
+			tasks: [{
+				id: "48E8FEFCED620C0A"
+				item: "framedblocks:framing_saw"
+				type: "item"
+			}]
+			title: "Getting Started with Framed!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03D703094F2DC94A"]
+			description: ["Using the &eFraming Saw&r, craft a &eFramed Slope&r."]
+			id: "7D4D72D4B936240C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "botania:lexicon"
+				id: "6548E28FCD6DB0A3"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "FramedBlocks"
+			tasks: [{
+				id: "62E342C0A2DED1C9"
+				item: "framedblocks:framed_slope"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D4D72D4B936240C"]
+			description: [
+				"The &eFramed Wrench&r can be used to rotate a Framed Block. On most blocks, the rotation behaviour is dependent on the face that was clicked."
+				""
+				"The &eFramed Hammer&r lets you take blocks out of the frame and set them back to their default state."
+				""
+				"The &eFramed Screwdriver&r can be used to cycle through different states of the camo block."
+				""
+				"The &eFramed Key&r allows locking certain Framed Blocks in their current shape to suppress neighbor updates. This allows placing blocks in configurations that would not be possible with the desired neighbors (placing Framed Stairs in the corner shape without keeping the necessary neighbors to force that shape)."
+				""
+				"There are other FramedBlock tools available, check them out in &eJEI&r!"
+			]
+			id: "5E71DC1D9E7A83BB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "botania:lexicon"
+				id: "337D19FEE194795C"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "FramedBlocks"
+			tasks: [
+				{
+					id: "2CD93E35DB4888B6"
+					item: "framedblocks:framed_wrench"
+					type: "item"
+				}
+				{
+					id: "26B02CB43C3D8E5E"
+					item: "framedblocks:framed_hammer"
+					type: "item"
+				}
+				{
+					id: "346E0C173E6BEB68"
+					item: "framedblocks:framed_screwdriver"
+					type: "item"
+				}
+				{
+					id: "72ECCC291DE1738D"
+					item: "framedblocks:framed_key"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D4D72D4B936240C"]
+			description: ["&eFramed Reinforcements&r allow you to give any Framed Block you insert them into the hardness and properties of &eObsidian&r!"]
+			id: "49ED3E0B2E317DF6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "botania:lexicon"
+				id: "7D808B6752D831FC"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "FramedBlocks"
+			tasks: [{
+				id: "63B204F32F396EF5"
+				item: "framedblocks:framed_reinforcement"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			description: ["If you've encountered an empty village, or just want to populate your village more through the power of coin, you can access a &eTrading Terminal&r to buy villager eggs!"]
+			id: "20AB86BF7E21FD3B"
+			rewards: [
+				{
+					count: 5
+					id: "4159A4D6D2EE46E3"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "botania:lexicon"
+					id: "2A2C8679E7193891"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "Trading Terminal"
+			tasks: [
+				{
+					id: "7590F368349C7E55"
+					item: "mca:male_villager_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "0C9856B277D7C90B"
+					item: "mca:female_villager_spawn_egg"
+					type: "item"
+				}
+			]
+			title: "Ghost Town"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["The &eMega Torch&r is a base builders dream as it prevents all hostile monster spawns in a massive &964 block radius&r! Right click with an empty hand to show its exact area of effect, shift right click to hide it."]
+			id: "25A4EFCBB5F8AC31"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "botania:lexicon"
+				id: "6327B1498874B28B"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "No more nasty surprises."
+			tasks: [{
+				id: "34E000AEDA4852D2"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			title: "Light Up The World"
+			x: 3.0d
+			y: -6.0d
 		}
 	]
 	title: "Homestead"

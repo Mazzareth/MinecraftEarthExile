@@ -239,8 +239,8 @@
     },
     "imbues": 0,
     "mana_cost": {
-      "max": 6.0,
-      "min": 4.0
+      "max": 3.75,
+      "min": 3.0
     },
     "slows_when_casting": true,
     "style": "str",

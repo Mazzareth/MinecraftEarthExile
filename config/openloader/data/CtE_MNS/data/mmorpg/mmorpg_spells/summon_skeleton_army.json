@@ -122,7 +122,6 @@
       "summon",
       "damage",
       "has_pet_ability",
-	  "magic",
       "physical",
 	  "undead"
       ]
@@ -151,8 +150,8 @@
     },
     {
       "type": "FLAT",
-      "max": 180.0,
-      "min": 18.0,
+      "max": 90.0,
+      "min": 9.0,
       "stat": "summon_damage"
     }
   ],

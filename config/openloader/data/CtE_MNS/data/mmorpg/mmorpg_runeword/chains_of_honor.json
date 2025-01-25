@@ -43,8 +43,8 @@
     },
     {
       "type": "FLAT",
-      "max": 6.0,
-      "min": 6.0,
+      "max": 5.0,
+      "min": 5.0,
       "stat": "magic_find"
     }
   ]

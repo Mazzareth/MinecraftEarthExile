@@ -10,7 +10,7 @@
         "type": "GearSlot",
         "excluded": [],
         "included": [
-          "spear"
+          "two_handed"
         ],
         "req_type": "INCLUDES_ANY"
       }

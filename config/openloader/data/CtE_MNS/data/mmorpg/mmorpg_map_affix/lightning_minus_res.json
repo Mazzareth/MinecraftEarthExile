@@ -8,9 +8,15 @@
   "stats": [
     {
       "type": "FLAT",
-      "max": -15.0,
-      "min": -5.0,
+      "max": -10.0,
+      "min": -2.0,
       "stat": "max_lightning_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": -30.0,
+      "min": -10.0,
+      "stat": "lightning_resist"
     }
   ],
   "weight": 1000

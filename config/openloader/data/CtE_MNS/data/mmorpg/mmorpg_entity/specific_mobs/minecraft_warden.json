@@ -5,7 +5,7 @@
   "identifier": "minecraft:warden",
   "loot_multi": 1.5,
   "max_lvl": 1000000,
-  "min_lvl": 65,
+  "min_lvl": 60,
   "set_health_damage_override": false,
   "set_rar": "rare",
   "stat_multi": 1.0,

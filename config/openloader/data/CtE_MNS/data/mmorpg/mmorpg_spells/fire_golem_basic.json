@@ -82,13 +82,6 @@
   "max_lvl": 1,
   "min_lvl": 1,
   "show_other_spell_tooltip": "",
-  "statsForSkillGem": [
-    {
-      "type": "FLAT",
-      "max": 10.0,
-      "min": 10.0,
-      "stat": "golem_spell_chance"
-    }
-  ],
+  "statsForSkillGem": [],
   "weight": 1000
 }

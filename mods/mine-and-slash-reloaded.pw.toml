@@ -1,13 +1,13 @@
 name = "Mine and Slash"
-filename = "Mine_and_Slash-1.20.1-5.9.34.jar"
+filename = "Mine_and_Slash-1.20.1-6.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e3d0c8df83993f9546dc017cd27c4d425cbe496d"
+hash = "75f176203a4e55558534a25d49ba9e998bf6fd57"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5982012
+file-id = 6115743
 project-id = 306575

@@ -13,7 +13,7 @@
               "type": "particles_in_radius",
               "map": {
                 "motion": "None",
-                "particle_count": 1.0,
+                "particle_count": 2.0,
                 "particle_type": "minecraft:sculk_soul",
                 "radius": 1.0
               }
@@ -41,20 +41,20 @@
   "stats": [
     {
       "type": "MORE",
-      "max": -100.0,
-      "min": -50.0,
+      "max": -50.0,
+      "min": -25.0,
       "stat": "health_regen"
     },
     {
       "type": "FLAT",
-      "max": -50.0,
-      "min": -30.0,
+      "max": -20.0,
+      "min": -10.0,
       "stat": "chaos_resist"
     },
     {
       "type": "FLAT",
-      "max": -40.0,
-      "min": -40.0,
+      "max": -30.0,
+      "min": -30.0,
       "stat": "move_speed"
     }
   ],

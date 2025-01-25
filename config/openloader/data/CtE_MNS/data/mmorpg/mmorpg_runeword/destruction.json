@@ -49,8 +49,8 @@
     },
     {
       "type": "FLAT",
-      "max": 8.0,
-      "min": 6.0,
+      "max": 4.0,
+      "min": 4.0,
       "stat": "elemental_resist"
     }
   ]

@@ -39,12 +39,6 @@
       "max": 25.0,
       "min": 20.0,
       "stat": "faster_projectiles"
-    },
-    {
-      "type": "FLAT",
-      "max": -40.0,
-      "min": -40.0,
-      "stat": "attack_speed"
     }
   ],
   "weight": 1000

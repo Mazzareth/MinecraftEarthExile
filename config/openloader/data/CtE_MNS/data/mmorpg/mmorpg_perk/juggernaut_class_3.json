@@ -14,7 +14,7 @@
     {
       "type": "FLAT",
       "scale_to_lvl": false,
-      "stat": "attack_speed_per_100_accuracy",
+      "stat": "attack_speed_per_perc_of_accuracy",
       "v1": 1.0
     }
   ]

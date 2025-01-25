@@ -14,13 +14,16 @@
 	"dagger",
 	"hammer",
 	"spear",
-	"axe"
+	"axe",
+	"gauntlet",
+	"scythe",
+	"greatsword"
   ],
   "stats": [
     {
       "type": "PERCENT",
-      "max": 75.0,
-      "min": 65.0,
+      "max": 70.0,
+      "min": 60.0,
       "stat": "gear_weapon_damage"
     },
     {

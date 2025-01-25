@@ -17,29 +17,34 @@
   "guid": "hammer",
   "possible_items": [
     {
-      "item_id": "stalwart_dungeons:wooden_hammer",
+      "item_id": "roe_weapons:hammer_0",
       "min_rar": "common",
       "weight": 1
     },
     {
-      "item_id": "stalwart_dungeons:stone_hammer",
+      "item_id": "roe_weapons:hammer_1",
       "min_rar": "uncommon",
       "weight": 10
     },
     {
-      "item_id": "stalwart_dungeons:iron_hammer",
+      "item_id": "roe_weapons:hammer_2",
       "min_rar": "rare",
       "weight": 100
     },
     {
-      "item_id": "stalwart_dungeons:diamond_hammer",
-      "min_rar": "legendary",
+      "item_id": "roe_weapons:hammer_3",
+      "min_rar": "epic",
       "weight": 1000
     },
     {
-      "item_id": "stalwart_dungeons:netherite_hammer",
-      "min_rar": "mythic",
+      "item_id": "roe_weapons:hammer_4",
+      "min_rar": "legendary",
       "weight": 10000
+    },
+    {
+      "item_id": "roe_weapons:hammer_5",
+      "min_rar": "mythic",
+      "weight": 100000
     }
   ],
   "req": {
@@ -61,5 +66,5 @@
     ]
   },
   "weapon_type": "hammer",
-  "weight": 250
+  "weight": 1000
 }

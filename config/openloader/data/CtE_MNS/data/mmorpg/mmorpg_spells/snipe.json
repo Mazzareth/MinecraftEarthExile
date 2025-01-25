@@ -113,7 +113,7 @@
               "type": "particles_in_radius",
               "map": {
                 "motion": "None",
-                "particle_count": 2.0,
+                "particle_count": 3.0,
                 "particle_type": "minecraft:crit",
                 "radius": 0.1
               }
@@ -136,8 +136,8 @@
               "type": "particles_in_radius",
               "map": {
                 "motion": "None",
-                "particle_count": 2.0,
-                "particle_type": "minecraft:effect",
+                "particle_count": 3.0,
+                "particle_type": "undergarden:utherium_crit",
                 "radius": 0.1
               }
             }
@@ -161,8 +161,8 @@
           {
             "type": "sound",
             "map": {
-              "pitch": 1.0,
-              "sound": "minecraft:entity.arrow.shoot",
+              "pitch": 1.25,
+              "sound": "bosses_of_mass_destruction:comet_shoot",
               "volume": 1.0
             }
           }

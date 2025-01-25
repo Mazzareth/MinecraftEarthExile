@@ -13,7 +13,7 @@
         "attack_type_is_hit",
         "spell_has_tag_ranged"
       ],
-      "order": "final_damage",
+      "order": "data_modification",
       "side": "Source"
     }
   ],
@@ -25,8 +25,8 @@
   "icon": "★",
   "id": "combat_talent_ranged_hit",
   "is_long": true,
-  "is_perc": false,
-  "max": 1.0,
+  "is_perc": true,
+  "max": 100.0,
   "min": 0.0,
   "minus_is_good": false,
   "multiUseType": "MULTIPLY_STAT",

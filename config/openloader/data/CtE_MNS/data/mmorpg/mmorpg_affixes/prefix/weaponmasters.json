@@ -14,6 +14,8 @@
 		  "axe",
 		  "hammer",
 		  "spear",
+		  "scythe",
+		  "gauntlet",
 		  "shield"
         ],
         "req_type": "INCLUDES_ANY"

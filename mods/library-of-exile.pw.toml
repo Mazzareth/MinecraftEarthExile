@@ -1,13 +1,13 @@
 name = "Library of Exile"
-filename = "Library_of_Exile-1.20.1-1.5.5.jar"
+filename = "Library_of_Exile-1.20.1-1.6.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3cec56cc8c57b1c2d446c113a579957d9bd8fcc9"
+hash = "52a9cc7892f2a3488bb5c106966a8c8aa12894d2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5960259
+file-id = 6107923
 project-id = 398780

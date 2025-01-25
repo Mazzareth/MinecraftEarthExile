@@ -1,7 +1,6 @@
 {
   "__comment": "For help with the config refer to https://github.com/Flemmli97/Flan/wiki/Config",
   "configVersion": 4,
-  "lang": "en_us",
   "startingBlocks": 2000,
   "maxClaimBlocks": 25600,
   "ticksForNextBlock": 200,
@@ -21,6 +20,8 @@
   "claimingNBT": {},
   "inspectionItem": "minecraft:stick",
   "inspectionNBT": {},
+  "main3dClaims": true,
+  "minHeight3d": 10,
   "claimDisplayTime": 1000,
   "particleDisplay": false,
   "claimDisplayActionBar": false,
@@ -72,7 +73,7 @@
   "entityTagIgnore": [
     "graves.marker"
   ],
-  "customItemPermission": [
+  "legacyOverrides": [
     "@c:wrenches-INTERACTBLOCK",
     "appliedenergistics2:nether_quartz_wrench-INTERACTBLOCK",
     "appliedenergistics2:certus_quartz_wrench-INTERACTBLOCK",
@@ -92,18 +93,25 @@
     "botania:horn_grass-INTERACTBLOCK",
     "botania:horn_leaves-INTERACTBLOCK",
     "botania:horn_snow-INTERACTBLOCK",
-    "botania:drum_wild-INTERACTBLOCK"
-  ],
-  "customBlockPermission": [],
-  "customEntityPermission": [
-    "taterzen:npc-TRADING"
-  ],
-  "leftClickBlockPermission": [
+    "botania:drum_wild-INTERACTBLOCK",
+    "sophisticatedbackpacks:backpack-BREAK",
+    "sophisticatedbackpacks:copper_backpack-BREAK",
+    "sophisticatedbackpacks:iron_backpack-BREAK",
+    "sophisticatedbackpacks:gold_backpack-BREAK",
+    "sophisticatedbackpacks:diamond_backpack-BREAK",
+    "sophisticatedbackpacks:netherite_backpack-BREAK",
+    "taterzen:npc-TRADING",
     "@storagedrawers:drawers-OPENCONTAINER",
     "mekanism:basic_bin-OPENCONTAINER",
     "mekanism:advanced_bin-OPENCONTAINER",
     "mekanism:ultimate_bin-OPENCONTAINER",
-    "mekanism:creative_bin-OPENCONTAINER"
+    "mekanism:creative_bin-OPENCONTAINER",
+    "sophisticatedbackpacks:backpack-OPENCONTAINER",
+    "sophisticatedbackpacks:copper_backpack-OPENCONTAINER",
+    "sophisticatedbackpacks:iron_backpack-OPENCONTAINER",
+    "sophisticatedbackpacks:gold_backpack-OPENCONTAINER",
+    "sophisticatedbackpacks:diamond_backpack-OPENCONTAINER",
+    "sophisticatedbackpacks:netherite_backpack-OPENCONTAINER"
   ],
   "dropTicks": 6000,
   "inactivityTimeDays": 90,

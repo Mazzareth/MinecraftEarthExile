@@ -25,6 +25,30 @@
           "targets": []
         }
       ],
+      "default_entity_name_sab": [
+        {
+          "acts": [
+            {
+              "type": "expire",
+              "map": {}
+            },
+            {
+              "type": "specific_action",
+              "map": {
+                "specific_action": "expire"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ],
+          "targets": []
+        }
+      ],
       "expire": [
         {
           "acts": [
@@ -55,7 +79,12 @@
             }
           ],
           "en_preds": [],
-          "ifs": [],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ],
           "targets": [
             {
               "type": "aoe",
@@ -80,7 +109,12 @@
             }
           ],
           "en_preds": [],
-          "ifs": [],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ],
           "targets": []
         },
         {
@@ -95,7 +129,12 @@
             }
           ],
           "en_preds": [],
-          "ifs": [],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ],
           "targets": []
         }
       ],
@@ -184,7 +223,44 @@
           {
             "type": "on_spell_cast",
             "map": {}
+          },
+		  {
+			"type": "caster_has_mns_effect",
+			"map": {
+			  "exile_potion_id": "saboteur",
+			  "is_false": true
+			}
+		  }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "projectile",
+            "map": {
+              "entity_name": "default_entity_name_sab",
+              "gravity": true,
+              "item": "minecraft:iron_ingot",
+              "life_ticks": 100.0,
+              "proj_count": 1.0,
+              "proj_en": "mmorpg:spell_projectile",
+              "proj_speed": 1.0
+            }
           }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          },
+		  {
+			"type": "caster_has_mns_effect",
+			"map": {
+			  "exile_potion_id": "saboteur"
+			}
+		  }
         ],
         "targets": []
       }
@@ -203,13 +279,13 @@
     "charges": 3,
     "cooldown_ticks": 10,
     "ene_cost": {
-      "max": 0.0,
-      "min": 0.0
+      "max": 10.0,
+      "min": 7.0
     },
     "imbues": 0,
     "mana_cost": {
-      "max": 10.0,
-      "min": 7.0
+      "max": 0.0,
+      "min": 0.0
     },
     "slows_when_casting": true,
     "style": "dex",

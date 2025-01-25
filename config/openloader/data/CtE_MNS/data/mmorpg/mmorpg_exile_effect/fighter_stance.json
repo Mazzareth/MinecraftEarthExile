@@ -3,7 +3,7 @@
   "id": "fighter_stance",
   "max_stacks": 1,
   "mc_stats": [],
-  "one_of_a_kind_id": "",
+  "one_of_a_kind_id": "stance",
   "spell": {
     "entity_components": {
       "default_entity_name": [
@@ -42,33 +42,26 @@
   "stats": [
     {
       "type": "FLAT",
-      "max": 0.0,
-      "min": 10.0,
-      "stat": "dmg_received"
-    },
-    {
-      "type": "FLAT",
-      "max": 2.0,
-      "min": 1.0,
-      "stat": "critical_hit"
-    },
-    {
-      "type": "FLAT",
       "max": 20.0,
       "min": 10.0,
       "stat": "attack_speed"
     },
     {
       "type": "FLAT",
-      "max": 20.0,
-      "min": 10.0,
+      "max": 10.0,
+      "min": 5.0,
       "stat": "move_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "dmg_received"
     }
   ],
   "tags": {
     "tags": [
-    "positive",
-    "offensive"
+    "positive"
     ]
   }
 }

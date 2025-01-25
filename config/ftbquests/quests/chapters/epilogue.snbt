@@ -623,6 +623,11 @@
 					item: "mmorpg:gems/topaz/6"
 					type: "item"
 				}
+				{
+					id: "44C98A1EC1B45829"
+					item: "simplehats:mimic_head"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 1.25d
@@ -1496,13 +1501,9 @@
 		{
 			dependencies: ["09AFF8CC33BD244B"]
 			description: [
-				"Upon killing the &eNaga&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eBlock of Ironwood (X)&r in a circle around the monument &b(U)&r like so:"
+				"Upon killing the &eNaga&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eBlocks of Ironwood&r in a circle around the monument like so:"
 				""
-				"ooo&eX&rooo"
-				"o&eX&rooo&eX&ro"
-				"&eX&roo&bU&roo&eX&r"
-				"o&eX&rooo&eX&ro"
-				"ooo&eX&rooo"
+				"{image:cte2:textures/Naga-Respawn.png width:100 height:100 align:center}"
 				""
 				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
 			]
@@ -1526,13 +1527,9 @@
 		{
 			dependencies: ["1F3C2718AE550D5C"]
 			description: [
-				"Upon killing the &eLich&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eBlock of Gold (X)&r in a circle around the monument &b(U)&r like so:"
+				"Upon killing the &eLich&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eBlocks of Gold&r in a circle around the monument like so:"
 				""
-				"ooo&eX&rooo"
-				"o&eX&rooo&eX&ro"
-				"&eX&roo&bU&roo&eX&r"
-				"o&eX&rooo&eX&ro"
-				"ooo&eX&rooo"
+				"{image:cte2:textures/Lich_respawn.png width:100 height:100 align:center}"
 				""
 				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
 			]
@@ -1556,13 +1553,9 @@
 		{
 			dependencies: ["5BB55F41502BE69C"]
 			description: [
-				"Upon killing the &eUr-Ghast&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eCrying Obsidian (X)&r in a circle around the monument &b(U)&r like so:"
+				"Upon killing the &eUr-Ghast&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eCrying Obsidian&r in a circle around the monument like so:"
 				""
-				"ooo&eX&rooo"
-				"o&eX&rooo&eX&ro"
-				"&eX&roo&bU&roo&eX&r"
-				"o&eX&rooo&eX&ro"
-				"ooo&eX&rooo"
+				"{image:cte2:textures/Ur-Ghast_Respawn.png width:100 height:100 align:center}"
 				""
 				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
 			]
@@ -1586,13 +1579,9 @@
 		{
 			dependencies: ["1E2D94E70E2A1134"]
 			description: [
-				"Upon killing the &eSnow Queen&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eBlock of Lapis Lazuli (X)&r in a circle around the monument &b(U)&r like so:"
+				"Upon killing the &eSnow Queen&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eBlocks of Lapis Lazuli&r in a circle around the monument like so:"
 				""
-				"ooo&eX&rooo"
-				"o&eX&rooo&eX&ro"
-				"&eX&roo&bU&roo&eX&r"
-				"o&eX&rooo&eX&ro"
-				"ooo&eX&rooo"
+				"{image:cte2:textures/Snow-Queen_Respawn.png width:100 height:100 align:center}"
 				""
 				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
 			]
@@ -1616,13 +1605,9 @@
 		{
 			dependencies: ["18C4B8D73A50CFAC"]
 			description: [
-				"Upon killing the &eHydra&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eAncient Debris (X)&r in a circle around the monument &b(U)&r like so:"
+				"Upon killing the &eHydra&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eAncient Debris&r in a circle around the monument like so:"
 				""
-				"ooo&eX&rooo"
-				"o&eX&rooo&eX&ro"
-				"&eX&roo&bU&roo&eX&r"
-				"o&eX&rooo&eX&ro"
-				"ooo&eX&rooo"
+				"{image:cte2:textures/Hydra_Respawn.png width:100 height:100 align:center}"
 				""
 				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
 			]
@@ -1653,12 +1638,12 @@
 			]
 			description: ["Defeat all of the &eTwilight Forest&r bosses in the Epilogue to complete this achievement. Then show it off with your new hat!"]
 			hide_dependency_lines: true
-			icon: "simplehats:hatbag_epic"
+			icon: "simplehats:mimic_head_gold"
 			id: "481C3C4D8D5AF5B8"
 			rewards: [
 				{
 					id: "6350309B873FAF80"
-					item: "simplehats:hatbag_epic"
+					item: "simplehats:mimic_head_gold"
 					type: "item"
 				}
 				{

@@ -31,14 +31,14 @@
     },
     {
       "type": "FLAT",
-      "max": 30.0,
-      "min": 20.0,
+      "max": 6.0,
+      "min": 3.0,
       "stat": "inc_effect_of_offensive_buff_given"
     },
     {
       "type": "PERCENT",
       "max": 20.0,
-      "min": 15.0,
+      "min": 10.0,
       "stat": "armor"
     },
     {

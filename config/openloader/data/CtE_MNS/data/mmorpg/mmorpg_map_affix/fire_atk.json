@@ -2,7 +2,7 @@
   "affected": "Mobs",
   "id": "fire_atk",
   "map_resist": "Fire",
-  "map_resist_bonus_needed": 10,
+  "map_resist_bonus_needed": 0,
   "prophecy_type": "",
   "req": "",
   "stats": [

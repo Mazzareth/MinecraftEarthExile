@@ -9,7 +9,7 @@
   "can_have_runewords": false,
   "drops_uber_frags": false,
   "favor_loot_multi": 1.1,
-  "favor_needed": 2500,
+  "favor_needed": 1000,
   "favor_per_hour": 0,
   "guid": "epic",
   "higher_rar": "legendary",

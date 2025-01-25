@@ -287,7 +287,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Submit a Diamond Brush"
+			subtitle: "Challenge"
 			tasks: [{
 				consume_items: true
 				id: "192947A1A4847203"
@@ -300,7 +300,7 @@
 				}
 				type: "item"
 			}]
-			title: "Challenge: Ancient Anthropologist"
+			title: "Ancient Anthropologist"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -349,12 +349,12 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Complete each challenge"
+			subtitle: "Achievement"
 			tasks: [{
 				id: "0BD9F8B671E38D86"
 				type: "checkmark"
 			}]
-			title: "Achievement: The Multipotentialite"
+			title: "The Multipotentialite"
 			x: 3.0d
 			y: -4.0d
 		}
@@ -379,7 +379,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Submit 16 of each"
+			subtitle: "Challenge"
 			tasks: [
 				{
 					consume_items: true
@@ -407,7 +407,7 @@
 					type: "item"
 				}
 			]
-			title: "Challenge: Ancient Farmer"
+			title: "Ancient Farmer"
 			x: -1.0d
 			y: -2.0d
 		}
@@ -525,7 +525,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Defeat 25 Gateways"
+			subtitle: "Challenge"
 			tasks: [{
 				icon: "mmorpg:tp_back"
 				id: "37DCF8DC33EEBCEF"
@@ -533,7 +533,7 @@
 				type: "stat"
 				value: 25
 			}]
-			title: "Challenge: Homeland Security"
+			title: "Homeland Security"
 			x: 3.0d
 			y: -2.0d
 		}
@@ -639,7 +639,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Die 100 times"
+			subtitle: "Challenge"
 			tasks: [{
 				icon: "minecraft:dragon_head"
 				id: "0D403D8B23E6D98D"
@@ -757,7 +757,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Kill 5000 mobs"
+			subtitle: "Challenge"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -771,7 +771,7 @@
 				type: "stat"
 				value: 5000
 			}]
-			title: "Challenge: Liquidator"
+			title: "Liquidator"
 			x: -3.0d
 			y: -2.0d
 		}
@@ -803,7 +803,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Obtain one of each unique Goat Horn"
+			subtitle: "Challenge"
 			tasks: [
 				{
 					id: "05F0F5F68C77971D"
@@ -902,7 +902,7 @@
 					type: "item"
 				}
 			]
-			title: "Challenge: Call of War"
+			title: "Call of War"
 			x: 7.0d
 			y: -2.0d
 		}
@@ -1289,7 +1289,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Craft one of each"
+			subtitle: "Challenge"
 			tasks: [
 				{
 					id: "1739E3CF4C2FEC23"
@@ -1307,7 +1307,7 @@
 					type: "item"
 				}
 			]
-			title: "Challenge: Cynologist"
+			title: "Cynologist"
 			x: 9.0d
 			y: -2.0d
 		}

@@ -18,12 +18,6 @@
     },
     {
       "type": "FLAT",
-      "max": 1.0,
-      "min": 1.0,
-      "stat": "learn_slice"
-    },
-    {
-      "type": "FLAT",
       "max": 25.0,
       "min": 25.0,
       "stat": "proc_slice"
@@ -36,15 +30,9 @@
     },
     {
       "type": "FLAT",
-      "max": 30.0,
-      "min": 25.0,
+      "max": 20.0,
+      "min": 15.0,
       "stat": "elemental_resist"
-    },
-    {
-      "type": "FLAT",
-      "max": 5.0,
-      "min": 5.0,
-      "stat": "move_speed"
     }
   ],
   "weight": 250

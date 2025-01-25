@@ -8,28 +8,49 @@
     },
 	{
 	  "type": "FLAT",
-	  "max": 6.0,
-	  "min": 3.0,
-	  "stat": "mana_on_basic_hit"
+	  "max": 1.0,
+	  "min": 1.0,
+	  "stat": "learn_bolt"
+	},
+	{
+	  "type": "FLAT",
+	  "max": 4.0,
+	  "min": 2.0,
+	  "stat": "mana_on_bolt_hit"
 	}
   ],
   "gear_slot": "staff",
   "guid": "staff",
   "possible_items": [
     {
-      "item_id": "mmorpg:weapon/staff/wood",
+      "item_id": "roe_weapons:staff_0",
       "min_rar": "common",
       "weight": 1
     },
     {
-      "item_id": "mmorpg:weapon/staff/iron",
-      "min_rar": "rare",
+      "item_id": "roe_weapons:staff_1",
+      "min_rar": "uncommon",
       "weight": 10
     },
     {
-      "item_id": "mmorpg:weapon/staff/diamond",
-      "min_rar": "legendary",
+      "item_id": "roe_weapons:staff_2",
+      "min_rar": "rare",
       "weight": 100
+    },
+    {
+      "item_id": "roe_weapons:staff_3",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "roe_weapons:staff_4",
+      "min_rar": "legendary",
+      "weight": 10000
+    },
+    {
+      "item_id": "roe_weapons:staff_5",
+      "min_rar": "mythic",
+      "weight": 100000
     }
   ],
   "req": {

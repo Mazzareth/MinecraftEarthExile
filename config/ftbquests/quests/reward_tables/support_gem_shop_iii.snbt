@@ -141,7 +141,7 @@
 					mmorpg_skill_gem: "{\"id\":\"defensive_minions\",\"type\":\"SUPPORT\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Defensive Minions Support Gem"
+			title: "Elusive Minions Support Gem"
 		}
 		{
 			item: {

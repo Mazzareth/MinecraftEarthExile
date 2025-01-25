@@ -50,8 +50,12 @@
       "x": 5,
       "y": 3
     },
-    "mage_circle": {
+    "blood_boil": {
       "x": 5,
+      "y": 4
+    },
+    "mage_circle": {
+      "x": 6,
       "y": 4
     },
     "meteor": {

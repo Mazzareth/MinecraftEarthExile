@@ -6,8 +6,8 @@
   "stats": [
     {
       "type": "FLAT",
-      "max": 30.0,
-      "min": 10.0,
+      "max": 24.0,
+      "min": 8.0,
       "stat": "lightning_penetration"
     }
   ],

@@ -10,7 +10,8 @@
     ],
     "ifs": [
 	  "is_is_basic_atk_true",
-      "is_is_summon_attack_true_is_false"
+      "is_is_summon_attack_true_is_false",
+	  "attack_type_is_hit"
     ],
       "order": "after_damage_bonuses",
       "side": "Source"

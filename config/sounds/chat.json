@@ -21,8 +21,7 @@
 		"soundEvent": "minecraft:block.note_block.chime"
 	},
 	"mentionKeywords": [
-		"@Mahjerion",
-		"@YaBoiMazzy"
+		"@Mahjerion"
 	],
 	"ignoreSystemChats": false,
 	"enableChatSoundCooldown": false,

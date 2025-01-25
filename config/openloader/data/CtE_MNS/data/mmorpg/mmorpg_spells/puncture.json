@@ -57,7 +57,7 @@
             "type": "sound",
             "map": {
               "pitch": 1.25,
-              "sound": "minecraft:entity.player.attack.sweep",
+              "sound": "born_in_chaos_v1:brute_zombie_attack",
               "volume": 1.0
             }
           }
@@ -199,7 +199,7 @@
   },
   "config": {
     "aggro_radius": 10,
-    "cast_time_ticks": 0,
+    "cast_time_ticks": 5,
     "castingWeapon": "MELEE_WEAPON",
     "charge_name": "",
     "charge_regen": 0,
@@ -221,7 +221,6 @@
     "swing_arm": true,
     "tags": {
       "tags": [
-      "area",
       "damage",
       "weapon_skill",
 	  "melee",

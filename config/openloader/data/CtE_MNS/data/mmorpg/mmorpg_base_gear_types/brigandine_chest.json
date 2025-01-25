@@ -2,14 +2,14 @@
   "base_stats": [
     {
       "type": "FLAT",
-      "max": 4.5,
-      "min": 2.25,
+      "max": 9.0,
+      "min": 4.5,
       "stat": "armor"
     },
     {
       "type": "FLAT",
-      "max": 4.5,
-      "min": 2.25,
+      "max": 9.0,
+      "min": 4.5,
       "stat": "dodge"
     },
     {

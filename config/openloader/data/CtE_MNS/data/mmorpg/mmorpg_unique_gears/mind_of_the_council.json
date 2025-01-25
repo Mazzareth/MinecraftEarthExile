@@ -41,7 +41,7 @@
       "stat": "lightning_resist"
     },
     {
-      "type": "PERCENT",
+      "type": "FLAT",
       "max": 6.0,
       "min": 6.0,
       "stat": "archmage"

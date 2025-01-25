@@ -21,9 +21,9 @@
   "stats": [
     {
       "type": "FLAT",
-      "max": 6,
-      "min": 2,
-      "stat": "physical_resist"
+      "max": 3,
+      "min": 1,
+      "stat": "armor"
     },
     {
       "type": "FLAT",

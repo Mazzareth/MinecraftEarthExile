@@ -24,9 +24,9 @@
     },
     {
       "type": "FLAT",
-      "max": 10.0,
-      "min": 5.0,
-      "stat": "mana_per_10_dexterity"
+      "max": 75.0,
+      "min": 50.0,
+      "stat": "mana_per_perc_of_dexterity"
     },
     {
       "type": "PERCENT",

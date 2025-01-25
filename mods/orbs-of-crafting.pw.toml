@@ -1,0 +1,13 @@
+name = "Orbs of Crafting"
+filename = "Orbs-of-Crafting-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8f31191e4ffa06ac004a8a625b0438b5f283b714"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6107927
+project-id = 1182250

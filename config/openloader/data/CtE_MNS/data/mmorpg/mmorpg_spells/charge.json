@@ -5,6 +5,32 @@
       {
         "acts": [
           {
+            "type": "potion",
+            "map": {
+              "count": 1.0,
+              "potion_action": "GIVE_STACKS",
+              "potion_dur": 20.0,
+              "potion_id": "mmorpg:knockback_resist"
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": [
+          {
+            "type": "self",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "acts": [
+          {
             "type": "sound",
             "map": {
               "pitch": 1.0,

@@ -11,29 +11,34 @@
   "guid": "sword",
   "possible_items": [
     {
-      "item_id": "minecraft:wooden_sword",
+      "item_id": "roe_weapons:sword_0",
       "min_rar": "common",
       "weight": 1
     },
     {
-      "item_id": "minecraft:stone_sword",
+      "item_id": "roe_weapons:sword_1",
       "min_rar": "uncommon",
       "weight": 10
     },
     {
-      "item_id": "minecraft:iron_sword",
+      "item_id": "roe_weapons:sword_2",
       "min_rar": "rare",
       "weight": 100
     },
     {
-      "item_id": "minecraft:diamond_sword",
-      "min_rar": "legendary",
+      "item_id": "roe_weapons:sword_3",
+      "min_rar": "epic",
       "weight": 1000
     },
     {
-      "item_id": "minecraft:netherite_sword",
-      "min_rar": "mythic",
+      "item_id": "roe_weapons:sword_4",
+      "min_rar": "legendary",
       "weight": 10000
+    },
+    {
+      "item_id": "roe_weapons:sword_5",
+      "min_rar": "mythic",
+      "weight": 100000
     }
   ],
   "req": {
@@ -45,7 +50,6 @@
   "style": "STR",
   "tags": {
     "tags": [
-      "dexterity",
       "sword",
       "strength",
       "melee_weapon",

@@ -24,12 +24,6 @@
     },
     {
       "type": "FLAT",
-      "max": 1.0,
-      "min": 1.0,
-      "stat": "learn_slice"
-    },
-    {
-      "type": "FLAT",
       "max": 25.0,
       "min": 25.0,
       "stat": "proc_slice"
@@ -39,12 +33,6 @@
       "max": 15.0,
       "min": 15.0,
       "stat": "attack_speed"
-    },
-    {
-      "type": "FLAT",
-      "max": 5.0,
-      "min": 5.0,
-      "stat": "move_speed"
     }
   ],
   "weight": 250

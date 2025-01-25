@@ -26,27 +26,33 @@
     },
     {
       "type": "FLAT",
-      "max": -50.0,
-      "min": -25.0,
-      "stat": "fire_res_aura_cost"
-    },
-    {
-      "type": "FLAT",
       "max": 30.0,
-      "min": 25.0,
+      "min": 20.0,
       "stat": "bleed_damage"
     },
     {
       "type": "FLAT",
       "max": 30.0,
-      "min": 25.0,
+      "min": 20.0,
       "stat": "poison_damage"
     },
     {
       "type": "FLAT",
-      "max": 25.0,
+      "max": 15.0,
       "min": 10.0,
       "stat": "chaos_penetration"
+    },
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "max_fire_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "fire_resist"
     }
   ]
 }

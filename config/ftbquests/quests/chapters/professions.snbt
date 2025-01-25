@@ -80,7 +80,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "6177582E97268EC5"
-					table_id: 8834087311923919794L
 					title: "Gear Crafting Starter Kit (8 Items)"
 					type: "loot"
 				}
@@ -93,6 +92,11 @@
 					silent: true
 					title: "100 Experience x Lv."
 					type: "command"
+				}
+				{
+					id: "7381C57602D80F7F"
+					item: "simplehats:goggles"
+					type: "item"
 				}
 			]
 			subtitle: "M\\&S Professions"
@@ -141,7 +145,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "013D561F5F50C7AD"
-					table_id: 4000157731876446784L
 					title: "Cooking Starter Kit (9 Items)"
 					type: "loot"
 				}
@@ -154,6 +157,11 @@
 					silent: true
 					title: "100 Experience x Lv."
 					type: "command"
+				}
+				{
+					id: "3F36BD44ADA840B1"
+					item: "simplehats:chefshat"
+					type: "item"
 				}
 			]
 			subtitle: "M\\&S Professions"
@@ -222,6 +230,11 @@
 					title: "100 Experience x Lv."
 					type: "command"
 				}
+				{
+					id: "442A185482E51811"
+					item: "simplehats:potionhead"
+					type: "item"
+				}
 			]
 			subtitle: "M\\&S Professions"
 			tasks: [{
@@ -236,11 +249,11 @@
 		{
 			dependencies: ["06E3D7523619E263"]
 			description: [
-				"You can craft &eEnchantment&r for the following: armor, offhands, jewelry, and weapons. When crafting the scrolls, there are a few ingredients:"
+				"You can craft &eInfusions&r for the following: armor, offhands, jewelry, and weapons. When crafting the scrolls, there are a few ingredients:"
 				""
 				"1. &eTiered Ore&r - earned from Mining, they are based on the item level you want to craft. The level ranges are the same as what you'd find in the Mining Profession."
 				""
-				"2. &c4&r &eStones (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				"2. &eStones (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
 				""
 				"3. &eIngots + Identifier Items&r - the items that determine whether you are crafting armor, offhands, jewelry, or weapons. Refer to &cJEI&r for recipes"
 				""
@@ -248,7 +261,7 @@
 				""
 				"5. &eMoney&r"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eEnchantments&r&l.&r"
+				"&lYou can always check the &cJEI&r &lto see what items are needed for &eInfusions&r&l.&r"
 			]
 			id: "5DA0A1825512C2E3"
 			rewards: [
@@ -295,7 +308,7 @@
 				item: "mmorpg:enchanting_station"
 				type: "item"
 			}]
-			title: "Enchanting"
+			title: "Infusing"
 			x: -1.5d
 			y: -3.0d
 		}
@@ -313,7 +326,7 @@
 				""
 				"&cThat doesn't mean you won't receive any experience from items outside your level range, just less.&r"
 				""
-				"While mining, you will find Tiered Ore Blocks&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r, which drop by chance depending on your level and the level range of the ore you are mining. These ore blocks can be smelted or blasted into ores, which can then be used to craft in other Professions."
+				"While mining, you will find Tiered Ore&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r, which drop by chance depending on your level and the level range of the ore you are mining. This ore can be used in other Professions."
 			]
 			id: "06E3D7523619E263"
 			rewards: [{
@@ -510,6 +523,8 @@
 				"&eSharpening Stones&r can be used on your gear to increase their potency. The quality increase is reflected in the gear's base stat (Weapon Damage, Armor, Dodge Rating, etc.)."
 				""
 				"You can craft &eSharpening Stones&r in the &eGear Crafting Station&r using Stones. As you find higher rarity Stones, you will be able to craft better &eSharpening Stones&r."
+				""
+				"These &eSharpening Stones&r can push quality above the normal cap of &120&r, so they should always be used after &eOrbs of Quality&r as &eSharpening Stones&r can only be used once on an item!"
 			]
 			id: "141FEAAFF05B9AD0"
 			rewards: [
@@ -541,7 +556,7 @@
 			description: [
 				"Brew the potions with the following:"
 				""
-				"1x &7Spiritual Meat&r"
+				"3x &7Spiritual Meat&r"
 				"1x &7Common Stone&r"
 				"1x Cooked Chicken/3x Apple"
 				"1x Tomato/Onion"
@@ -604,7 +619,7 @@
 			description: [
 				"Brew the potions with the following:"
 				""
-				"1x &7Spiritual Produce&r"
+				"3x &7Spiritual Produce&r"
 				"1x &7Common Stone&r"
 				"3x Potato/Cabbage/Carrot"
 				"1x Copper Coin"
@@ -678,18 +693,18 @@
 		{
 			dependencies: ["5DA0A1825512C2E3"]
 			description: [
-				"Craft an &eUncommon Armor Enchantment&r with the following:"
+				"Craft an &eUncommon Armor Infusion&r with the following:"
 				""
-				"1x &aCelestial Ore&r"
-				"4x &aUncommon Stone&r"
+				"3x &7Spiritual Ore&r"
+				"1x &aUncommon Stone&r"
 				"2x Iron Ingot"
 				"1x Leather"
 				"1x Paper"
 				"5x Copper Coin"
 				""
-				"When used on your Gear, you have a chance of applying a random stat as a bonus. You can then upgrade that stat by applying higher rarity Enchantments."
+				"When used on your Gear, you have a chance of applying a random stat as a bonus. You can then upgrade that stat by applying higher rarity Infusions."
 				""
-				"&cThe Enchantment has a chance of failure when used&r, but you will see the item's tooltip update with \"Enchantment\" once successful. &cEnchantments must be applied in rarity order.&r Meaning you must start with a successful common Enchantment before applying an uncommon one. You cannot apply a rare Enchantment onto an item with a common Enchantment. The colour of the \"Enchantment\" tooltip denotes the rarity of the enchantment."
+				"&cThe Infusion has a chance of failure when used&r, but you will see the item's tooltip update with \"Infusion\" once successful. &cInfusions must be applied in rarity order.&r Meaning you must start with a successful common Infusion before applying an uncommon one. You cannot apply a rare Infusion onto an item with a common Infusion. The colour of the \"Infusion\" tooltip denotes the rarity of the infusion."
 			]
 			id: "13CE922E843B9A50"
 			rewards: [
@@ -740,7 +755,7 @@
 			description: [
 				"Craft the food with the following:"
 				""
-				"1x &7Spiritual Fish&r"
+				"3x &7Spiritual Fish&r"
 				"3x Tropical Fish"
 				"1x &7Common Stone&r"
 				"1x Copper Coin"
@@ -785,7 +800,7 @@
 			description: [
 				"Craft the foods with the following:"
 				""
-				"1x &7Spiritual Meat/Produce&r"
+				"3x &7Spiritual Meat/Produce&r"
 				"2x Cooked Fish Fillet/3x Beetroot"
 				"1x &7Common Stone&r"
 				"1x Copper Coin"
@@ -845,8 +860,8 @@
 			description: [
 				"Craft a &eCrafted Common Jewelry Soul&r with the following:"
 				""
-				"1x &7Spiritual Ore&r"
-				"4x &7Common Stone&r"
+				"3x &7Spiritual Ore&r"
+				"2x &7Common Stone&r"
 				"1x Iron Ingot"
 				"1x Copper Ingot"
 				"1x Copper Coin"
@@ -981,7 +996,7 @@
 			description: [
 				"Brew the potions with the following:"
 				""
-				"The recipes for these potions are a bit different, please check the &cJEI&r for more information."
+				"The recipes for these potions are a bit different, please check &cJEI&r for more information."
 			]
 			id: "70D6378FAA39BED0"
 			rewards: [
@@ -1050,9 +1065,11 @@
 		{
 			dependencies: ["7C542CE6F026787C"]
 			description: [
-				"When using a &eCrafted Gear Soul&r, there is a &chance&r it will roll as any one of the armor types. To circumvent this randomness, you can use &eSoul Modifiers&r."
+				"When using a &eCrafted Gear Soul&r, there is a &cchance&r it will roll as any one of the armor types. To circumvent this randomness, you can use &eSoul Modifiers&r."
 				""
 				"You can apply &eSoul Modifiers&r directly onto &eCrafted Gear Souls&r to &eguarantee the material (plate, cloth, leather) outcome&r of your item."
+				""
+				"There are also &eSoul Modifiers&r for the various hybrid armor sets!"
 				""
 				"Use the &eSoul Modifier&r on the &eCrafted Gear Soul&r by dragging and dropping it. You may not notice any changes, but once the &eCrafted Gear Soul&r is used, you will see that it belongs to that type."
 				""
@@ -1092,8 +1109,8 @@
 			description: [
 				"Craft a &eCrafted Rare Weapon Soul&r with the following:"
 				""
-				"1x &aCelestial Ore&r"
-				"12x &9Rare Stone&r"
+				"3x &aCelestial Ore&r"
+				"4x &9Rare Stone&r"
 				"2x Cloggrum Ingot"
 				"1x Stick"
 				"1x Iron Coin"
@@ -1136,7 +1153,7 @@
 		}
 		{
 			dependencies: ["5B97985430859986"]
-			description: ["Insert the &eDisassembler's Learning Method&r into the &ecrafting station&r of your choice to &eimmediately void&r the item you've crafted but gain &ebonus Profession experience&r."]
+			description: ["Insert the &eDisassembler's Learning Method&r into the &ecrafting station&r of your choice to &eimmediately void&r the item you've crafted but gain &edouble Profession experience&r."]
 			id: "4C14F8BB015A5892"
 			rewards: [{
 				id: "566A53AA87A4E85F"

@@ -47,6 +47,36 @@
       "scale_to_lvl": false,
       "stat": "freeze_proc_chance",
       "v1": 5.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "burn_effect_when_hit",
+      "v1": 1.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "bleed_effect_when_hit",
+      "v1": 1.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "freeze_effect_when_hit",
+      "v1": 1.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "poison_effect_when_hit",
+      "v1": 1.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "electrify_effect_when_hit",
+      "v1": 1.0
     }
   ],
   "id": "mob"

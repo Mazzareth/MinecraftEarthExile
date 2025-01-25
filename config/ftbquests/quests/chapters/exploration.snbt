@@ -189,46 +189,6 @@
 			y: 6.5d
 		}
 		{
-			id: "1A0322E283E95C19"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 50"
-				elevate_perms: true
-				icon: "botania:lexicon"
-				id: "2BA45B4AD078443B"
-				silent: true
-				title: "50 Experience x Lv."
-				type: "command"
-			}]
-			tasks: [{
-				id: "00442C7C419E08B5"
-				structure: "kobolds:kobold_dungeon_desert"
-				type: "structure"
-			}]
-			x: 5.0d
-			y: 6.5d
-		}
-		{
-			id: "65297FBCCA787A1B"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 50"
-				elevate_perms: true
-				icon: "botania:lexicon"
-				id: "40E36075EE84A59A"
-				silent: true
-				title: "50 Experience x Lv."
-				type: "command"
-			}]
-			tasks: [{
-				id: "0BEB7AA53619BC45"
-				structure: "kobolds:kobold_den_large"
-				type: "structure"
-			}]
-			x: 6.5d
-			y: 6.5d
-		}
-		{
 			id: "70BF809EB6674C63"
 			rewards: [{
 				auto: "enabled"
@@ -505,28 +465,8 @@
 				structure: "kobolds:kobold_den_pirate"
 				type: "structure"
 			}]
-			x: 6.5d
-			y: 5.0d
-		}
-		{
-			id: "05D16AACADC0D637"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 50"
-				elevate_perms: true
-				icon: "botania:lexicon"
-				id: "2DF5AA615B1AD44E"
-				silent: true
-				title: "50 Experience x Lv."
-				type: "command"
-			}]
-			tasks: [{
-				id: "6E17929B42E2E5ED"
-				structure: "kobolds:kobold_den_mountain"
-				type: "structure"
-			}]
-			x: 6.5d
-			y: 3.5d
+			x: 5.0d
+			y: 6.5d
 		}
 		{
 			id: "2F1145906FD10FB9"
@@ -542,7 +482,7 @@
 			}]
 			tasks: [{
 				id: "317C03EA7A809E35"
-				structure: "kobolds:kobold_den_small"
+				structure: "kobolds:kobold_den"
 				type: "structure"
 			}]
 			x: 6.5d
@@ -562,7 +502,7 @@
 			}]
 			tasks: [{
 				id: "293073BE11D0F698"
-				structure: "bettermineshafts:mineshaft_ice"
+				structure: "bettermineshafts:mineshaft_dripstone"
 				type: "structure"
 			}]
 			x: -5.0d
@@ -660,7 +600,6 @@
 				"4B8A218CAE96DA61"
 				"263DE4AC80306EE1"
 				"299AC3FA715FA40E"
-				"05D16AACADC0D637"
 				"7016A9BBC3E5DB03"
 				"50EAD6F40AD69AEA"
 				"53AE521FAE382EA0"
@@ -673,20 +612,19 @@
 				"06F062E21B71CDB8"
 				"7CF126D06D1012BE"
 				"276E8BE7E4449493"
-				"65297FBCCA787A1B"
 				"437CF57874F0F97D"
 				"6575477E1220DEBE"
 				"0761083418E1D108"
 				"78B8C34C3E775483"
 				"3280AB4D1ECD12BF"
-				"1A0322E283E95C19"
 				"489A9BF6204A632F"
 				"65C10787769C4233"
+				"378053892BC20822"
+				"67164081F0C0B1F8"
+				"16742DD3957CC064"
 			]
-			dependency_requirement: "one_completed"
-			description: ["You must discover &e28 out of 32&r structures here to unlock this. You must then discover the &ePuzzle Dungeon&r."]
+			description: ["You must discover &eall&r structures listed as dependencies to unlock this. You must then discover the &ePuzzle Dungeon&r."]
 			id: "50228379A7F98359"
-			min_required_dependencies: 28
 			rewards: [
 				{
 					command: "/mine_and_slash give xp_times_lvl @p 500"
@@ -705,13 +643,13 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Discover atleast 28 Structures"
+			subtitle: "Challenge"
 			tasks: [{
 				id: "28B02EDA93008E03"
 				structure: "masiks_puzzle_dungeon:start"
 				type: "structure"
 			}]
-			title: "Challenge: The Adventurer"
+			title: "The Adventurer"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -854,7 +792,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Complete atleast 3 biome exploration advancements"
+			subtitle: "Challenge"
 			tasks: [{
 				id: "68F61F6EB05F3DAA"
 				item: {
@@ -866,7 +804,7 @@
 				}
 				type: "item"
 			}]
-			title: "Challenge: The Wanderer"
+			title: "The Wanderer"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -916,14 +854,44 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Complete all challenges"
+			subtitle: "Achievement"
 			tasks: [{
 				id: "602BDDE94CFE5702"
 				type: "checkmark"
 			}]
-			title: "Achievement: Expert Explorer"
+			title: "Expert Explorer"
 			x: 0.0d
 			y: -0.5d
+		}
+		{
+			id: "378053892BC20822"
+			tasks: [{
+				id: "3E7825A3B3BCB55D"
+				structure: "dungeons_enhanced:castle"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "67164081F0C0B1F8"
+			tasks: [{
+				id: "0F0AC75556B071A5"
+				structure: "dungeons_enhanced:elders_temple"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "16742DD3957CC064"
+			tasks: [{
+				id: "61D0F19E6C500897"
+				structure: "dungeons_enhanced:desert_tomb"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: 6.5d
 		}
 	]
 	title: "Exploration"

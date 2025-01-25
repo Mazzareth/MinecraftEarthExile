@@ -1,0 +1,13 @@
+name = "ChatPlus"
+filename = "chatplus-forge-2.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5bb87fc88e2ad3e77570537d7e12d25b737f0d94"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5852622
+project-id = 1023333

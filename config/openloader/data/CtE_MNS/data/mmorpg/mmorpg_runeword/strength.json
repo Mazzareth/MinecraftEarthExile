@@ -23,7 +23,7 @@
     {
       "type": "FLAT",
       "max": 7.0,
-      "min": 7.0,
+      "min": 5.0,
       "stat": "lifesteal"
     },
     {

@@ -5,6 +5,15 @@
 	group: "1E3C4B5FFAE48A39"
 	icon: "minecraft:book"
 	id: "44789E48CD607F46"
+	images: [{
+		color: 8026746
+		height: 15.0d
+		image: "watut:textures/particles/book.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 3.0d
+		y: 2.5d
+	}]
 	order_index: 0
 	progression_mode: "linear"
 	quest_links: [ ]
@@ -52,11 +61,13 @@
 			description: [
 				"CTE2 supports party questing and play."
 				""
-				"There are 3 different commands to use for party play:"
+				"There are 4 different commands to use for party play:"
 				""
 				"Mine and Slash's &e/mine_and_slash teams&r allows you to share EXP and heal/buff each other."
 				""
-				"FTB Teams, in the &etop-left of the inventory&r (or with &e\"H\"&r), allows you to share quest progression."
+				"Parties &e/party&r allows you to see the health of your party members in a streamlined GUI."
+				""
+				"FTB Teams, in the &etop-left of the inventory&r (or with &e\"H\"&r), allows you to share quest progression. FTB Teams also has a custom team chat menu, press - by default to access it."
 				""
 				"Lightman's Teams, which is accessible in the &etop-right of the inventory&r, allows you to share money and trader notifications."
 			]
@@ -162,7 +173,7 @@
 			description: [
 				"{image:cte2:textures/gui.png width:160 height:105 align:1}"
 				""
-				"The &eCharacters&r menu lets you save and load different characters. It will save all of your character's information except for their gear! You can have up to 7 saved characters."
+				"The &eCharacters&r menu lets you save and load different characters. It will save all of your character's information except for their gear! You can have up to 3 saved characters. Newly created characters start at level 1 but share quest completion unlocks such as &eTalent and Ascendancy points&r."
 				""
 				"The &eSalvaging&r menu lets you turn bad loot into useful crafting materials upon pick-up."
 				""
@@ -257,8 +268,6 @@
 				"Additionally, you can press &e\"Alt\" to dodge roll&r, which has a short cooldown."
 				""
 				"Don't forget about your basic attacks in CTE2! They are powerful in combat and can be used in conjunction with skills."
-				""
-				"You can see how much &aEnergy&r you have in the player GUI!"
 			]
 			icon: "minecraft:book"
 			id: "546A9D082F1A2160"
@@ -297,7 +306,7 @@
 				""
 				"{image:cte2:textures/skill_gem.png width:140 height:105 align:1}"
 				""
-				"You can modify and enhance Skills by either leveling them, or linking them to Support Gems, which go in the &5circular&r slots. These can increase the &eResource Cost&r and power of the linked Skill Gem."
+				"You can modify and enhance Skills by either leveling them, or linking them to Support Gems, which go in the &5circular&r slots. These can increase the &eResource Cost&r and power of the linked Skill."
 				""
 				"Skills have a maximum number of Support Gems that can be linked (see \"&5Support Slots:&r\"). The number of sockets a Skill can have is determined by the &eSkill's level&r, with a max of 5 sockets at level 16. &eTo get the first slot, your skill must be at least level 4.&r &cThe number of slots is &lalso&r limited by your &eplayer level&r (1 slot every 10 levels, starting at 1).&r"
 				""
@@ -380,9 +389,9 @@
 		{
 			dependencies: ["22EAD61501470768"]
 			description: [
-				"In Minecraft, &4Health&r is your life force, and if it hits 0, your character will die. In CTE2, you don't lose equipment on &4death&r, but you will lose a good chunk of your experience."
+				"In Minecraft, &4Health&r is your life force, and if it hits 0, your character will die. In CTE2, you don't lose equipment on &4death&r, but starting at level 50, you will lose a good chunk of your experience."
 				""
-				"Character defenses can be classified into 3 categories: &4Armor&r (plate), &2Dodge&r (leather), and &9Magic Shield&r (cloth)."
+				"Character defenses can be classified into 3 categories: &4Armor&r (plate), &2Dodge&r (leather), and &9Magic Shield&r (cloth), but may also consist of hybrid types (&8Brigandine&r = &4Armor&r/&2Dodge&r)."
 				""
 				"Armor reduces physical damage taken, dodge gives you a chance to completely negate any attack, and magic shield acts as an additional health buffer that regenerates slowly. You can improve these stats mainly through gear, stat points, and the Talent Tree."
 				""
@@ -481,22 +490,6 @@
 					table_id: 405550839613976496L
 					type: "choice"
 				}
-				{
-					auto: "disabled"
-					command: "/unlockdimensionrtp player @p minecraft:overworld"
-					elevate_perms: true
-					exclude_from_claim_all: true
-					icon: "minecraft:recovery_compass"
-					id: "0977440C1402718A"
-					silent: true
-					title: "Unlock Overworld RTP"
-					type: "command"
-				}
-				{
-					id: "79C04FF569CE4F9C"
-					item: "mcuniversal:dimensional_amulet"
-					type: "item"
-				}
 			]
 			subtitle: "Appendix"
 			tasks: [{
@@ -511,11 +504,11 @@
 		{
 			dependencies: ["7B22B96E95E5DA09"]
 			description: [
-				"Gems and Runes can be socketed into gear that have available sockets. As the rarity of an item increases, the amount of sockets it can have also increases. You can add sockets through some Mine and Slash currencies."
+				"Gems and Runes can be socketed into gear that have available sockets. You can add sockets through some Mine and Slash currencies."
 				""
 				"&bGems&r come in multiple tiers. You can &ecombine 3 of them to create the next tier&r. Once you have socketed it into your item (click on the item with the Gem in your cursor). Once in your gear, the Gem will provide extra stats."
 				""
-				"&cRunes&r can be added to gear to also provide extra stats. If you slot a specific combination of Runes, you can craft a &eRuneword&r, which enhances the item with a specific set of bonuses! &eRight-click while holding a Rune to see available Runewords to craft!&r"
+				"&cRunes&r can be added to gear to also provide extra stats. If you slot a specific combination of Runes, you can craft a &eRuneword&r, which enhances the item with a specific set of bonuses! &eRight-click while holding a Rune to see available Runewords to craft!&r &eRunewords&r can only be created in &eRuned&r rarity items."
 				""
 				"It is possible to retrieve Gems and Runes from items using an &eExtractor Currency Orb!&r"
 			]
@@ -597,6 +590,8 @@
 				""
 				"You can &learn money from killing mobs or looting chests&r. You can also sometimes sell goods for money with traders."
 				""
+				"The &eTrading Terminal/Barter Board&r is a valuable tool in order to acquire specific resources, as well.&r"
+				""
 				"Keep your money safe in the &eWallet&r that you receive from this quest. Later on, upgrade the wallet so it can hold more money!"
 				""
 				"&eShould you need to exchange your money for lower amounts, you can use an ATM.&r"
@@ -629,6 +624,8 @@
 			dependencies: ["3059FF2D6DB1AC9F"]
 			description: [
 				"In CTE2, you will craft and find many pieces of equipment. These pieces of &eequipment will not provide any stats unless you apply Gear Stat Souls to them&r, essentially imbuing them with Mine and Slash stats."
+				""
+				"&cGear without a soul will have no effect, either defensively of offensively!&r"
 				""
 				"Gear Stat Souls can be used on any piece of equipment that shares the same type. For example, the Aquaculture and Farmer's Delight knives have the \"Dagger\" type. By &eclicking on the item with a Gear Stat Soul&r of \"Dagger\" type, you can apply Mine and Slash stats to the knives!"
 				""
@@ -703,6 +700,32 @@
 			title: "Blocking"
 			x: -1.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: [
+				"Waystones are spread throughout the world and once discovered, can be teleported to via other Waystones, Warp Scrolls, or Warp Stones."
+				""
+				"Waystones can spawn randomly in the world, but are &eoften found in villages&r. Take some Warp Scrolls so you can easily return to any discovered Waystone!"
+			]
+			icon: "ftbquests:book"
+			id: "19319F327C09E772"
+			rewards: [{
+				count: 8
+				id: "1361F172A8236025"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Page 10c"
+			tasks: [{
+				id: "302BF9765FDEFFE8"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Waystones"
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["48075B2F138A9C2C"]
@@ -806,6 +829,69 @@
 			title: "Key Binds"
 			x: 1.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: [
+				"In CTE2 there is a limit on how many mobs can be killed within a chunk before they &cstop yielding any drops or experience!&r The chunk will recover over time."
+				""
+				"This is done to encourage travel and exploration instead of the usage of automated experience methods."
+				""
+				"&oExplore and discover! There are many structures and dangers to be found."
+			]
+			icon: "ftbquests:book"
+			id: "151EDFFBB525349E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 50"
+				elevate_perms: true
+				icon: "botania:lexicon"
+				id: "2CD733C2EAA8C466"
+				silent: true
+				title: "50 Experience"
+				type: "command"
+			}]
+			shape: "circle"
+			subtitle: "Page 10b"
+			tasks: [{
+				id: "321AFA63AEF2B67B"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Anti Mob Farm"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30403B3DE1E47F33"]
+			description: [
+				"Craft to Exile 2 comes bundled with &eVR support&r! You &lmust&r have the following:"
+				"- SteamVR"
+				"- A VR Headset"
+				"- Minecraft Window is Focused on PC"
+				""
+				"Once the above are checked, turn on your headset and connect it to your PC. Then you can enable VR from the main menu. Some keybinds are already set up for you. However, you will probably want to &econfigure SteamVR inputs&r for Vivecraft to better suit your needs."
+				""
+				"By default, the &lVR radial menu&r is used for Mine and Slash Skill hotkeys and some other important menu items. When bringing up the radial menu, you can hold the &lGrip button to access the second set of options&r!"
+				""
+				"Additionally, there is VR integration support with most aspects of Minecraft, such as the Crafting Table and immersive swinging and bow usage! You can also modify locomotion and enable run in place to move!"
+			]
+			icon: "simplehats:goggles"
+			id: "3FD1760A231D429D"
+			rewards: [{
+				id: "08FDBED97918BF5A"
+				item: "simplehats:goggles"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7A2278B60D17AB84"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "VR Support"
+			x: 0.0d
+			y: -1.0d
 		}
 	]
 	title: "Prologue"

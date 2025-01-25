@@ -44,7 +44,7 @@
             "type": "aoe",
             "map": {
               "en_predicate": "enemies",
-              "radius": 3.0,
+              "radius": 5.0,
               "selection_type": "RADIUS"
             }
           }
@@ -123,8 +123,7 @@
     "tags": {
       "tags": [
       "area",
-	  "melee",
-	  "buff"
+	  "melee"
       ]
     },
     "times_to_cast": 1,

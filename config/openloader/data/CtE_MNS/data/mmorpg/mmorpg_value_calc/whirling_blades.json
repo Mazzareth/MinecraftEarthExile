@@ -1,14 +1,14 @@
 {
   "base": {
-    "max": 4.5,
-    "min": 1.0
+    "max": 2.25,
+    "min": 0.5
   },
   "base_scaling_type": "NORMAL",
   "cap_to_wep_dmg": 1000.0,
   "dmg_effectiveness": {
     "multi": {
-      "max": 1.55,
-      "min": 1.1
+      "max": 0.775,
+      "min": 0.55
     },
     "stat": "health"
   },
@@ -16,8 +16,8 @@
   "stat_scalings": [
     {
       "multi": {
-        "max": 1.55,
-        "min": 1.1
+        "max": 0.775,
+        "min": 0.55
       },
       "stat": "weapon_damage"
     }

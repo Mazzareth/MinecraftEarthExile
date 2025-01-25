@@ -13,8 +13,8 @@
               "type": "particles_in_radius",
               "map": {
                 "motion": "None",
-                "particle_count": 1.0,
-                "particle_type": "minecraft:witch",
+                "particle_count": 2.0,
+                "particle_type": "attributeslib:apoth_crit",
                 "radius": 1.0
               }
             }
@@ -41,14 +41,14 @@
   "stats": [
     {
       "type": "MORE",
-      "max": -100.0,
-      "min": -50.0,
+      "max": -50.0,
+      "min": -25.0,
       "stat": "mana_regen"
     },
     {
       "type": "FLAT",
-      "max": -40.0,
-      "min": -20.0,
+      "max": -30.0,
+      "min": -15.0,
       "stat": "elemental_resist"
     }
   ],

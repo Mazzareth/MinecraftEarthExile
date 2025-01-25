@@ -11,29 +11,34 @@
   "guid": "axe",
   "possible_items": [
     {
-      "item_id": "minecraft:wooden_axe",
+      "item_id": "roe_weapons:axe_0",
       "min_rar": "common",
       "weight": 1
     },
     {
-      "item_id": "minecraft:stone_axe",
+      "item_id": "roe_weapons:axe_1",
       "min_rar": "uncommon",
       "weight": 10
     },
     {
-      "item_id": "minecraft:iron_axe",
+      "item_id": "roe_weapons:axe_2",
       "min_rar": "rare",
       "weight": 100
     },
     {
-      "item_id": "minecraft:diamond_axe",
-      "min_rar": "legendary",
+      "item_id": "roe_weapons:axe_3",
+      "min_rar": "epic",
       "weight": 1000
     },
     {
-      "item_id": "minecraft:netherite_axe",
-      "min_rar": "mythic",
+      "item_id": "roe_weapons:axe_4",
+      "min_rar": "legendary",
       "weight": 10000
+    },
+    {
+      "item_id": "roe_weapons:axe_5",
+      "min_rar": "mythic",
+      "weight": 100000
     }
   ],
   "req": {
@@ -45,7 +50,6 @@
   "style": "STR",
   "tags": {
     "tags": [
-      "dexterity",
       "axe",
       "strength",
       "melee_weapon",

@@ -21,7 +21,6 @@
 			"4ABF5C9676202847"
 			"481C3C4D8D5AF5B8"
 			"0F4713A9935F369F"
-			"7B317CD881B90A0A"
 		]
 		description: ["&l&eWow. You've completed all side quests! Congratulations!&r&r"]
 		icon: {
@@ -63,12 +62,12 @@
 		]
 		shape: "hexagon"
 		size: 3.0d
-		subtitle: "Complete all Achievements"
+		subtitle: "Final Achievment"
 		tasks: [{
 			id: "74A99B588AB7DC63"
 			type: "checkmark"
 		}]
-		title: "Achievement: The Completionist"
+		title: "The Completionist"
 		x: 0.0d
 		y: 0.0d
 	}]

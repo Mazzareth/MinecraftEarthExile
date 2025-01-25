@@ -83,7 +83,7 @@
               "map": {
                 "motion": "None",
                 "particle_count": 5.0,
-                "particle_type": "minecraft:crit",
+                "particle_type": "undergarden:dripping_blood",
                 "radius": 0.1
               }
             }
@@ -93,7 +93,7 @@
             {
               "type": "x_ticks_condition",
               "map": {
-                "tick_rate": 5.0
+                "tick_rate": 2.0
               }
             }
           ],
@@ -174,7 +174,7 @@
   },
   "cast_animation": {},
   "cast_finish_animation": {
-    "id": "single_arrow_shot"
+    "id": "spell_backflip"
   },
   "config": {
     "aggro_radius": 10,

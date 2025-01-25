@@ -37,7 +37,7 @@
     {
       "type": "PERCENT",
       "max": 10.0,
-      "min": 10.0,
+      "min": 5.0,
       "stat": "mana"
     },
     {

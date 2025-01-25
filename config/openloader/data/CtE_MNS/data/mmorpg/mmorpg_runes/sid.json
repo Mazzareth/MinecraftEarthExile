@@ -5,25 +5,25 @@
   "on_armor_stats": [
     {
       "type": "FLAT",
-      "max": 7.5,
-      "min": 4.5,
-      "stat": "increased_quantity"
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "magic_find"
     }
   ],
   "on_jewelry_stats": [
     {
       "type": "FLAT",
-      "max": 7.5,
-      "min": 4.5,
-      "stat": "increased_quantity"
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "magic_find"
     }
   ],
   "on_weapons_stats": [
     {
       "type": "FLAT",
-      "max": 7.5,
-      "min": 4.5,
-      "stat": "increased_quantity"
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "magic_find"
     }
   ],
   "tier": 4,

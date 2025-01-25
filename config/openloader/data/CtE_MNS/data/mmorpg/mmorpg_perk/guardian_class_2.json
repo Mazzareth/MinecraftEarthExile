@@ -8,8 +8,8 @@
     {
       "type": "FLAT",
       "scale_to_lvl": false,
-      "stat": "health_per_10_intelligence",
-      "v1": 25.0
+      "stat": "health_per_perc_of_intelligence",
+      "v1": 150.0
     },
     {
       "type": "FLAT",

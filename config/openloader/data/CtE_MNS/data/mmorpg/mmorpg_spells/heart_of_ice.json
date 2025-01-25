@@ -127,7 +127,7 @@
             "type": "aoe",
             "map": {
               "en_predicate": "allies",
-              "radius": 4.0,
+              "radius": 3.0,
               "selection_type": "RADIUS"
             }
           }
@@ -167,7 +167,9 @@
       "tags": [
       "heal",
 	  "magic",
-	  "cold"
+	  "cold",
+	  "buff",
+	  "area"
       ]
     },
     "times_to_cast": 1,

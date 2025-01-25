@@ -11,7 +11,25 @@
     "blue_skies:maple_spear",
     "blue_skies:comet_spear",
     "$minecraft:trident",
-    "$minecraft:bow"
+    "$minecraft:bow",
+	"roe_weapons:scythe_0",
+	"roe_weapons:scythe_1",
+	"roe_weapons:scythe_2",
+	"roe_weapons:scythe_3",
+	"roe_weapons:scythe_4",
+	"roe_weapons:scythe_5",
+	"roe_weapons:scythe_6",
+	"roe_weapons:scythe_7",
+	"roe_weapons:cursed_scythe",
+	"roe_weapons:spear_0:spear",
+	"roe_weapons:spear_1:spear",
+	"roe_weapons:spear_2:spear",
+	"roe_weapons:spear_3:spear",
+	"roe_weapons:spear_4:spear",
+	"roe_weapons:spear_5:spear",
+	"roe_weapons:spear_6:spear",
+	"roe_weapons:spear_7:spear",
+	"roe_weapons:cursed_spear:spear"
   ],
   "incompatible": []
 }

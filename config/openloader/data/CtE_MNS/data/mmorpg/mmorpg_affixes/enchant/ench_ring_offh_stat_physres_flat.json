@@ -20,9 +20,9 @@
   "stats": [
     {
       "type": "FLAT",
-      "max": 12,
-      "min": 4,
-      "stat": "physical_resist"
+      "max": 6,
+      "min": 2,
+      "stat": "armor"
     }
   ],
   "weight": 1000

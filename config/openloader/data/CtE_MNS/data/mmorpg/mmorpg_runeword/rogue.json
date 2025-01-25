@@ -30,7 +30,7 @@
     {
       "type": "FLAT",
       "max": 5.0,
-      "min": 5.0,
+      "min": 3.0,
       "stat": "chaos_resist"
     },
     {

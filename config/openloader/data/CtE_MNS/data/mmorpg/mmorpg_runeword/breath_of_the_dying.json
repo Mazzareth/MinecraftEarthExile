@@ -14,7 +14,10 @@
 	"dagger",
 	"hammer",
 	"spear",
-	"axe"
+	"axe",
+	"gauntlet",
+	"scythe",
+	"greatsword"
   ],
   "stats": [
     {
@@ -49,14 +52,14 @@
     },
     {
       "type": "FLAT",
-      "max": 5.0,
-      "min": 3.0,
+      "max": 4.0,
+      "min": 2.0,
       "stat": "lifesteal"
     },
     {
       "type": "FLAT",
-      "max": 5.0,
-      "min": 3.0,
+      "max": 4.0,
+      "min": 2.0,
       "stat": "manasteal"
     },
     {

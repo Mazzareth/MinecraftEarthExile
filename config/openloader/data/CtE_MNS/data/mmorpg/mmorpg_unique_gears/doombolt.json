@@ -24,8 +24,8 @@
     },
     {
       "type": "FLAT",
-      "max": 60.0,
-      "min": 50.0,
+      "max": 40.0,
+      "min": 30.0,
       "stat": "chaos_penetration"
     },
     {

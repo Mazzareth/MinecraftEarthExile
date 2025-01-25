@@ -4,5 +4,6 @@
   "ser": "proc_spell",
   "spellId": "cyclone",
   "source": "Target",
-  "target": "Source"
+  "target": "Source",
+  "use_resource_costs": true
 }

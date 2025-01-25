@@ -1,15 +1,21 @@
 {
   "affected": "Players",
   "id": "ele_weakness",
-  "map_resist": "Physical",
+  "map_resist": "Elemental",
   "map_resist_bonus_needed": 0,
   "prophecy_type": "",
   "req": "",
   "stats": [
     {
       "type": "FLAT",
-      "max": -45.0,
-      "min": -15.0,
+      "max": -5.0,
+      "min": -1.0,
+      "stat": "max_elemental_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": -15.0,
+      "min": -3.0,
       "stat": "elemental_resist"
     }
   ],

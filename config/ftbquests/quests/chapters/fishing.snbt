@@ -1085,7 +1085,7 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Catch one of each fish and obtain the Neptunium Fishing Rod"
+			subtitle: "Achievement"
 			tasks: [{
 				id: "7DB9CE4C5E6F313B"
 				item: {
@@ -1097,7 +1097,7 @@
 				}
 				type: "item"
 			}]
-			title: "Achievement: Gotta Catch 'em All"
+			title: "Gotta Catch 'em All"
 			x: 3.5d
 			y: -7.0d
 		}

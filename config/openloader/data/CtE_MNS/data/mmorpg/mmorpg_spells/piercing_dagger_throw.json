@@ -126,8 +126,8 @@
           {
             "type": "sound",
             "map": {
-              "pitch": 1.0,
-              "sound": "minecraft:entity.snowball.throw",
+              "pitch": 1.5,
+              "sound": "blue_skies:item.spear.throw",
               "volume": 1.0
             }
           }

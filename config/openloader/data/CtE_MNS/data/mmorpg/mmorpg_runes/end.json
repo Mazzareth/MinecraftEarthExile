@@ -5,17 +5,17 @@
   "on_armor_stats": [
     {
       "type": "FLAT",
-      "max": 10.0,
-      "min": 6.0,
-      "stat": "physical_resist"
+      "max": 7.0,
+      "min": 4.0,
+      "stat": "dmg_reduction_chance"
     }
   ],
   "on_jewelry_stats": [
     {
       "type": "FLAT",
-      "max": 10.0,
-      "min": 6.0,
-      "stat": "physical_resist"
+      "max": 7.0,
+      "min": 4.0,
+      "stat": "dmg_reduction_chance"
     }
   ],
   "on_weapons_stats": [

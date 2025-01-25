@@ -31,7 +31,7 @@
     {
       "type": "FLAT",
       "max": 35.0,
-      "min": 30.0,
+      "min": 25.0,
       "stat": "fire_resist"
     },
     {

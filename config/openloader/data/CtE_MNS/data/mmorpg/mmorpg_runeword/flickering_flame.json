@@ -8,7 +8,6 @@
     "har"
   ],
   "slots": [
-    "helmet",
 	"pants"
   ],
   "stats": [
@@ -20,7 +19,7 @@
     },
     {
       "type": "FLAT",
-      "max": 2.9,
+      "max": 1.0,
       "min": 1.0,
       "stat": "plus_lvl_fire_spells"
     },

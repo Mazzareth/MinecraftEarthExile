@@ -17,24 +17,34 @@
   "guid": "dagger",
   "possible_items": [
     {
-      "item_id": "farmersdelight:flint_knife",
+      "item_id": "roe_weapons:dagger_0",
       "min_rar": "common",
       "weight": 1
     },
     {
-      "item_id": "farmersdelight:iron_knife",
+      "item_id": "roe_weapons:dagger_1",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "roe_weapons:dagger_2",
       "min_rar": "rare",
       "weight": 100
     },
     {
-      "item_id": "farmersdelight:diamond_knife",
-      "min_rar": "legendary",
+      "item_id": "roe_weapons:dagger_3",
+      "min_rar": "epic",
       "weight": 1000
     },
     {
-      "item_id": "farmersdelight:netherite_knife",
-      "min_rar": "mythic",
+      "item_id": "roe_weapons:dagger_4",
+      "min_rar": "legendary",
       "weight": 10000
+    },
+    {
+      "item_id": "roe_weapons:dagger_5",
+      "min_rar": "mythic",
+      "weight": 100000
     }
   ],
   "req": {
@@ -56,5 +66,5 @@
     ]
   },
   "weapon_type": "dagger",
-  "weight": 750
+  "weight": 1000
 }

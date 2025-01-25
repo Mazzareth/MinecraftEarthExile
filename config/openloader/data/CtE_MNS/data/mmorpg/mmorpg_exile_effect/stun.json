@@ -31,7 +31,7 @@
             {
               "type": "particles_in_radius",
               "map": {
-				"height": 1.0,
+				"height": 2.0,
                 "motion": "None",
                 "particle_count": 2.0,
                 "particle_type": "born_in_chaos_v1:stunstars",

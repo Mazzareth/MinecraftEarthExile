@@ -23,7 +23,7 @@
   "id": "cdr",
   "is_long": false,
   "is_perc": true,
-  "max": 75.0,
+  "max": 60.0,
   "min": -1000.0,
   "minus_is_good": false,
   "multiUseType": "MULTIPLY_STAT",

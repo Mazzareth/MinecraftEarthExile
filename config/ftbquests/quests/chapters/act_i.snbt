@@ -334,7 +334,6 @@
 		}
 		{
 			dependencies: ["783CA457464E8E3D"]
-			dependency_requirement: "all_started"
 			description: [
 				"These &eIllagers&r have been up to no good. They've been raiding villages and are found commonly in &eOverworld structures&r."
 				""
@@ -408,8 +407,7 @@
 		}
 		{
 			dependencies: ["783CA457464E8E3D"]
-			dependency_requirement: "all_started"
-			description: ["These Illagers can only be easily found in &evillage raids&r. You'll have to wait for them to come to you, but then when they do, make sure they don't leave."]
+			description: ["These Illagers can only be easily found through forced &eGateway of the Raiders&r."]
 			icon: {
 				Count: 1
 				id: "minecraft:iron_axe"
@@ -454,7 +452,7 @@
 					icon: "minecraft:writable_book"
 					id: "48EB8067150A2569"
 					type: "kill"
-					value: 4L
+					value: 2L
 				}
 				{
 					entity: "illagerinvasion:sorcerer"
@@ -546,8 +544,7 @@
 		}
 		{
 			dependencies: ["783CA457464E8E3D"]
-			dependency_requirement: "all_started"
-			description: ["The &eIllusioner&r is deceptive and cunning. It's no surprise that they're the Invoker's left-hand Illager. You can find them in &eIllusioner Towers&r, or as part of &evillage raids&r. They can also apparently be encountered through forced &eGateway of the Raiders&r."]
+			description: ["The &eIllusioner&r is deceptive and cunning. It's no surprise that they're the Invoker's left-hand Illager. You can find them in &eIllusioner Towers&r. They can also be encountered through forced &eGateway of the Raiders&r."]
 			icon: {
 				Count: 1
 				id: "mmorpg:weapon/staff/iron"
@@ -611,11 +608,10 @@
 		}
 		{
 			dependencies: ["783CA457464E8E3D"]
-			dependency_requirement: "all_started"
 			description: [
 				"The &eInquisitor&r is the right-hand Illager of the Invoker. Taking one out will deal a heavy blow to the Invoker's forces."
 				""
-				"You can find the Inquisitor in &evillage raids&r, or in the &eIllager Fortress&r. They can also apparently be encountered through forced &eGateway of the Raiders&r."
+				"You can find the Inquisitor in the &eIllager Fortress&r. They can also be encountered through forced &eGateway of the Raiders&r."
 			]
 			icon: {
 				Count: 1
@@ -722,8 +718,6 @@
 				"As you complete the main quests, more side quests will unravel. And once you've completed the line of main quests (typically 5-7 quests in length), you will receive the quest to move on to the next act/dimension."
 				""
 				"As you move from one dimension to the next, the mobs will become stronger, and the loot quality will improve. Although mobs scale to player level, they cap out in each dimension, making it possible to \"overlevel\" for a dimension if you're struggling with it."
-				""
-				"&eRequires 2 dependencies to be completed.&r"
 			]
 			icon: "minecraft:paper"
 			id: "727ADA9C4F420BDC"
@@ -755,17 +749,6 @@
 					item: "mmorpg:potions/full_reset_stat"
 					type: "item"
 				}
-				{
-					auto: "disabled"
-					command: "/unlockdimensionrtp player @p minecraft:the_nether"
-					elevate_perms: true
-					exclude_from_claim_all: true
-					icon: "minecraft:recovery_compass"
-					id: "545D8C05621A5A4C"
-					silent: true
-					title: "Unlock Nether RTP"
-					type: "command"
-				}
 			]
 			shape: "rsquare"
 			subtitle: "Lost Page"
@@ -779,14 +762,16 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["15C2A55BAFCA5084"]
 			description: ["Luminescent creatures lurk in the underground to attract attention. Find some &eGlow Skeletons&r, kill them, and continue to explore the depths."]
 			icon: "minecraft:skeleton_skull"
 			id: "0D9B68F2990B8E94"
 			rewards: [
 				{
+					count: 5
 					id: "1A0A49388DA210A9"
-					item: "lightmanscurrency:coin_gold"
+					item: "lightmanscurrency:coin_iron"
 					title: "Money"
 					type: "item"
 				}
@@ -801,6 +786,7 @@
 					type: "command"
 				}
 			]
+			shape: "gear"
 			subtitle: "The Underground"
 			tasks: [{
 				entity: "monsterplus:glow_skeleton"
@@ -963,7 +949,7 @@
 			description: [
 				"In CTE2, there are various custom weapon types. Below is a list of all the weapon types, with the custom ones highlighted in &eyellow&r."
 				""
-				"Sword, Axe, Staff, Bow, Crossbow, &eDagger, Spear, Hammer&r."
+				"Sword, Axe, Bow, Crossbow, &eStaff, Dagger, Spear, Hammer&r."
 				""
 				"Keep in mind you will need Gear Stat Souls when crafting these to give them Mine and Slash stats."
 				""
@@ -978,10 +964,11 @@
 					id: "4DA65E4DA5733C27"
 					item: {
 						Count: 1
-						id: "stalwart_dungeons:stone_hammer"
+						id: "roe_weapons:hammer_1"
 						tag: {
 							Damage: 0
-							mmorpg_gear: "{\"baseStats\":{\"p\":35},\"imp\":{\"p\":68},\"affixes\":{\"suf\":[{\"p\":29,\"id\":\"of_gluttony\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":20,\"id\":\"fire_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"data\":{\"map\":{}},\"rar\":\"uncommon\",\"rp\":2,\"rs\":3,\"lvl\":5,\"gtype\":\"hammer\",\"pot\":\"uncommon\",\"pn\":100}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":68},\"imp\":{\"p\":22,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":28,\"id\":\"of_vampirism\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":37,\"id\":\"heal_crit_prefix\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"hammer\"}"
+							mmorpg_potential: "{\"potential\":10}"
 						}
 					}
 					type: "item"
@@ -990,10 +977,11 @@
 					id: "3EAFA2F1B038FF69"
 					item: {
 						Count: 1
-						id: "minecraft:trident"
+						id: "roe_weapons:spear_1"
 						tag: {
 							Damage: 0
-							mmorpg_gear: "{\"baseStats\":{\"p\":32},\"imp\":{\"p\":69},\"affixes\":{\"suf\":[{\"p\":40,\"id\":\"of_vampirism\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":38,\"id\":\"crit_prefix\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"data\":{\"map\":{}},\"rar\":\"uncommon\",\"rp\":0,\"rs\":0,\"lvl\":5,\"gtype\":\"spear\",\"pot\":\"uncommon\",\"pn\":100}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":23},\"imp\":{\"p\":69,\"imp\":\"war_spear\"},\"affixes\":{\"suf\":[{\"p\":38,\"id\":\"of_vampirism\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":16,\"id\":\"catalyzing\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"spear\"}"
+							mmorpg_potential: "{\"potential\":10}"
 						}
 					}
 					type: "item"
@@ -1002,10 +990,50 @@
 					id: "1A5D7C2FB9AF7997"
 					item: {
 						Count: 1
-						id: "farmersdelight:flint_knife"
+						id: "roe_weapons:dagger_1"
 						tag: {
 							Damage: 0
-							mmorpg_gear: "{\"baseStats\":{\"p\":32},\"imp\":{\"p\":20},\"affixes\":{\"suf\":[{\"p\":26,\"id\":\"of_consumption\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":29,\"id\":\"crit_prefix\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"data\":{\"map\":{}},\"rar\":\"uncommon\",\"rp\":0,\"rs\":3,\"lvl\":5,\"gtype\":\"dagger\",\"pot\":\"uncommon\",\"pn\":100}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":93},\"imp\":{\"p\":91,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":27,\"id\":\"of_devastation\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":33,\"id\":\"wep_item_flat\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"dagger\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C9C6B58399AD149"
+					item: {
+						Count: 1
+						id: "roe_weapons:gauntlet_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":54},\"imp\":{\"p\":22,\"imp\":\"ceremonial_gauntlet\"},\"affixes\":{\"suf\":[{\"p\":20,\"id\":\"of_vampirism\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":25,\"id\":\"warlords\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"gauntlet\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "171773CCFD2DABA4"
+					item: {
+						Count: 1
+						id: "roe_weapons:scythe_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":60},\"imp\":{\"p\":3,\"imp\":\"rusted_scythe\"},\"affixes\":{\"suf\":[{\"p\":36,\"id\":\"of_devastation\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":19,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"scythe\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DED2F461AED8A69"
+					item: {
+						Count: 1
+						id: "roe_weapons:greatsword_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":64},\"imp\":{\"p\":81,\"imp\":\"broad_greatsword\"},\"affixes\":{\"suf\":[{\"p\":30,\"id\":\"of_sweeping\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":29,\"id\":\"physical_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"greatsword\"}"
+							mmorpg_potential: "{\"potential\":10}"
 						}
 					}
 					type: "item"
@@ -1028,6 +1056,7 @@
 				""
 				"&aRounded Corner Square: Main Quest&r"
 				"&eCircle: Side Quest&r"
+				"&3Gear: Repeatable Quest&r"
 				"&4Diamond: Mini-Boss&r"
 				"&dOctagon: Shop&r"
 				"&bHexagon: Achievement&r"
@@ -1110,11 +1139,13 @@
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"Favor is a system that rewards players for living. Every minute, you generate a small amount of Favor. &eFavor soft-caps at 2500&r. However, you can go beyond this Favor limit by opening chests."
+				"Favor is a system that rewards players for living. Every minute, you generate a small amount of Favor. &eFavor soft-caps at 1000&r. However, you can go beyond this Favor limit by opening chests."
 				""
 				"{image:cte2:textures/favor.png width:140 height:100 align:1}"
 				""
-				"At 250+ Favor, you will have a 5% bonus to loot drops. As you go up in Favor, your bonus to loot drops will increase!"
+				"At 250+ Favor, you will have a 2% bonus to loot drops. As you go up in Favor, your bonus to loot drops will increase."
+				""
+				"At the cap of 2500 you have a 25% increase to loot and experience!"
 				""
 				"Note that there are level requirements for certain rarities to start appearing:"
 				""
@@ -1211,7 +1242,7 @@
 			description: [
 				"Hold down &e`&r to activate &eUltiminer,&r which is an advanced form of &eveinmining.&r An outline will appear showing the blocks that will be mined. Hold down shift + ` to select a &epattern,&r such as Mining Tunnel which mines a staircase. Only the &eShapeless pattern will veinmine&r, the rest adhere to their pattern. "
 				""
-				"Using Ultiminer will take &eextra durability and hunger&r."
+				"Using Ultiminer will take &eextra durability and hunger&r and also requires the appropriate tool."
 			]
 			id: "15C2A55BAFCA5084"
 			rewards: [{
@@ -1236,7 +1267,7 @@
 				}
 				type: "item"
 			}]
-			title: "Ultiminer"
+			title: "FTB Ultimine"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -1287,7 +1318,7 @@
 				""
 				"Use the &eCage&r to &egrab&r mobs, particularly tamed mobs, to transport them."
 				""
-				"Notice Boards can display written books' text."
+				"&eNotice Boards&r can display written books' text."
 				""
 				"&eSupplementary Jars&r can store 4 buckets or &e12&r bottles of any vanilla liquids (like honey, milk, lava, potions, soups, dragon breath or xp) as well as and fireflies. Jars can also store small mobs like slimes and bees. To &ecatch&r vexes and endermites you'll have to use tinted ones. &eShift right click&r to place a mob jar instead of releasing its mob."
 			]
@@ -1330,6 +1361,11 @@
 					item: "supplementaries:notice_board"
 					type: "item"
 				}
+				{
+					id: "07731E16BE8F3E4E"
+					item: "supplementaries:cage"
+					type: "item"
+				}
 			]
 			title: "Supplementaries' Utilities"
 			x: 12.0d
@@ -1337,17 +1373,21 @@
 		}
 		{
 			dependencies: ["0D9B68F2990B8E94"]
-			description: ["It's time you brought the &ehunt&r to them. Kill &eone&r of every Vanilla hostile monster."]
+			description: [
+				"It's time you brought the &ehunt&r to them. Kill &eone&r of every Vanilla hostile monster."
+				""
+				"Note that this quest requires mobs from later Dimensions as well!"
+			]
 			id: "324C9BEA9C3F0AC3"
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 500"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "22385397363DF4AE"
 					silent: true
-					title: "500 Experience"
+					title: "500 Experience x Lv."
 					type: "command"
 				}
 				{
@@ -1371,7 +1411,7 @@
 		}
 		{
 			dependencies: ["5FCA8577C7DB792D"]
-			description: ["Seems this &e\"Chemical X\"&r drives evolutionary mutations wild. &ePigs&r are simple and weak, they must be an easy and &esafe&r animal to test this stuff on. Feed a Pig a &eFermented Spider Eye&r and throw &eChemical X&r at it."]
+			description: ["Seems this &e\"Chemical X\"&r drives evolutionary mutations wild. &ePigs&r are simple and weak, they must be an easy and &esafe&r animal to test this stuff on. Feed a Pig a &eFermented Spider Eye&r and throw &eChemical X&r at it. This process has a chance to fail, more &eChemical X&r may be purchased on the &eTrading Terminal/Barter Board&r."]
 			id: "65D73BD10CCCD984"
 			rewards: [
 				{
@@ -1436,13 +1476,13 @@
 			description: [
 				"Potions from the Alchemy Profession can provide useful benefits such as healing and buffs. You can see how to craft these potions in more detail in the \"&aM\\&S Professions&r\" chapter. Alternatively, if you're not into Professions, &eyou can also buy these potions&r from various traders (Villagers, Goblin Traders)."
 				""
-				"Brew the &aUncommon Restoration Potions&r with the following:"
+				"Brew the &aUncommon Health Potions&r with the following:"
 				""
-				"1x &7Spiritual Meat&r"
+				"3x &7Spiritual Meat&r"
 				"1x &7Common Stone&r"
 				"1x Cooked Chicken"
 				"1x Tomato"
-				"1x Copper Coin"
+				"5x Copper Coin"
 			]
 			id: "044F1A64E4751E01"
 			rewards: [
@@ -1492,9 +1532,9 @@
 		{
 			dependencies: ["472D5441B6FCD6EC"]
 			description: [
-				"&eWaystones&r allow you to teleport to and from each one you've unlocked. The cost depends on &ehow far away you are from it&r. Global Waystones are free to teleport to."
+				"&eWaystones&r allow you to teleport to and from each one you've unlocked. Global Waystones are usable across dimensions."
 				""
-				"The &eWarp Stone&r allows you to teleport to any waystone you've unlocked for an &eincreased XP price&r and a high cooldown on Warp Stone use."
+				"The &eWarp Stone&r allows you to teleport to any waystone you've unlocked but has a cooldown."
 				""
 				"There are also &enumerous scrolls&r to craft that can act as &esingle use Warp Stones&r or to teleport to a &especific Waystone&r."
 			]
@@ -1544,13 +1584,13 @@
 				""
 				"&c------------------------------&r"
 				""
-				"&eOwd Rune&r - Hermit Abysswalker (&b5%&r), Invoker (&b10%&r)"
+				"&eOwd Rune&r - Hermit Abysswalker (&b5%&r), Invoker (&b10%&r), Frostmaw (&b15%&r) "
 				"&eNet Rune&r - Warped Mosco (&b10%&r), Wildfire (&b5%&r), Mother Lava Squid (&b5%&r), Wither (&b10%&r), Awful Ghast (&b15%&r), Nether Keeper (&b15%&r)"
-				"&eUnd Rune&r - Forgotten Guardian (&b10%&r), Eel (&b15%&r), Mother of the Maze (&b50%&r), Ghost of Captain &eCornelia&r (&b10%&r)"
+				"&eUnd Rune&r - Ferrous Wroughtnaut (&b10%&r), Umvuthi (&b10%&r), Forgotten Guardian (&b10%&r), Eel (&b15%&r), Mother of the Maze (&b50%&r), Ghost of Captain Cornelia (&b10%&r)"
 				"&eBri Rune&r - Summoner (&b10%&r), Starlit Crusher (&b25%&r)"
-				"&eDaw Rune&r - Alchemist (&b10%&r), Arachnarch (&b20%&r)"
-				"&eEnd Rune&r - Ender Dragon (&b7.5%&r), Void Worm (&b15%&r)"
-				"&eSid Rune&r - Warden (&b10%&r)"
+				"&eDaw Rune&r - Alchemist (&b10%&r), Arachnarch (&b25%&r)"
+				"&eEnd Rune&r - Ender Dragon (&b7.5%&r), Void Worm (&b15%&r), Shelterer (&b15%&r)"
+				"&eSid Rune&r - Warden (&b10%&r), Night Lich (&b15%&r), Nether Gauntlet (&b15%&r), Void Blossom (&b15%&r), Obsidilith (&b15%&r)"
 			]
 			icon: "minecraft:paper"
 			id: "2C9B55C8C05E20E2"
@@ -1680,9 +1720,9 @@
 			description: [
 				"Finding it difficult to survive?"
 				""
-				"&eSpice of Life: Apple Pie Edition &rgives every food a &e\"diversity\"&r factor. Eating diverse foods gives &ebenefits,&r while sticking to a few foods won't. &eCheck your Food Book in your MineMenu (default: H)&r to check your diversity and current benefits. &eKeep eating different foods and increase your Health, Block Reach, Movement Speed, and more!&r"
+				"&eSpice of Life: Onion Edition &rgives every food a &e\"diversity\"&r factor. Eating diverse foods gives &ebenefits,&r while sticking to a few foods won't. &eCheck your Food Book in your MineMenu (default: H)&r to check your diversity and current benefits. &eKeep eating different foods and increase your Health, Block Reach, Movement Speed, and more!&r"
 				""
-				"The &eLunchbag&r can be crafted and upgrades to &ehold all your food&r at once by &eshift right clicking&r with it in hand and right clicking to eat with it. It won't show up in JEI."
+				"The &eLunchbag&r can be crafted and upgraded to &ehold all your food&r at once by &eshift right clicking&r with it in hand and right clicking to eat with it."
 			]
 			icon: "minecraft:paper"
 			id: "4AF5F24C4B770EA5"
@@ -1707,7 +1747,7 @@
 								Size: 5
 							}
 						}
-						id: "solapplepie:lunchbag"
+						id: "solonion:lunchbag"
 					}
 					type: "item"
 				}
@@ -1717,7 +1757,7 @@
 				id: "109366712B105500"
 				type: "checkmark"
 			}]
-			title: "Spice of Life: Apple Pie Edition"
+			title: "Spice of Life: Onion Edition"
 			x: 3.0d
 			y: -1.5d
 		}
@@ -2088,6 +2128,8 @@
 			description: [
 				"&eLord Pumpkinhead&r is a stronger and final version of &eSir Pumpkinhead&r. You can fight him by summoning him. Right-click on a &eInfernal Evil Pumpkin&r (created or found) using a &eTransmuting Elixir&r."
 				""
+				"Note that one of the components for the &eTransmuting Elixir&r, the &eChaos Component&r can be made by brewing a &eSeed of Chaos&r in a &eBottle of Water&r using a &eBrewing Stand&r."
+				""
 				"&cLord Pumpkinhead spawns at minimum level 60 and Mythic Rarity.&r"
 				""
 				"Lord Pumpkinhead Has:"
@@ -2118,6 +2160,62 @@
 			title: "Bestiary VIb"
 			x: 9.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["1DEC808C04130184"]
+			description: [
+				"&eZombie Clowns&r are slow and dense enemies. They apply Intoxicating Brew on hit. They can be found in &eClown Caravans&r."
+				""
+				"The Zombie Clown Has:"
+				"&b+25% Physical to Chaos Damage&r"
+				"&b+75% Chaos Resistance&r"
+			]
+			icon: "mca:book_supporters"
+			id: "4E589D39C44CAAD2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "botania:lexicon"
+				id: "04E41165D049095A"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Joke On You!"
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_clown"
+				icon: "born_in_chaos_v1:spawn_structures_clown_cart"
+				id: "0229F6B999DF46D0"
+				type: "kill"
+				value: 30L
+			}]
+			title: "Bestiary IIb"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["749948B3A454617E"]
+			description: ["You can craft your own &eWaystone&r to teleport to. These will be relatively expensive, but they're definitely worth it!"]
+			id: "4BA92370D0D0DC32"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "botania:lexicon"
+				id: "597C6F3B17BA40CF"
+				silent: true
+				title: "500 Experience"
+				type: "command"
+			}]
+			subtitle: "The Extras"
+			tasks: [{
+				id: "7F29159B548EDBA1"
+				item: "waystones:sandy_waystone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Lv. 1-15"]

@@ -18,8 +18,8 @@
     },
     {
       "type": "PERCENT",
-      "max": 40.0,
-      "min": 40.0,
+      "max": 30.0,
+      "min": 30.0,
       "stat": "mana"
     },
     {
@@ -36,9 +36,9 @@
     },
     {
       "type": "FLAT",
-      "max": 5.0,
-      "min": 3.0,
-      "stat": "mana_per_10_intelligence"
+      "max": 40.0,
+      "min": 30.0,
+      "stat": "mana_per_perc_of_intelligence"
     }
   ],
   "weight": 1000

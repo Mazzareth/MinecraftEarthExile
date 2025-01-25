@@ -9,13 +9,13 @@
       "type": "FLAT",
       "scale_to_lvl": false,
       "stat": "dodge_per_perc_of_magic_shield",
-      "v1": 25.0
+      "v1": 20.0
     },
     {
       "type": "MORE",
       "scale_to_lvl": false,
       "stat": "magic_shield",
-      "v1": -33.0
+      "v1": -40.0
     }
   ]
 }

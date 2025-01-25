@@ -13,7 +13,10 @@
 	"dagger",
 	"hammer",
 	"spear",
-	"axe"
+	"axe",
+	"gauntlet",
+	"scythe",
+	"greatsword"
   ],
   "stats": [
     {
@@ -31,13 +34,13 @@
     {
       "type": "FLAT",
       "max": 10.0,
-      "min": 10.0,
+      "min": 5.0,
       "stat": "poison_chance"
     },
     {
       "type": "FLAT",
       "max": 10.0,
-      "min": 10.0,
+      "min": 5.0,
       "stat": "attack_speed"
     },
     {

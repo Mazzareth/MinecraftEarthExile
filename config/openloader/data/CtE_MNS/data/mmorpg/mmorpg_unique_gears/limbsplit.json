@@ -2,7 +2,7 @@
   "base_gear": "axe",
   "guid": "limbsplit",
   "flavor_text": "",
-  "force_item_id": "",
+  "force_item_id": "born_in_chaos_v1:wood_splitter_axe",
   "league": "",
   "min_drop_lvl": 10,
   "min_tier": 0,

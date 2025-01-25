@@ -9,5 +9,5 @@
   "id": "spear",
   "isProjectile": false,
   "range": "OPTIONALLY_RANGED",
-  "style": "DEX"
+  "style": "STR"
 }

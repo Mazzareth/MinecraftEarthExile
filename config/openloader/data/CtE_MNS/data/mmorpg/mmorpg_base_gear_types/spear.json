@@ -11,9 +11,34 @@
   "guid": "spear",
   "possible_items": [
     {
-      "item_id": "minecraft:trident",
+      "item_id": "roe_weapons:spear_0",
       "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "roe_weapons:spear_1",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "roe_weapons:spear_2",
+      "min_rar": "rare",
+      "weight": 100
+    },
+    {
+      "item_id": "roe_weapons:spear_3",
+      "min_rar": "epic",
       "weight": 1000
+    },
+    {
+      "item_id": "roe_weapons:spear_4",
+      "min_rar": "legendary",
+      "weight": 10000
+    },
+    {
+      "item_id": "roe_weapons:spear_5",
+      "min_rar": "mythic",
+      "weight": 100000
     }
   ],
   "req": {
@@ -35,5 +60,5 @@
     ]
   },
   "weapon_type": "spear",
-  "weight": 250
+  "weight": 1000
 }

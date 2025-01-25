@@ -20,8 +20,8 @@
     {
       "type": "FLAT",
       "scale_to_lvl": false,
-      "stat": "accuracy_per_10_dexterity",
-      "v1": 25.0
+      "stat": "accuracy_per_perc_of_dexterity",
+      "v1": 150.0
     }
   ]
 }

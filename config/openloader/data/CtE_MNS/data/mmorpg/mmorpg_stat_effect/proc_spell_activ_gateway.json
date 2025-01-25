@@ -4,5 +4,6 @@
   "ser": "proc_spell",
   "spellId": "activ_gateway",
   "source": "Source",
-  "target": "Target"
+  "target": "Target",
+  "use_resource_costs": false
 }

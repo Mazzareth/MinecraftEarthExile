@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","file/Ashen_Custom_Font.zip","file/Redcap_LC_Retexture7.5.zip","file/RefinedStorage2.zip","Moonlight Mods Dynamic Assets","resources/resources.zip"]
-incompatibleResourcePacks:["file/RefinedStorage2.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/Ashen_Custom_Font.zip","resources/resources.zip"]
+incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
 soundDevice:""

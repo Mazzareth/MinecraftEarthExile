@@ -220,7 +220,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Obtain one of each"
+			subtitle: "Challenge"
 			tasks: [
 				{
 					id: "60D301B383B7C824"
@@ -248,12 +248,12 @@
 					type: "item"
 				}
 			]
-			title: "Challenge: High Roller"
+			title: "High Roller"
 			x: 0.0d
 			y: -8.0d
 		}
 		{
-			description: ["&eJoy of Painting&r allows you to create works of art by placing any size of &ecanvas&r on an &eeasel.&r Add dyes to your &epalette&r and mix them up to create unique colors. Make sure to &esign&r your painting after you're done. "]
+			description: ["&eJoy of Painting&r allows you to create works of art by placing any size of &ecanvas&r on an &eeasel.&r Add dyes to your &epalette&r and mix them up to create unique colors. The &ePalette&r may be purchased on the &eTrading Terminal&r. Make sure to &esign&r your painting after you're done."]
 			id: "792587BFEA5FB382"
 			rewards: [{
 				auto: "enabled"
@@ -359,7 +359,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Obtain one of each"
+			subtitle: "Challenge"
 			tasks: [
 				{
 					id: "47AD9E90B03F4DB1"
@@ -552,7 +552,7 @@
 					type: "item"
 				}
 			]
-			title: "Challenge: Big Band Player"
+			title: "Big Band Player"
 			x: 2.0d
 			y: -8.0d
 		}
@@ -647,14 +647,14 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Open 100 Lootr containers"
+			subtitle: "Challenge"
 			tasks: [{
 				advancement: "lootr:100loot"
 				criterion: ""
 				id: "2486E63A4C408549"
 				type: "advancement"
 			}]
-			title: "Challenge: Bandit"
+			title: "Bandit"
 			x: -2.0d
 			y: -8.0d
 		}
@@ -754,12 +754,12 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Complete all challenges"
+			subtitle: "Achievement"
 			tasks: [{
 				id: "1C2D9D8441D68E4C"
 				type: "checkmark"
 			}]
-			title: "Achievement: Team Player"
+			title: "Team Player"
 			x: 0.0d
 			y: -10.0d
 		}
@@ -769,7 +769,7 @@
 				""
 				"You can right click anywhere with a &estick&r to see who owns what and where the boundaries are."
 				""
-				"Use &e/flan menu&r to edit your claim. Use &e/flan switchMode&r to create subclaims."
+				"Use &e/flan menu&r to edit your claim. Use &e/flan delete&r to remove the claim you are standing in. Use &e/flan switchMode&r to create subclaims."
 				""
 				"&eGlobal permissions&r are permissions given to anyone who is &enot&r in a permission group."
 				""

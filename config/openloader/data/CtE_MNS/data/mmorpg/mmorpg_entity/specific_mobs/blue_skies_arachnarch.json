@@ -5,7 +5,7 @@
   "identifier": "blue_skies:arachnarch",
   "loot_multi": 1.5,
   "max_lvl": 1000000,
-  "min_lvl": 55,
+  "min_lvl": 50,
   "set_health_damage_override": true,
   "set_rar": "rare",
   "stat_multi": 1.0,

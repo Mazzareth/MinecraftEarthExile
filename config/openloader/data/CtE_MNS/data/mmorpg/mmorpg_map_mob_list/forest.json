@@ -444,16 +444,6 @@
         ]
       },
       "weight": 50	
-    },
-    {
-      "type": "born_in_chaos_v1:skeleton_demoman",
-      "canBeBoss": false,
-      "tags": {
-        "tags": [
-          "undead"
-        ]
-      },
-      "weight": 50	
     }
   ],
   "possible_dungeon_tags": {

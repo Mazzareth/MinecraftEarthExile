@@ -14,7 +14,7 @@
 				""
 				"The &eController&r is the core of the storage network. All other Refined Storage must connect to it by being near it or through cables. It requires &eForge Energy&r to operate which is only obtainable through &eBotania's Mana Fluxfield&r."
 				""
-				"This quest line is non-exhaustive. Check JEI for the full list of items and possibilities within Refined. "
+				"This quest line is non-exhaustive. Check &eJEI&r for the full list of items and possibilities within Refined. "
 			]
 			id: "6390924916E0EF54"
 			rewards: [{
@@ -27,20 +27,13 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
-			tasks: [
-				{
-					id: "4B2ED6A485F2593C"
-					item: "refinedstorage:controller"
-					type: "item"
-				}
-				{
-					id: "09190898CD22BF97"
-					item: "botania:mana_fluxfield"
-					type: "item"
-				}
-			]
-			title: "Refined Storage"
+			subtitle: "Refined Storage"
+			tasks: [{
+				id: "4B2ED6A485F2593C"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "Interconnecting Chests"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -71,13 +64,13 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one Backpack"
+			subtitle: "Sophisticated Backpacks"
 			tasks: [{
 				id: "5C2725F78F0E4006"
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
 			}]
-			title: "Sophisticated Backpacks"
+			title: "On The Move"
 			x: -2.5d
 			y: 0.0d
 		}
@@ -108,7 +101,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Sophisticated Storage"
 			tasks: [
 				{
 					id: "0948893647A2EBC8"
@@ -133,7 +126,7 @@
 					type: "item"
 				}
 			]
-			title: "Sophisticated Storage"
+			title: "Strong Organizational Skills"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -166,7 +159,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Sophisticated Backpacks"
 			tasks: [{
 				id: "2A98D58B86F8196D"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
@@ -205,7 +198,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Have 3 Stack Upgrade Tier 4 in your inventory and Netherite Backpack"
+			subtitle: "Challenge"
 			tasks: [
 				{
 					id: "71DA616E7AF70799"
@@ -264,7 +257,7 @@
 					type: "item"
 				}
 			]
-			title: "Challenge: Nomad"
+			title: "Nomad"
 			x: -2.5d
 			y: -6.0d
 		}
@@ -282,7 +275,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Sophisticated Backpacks"
 			tasks: [
 				{
 					id: "754607476FB2AE70"
@@ -309,6 +302,8 @@
 				"&eFluid storage&r requires specialized versions of both to store fluids within the network."
 				""
 				"Each Refined Storage block has a priority you can set where the network will first take or receive items from."
+				""
+				"A basic storage system (&eController, Disk Drive and any Grid&r) uses 0 energy to run!"
 			]
 			id: "0BBF59F29BA6851E"
 			rewards: [{
@@ -321,7 +316,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Refined Storage"
 			tasks: [
 				{
 					id: "6B0223CDA914FC54"
@@ -366,8 +361,6 @@
 				"The &ePattern Grid&r allows autocrafting within the network. Each sub-item within a recipe must have its own pattern. "
 				""
 				"The &eCrafter&r is where the patterns will be stored and where the crafting will take place."
-				""
-				"The &eMana Fluxfield&r converts Botania mana into energy for Refined Storage advanced modules!"
 			]
 			id: "5F5B3C75910F8870"
 			rewards: [{
@@ -380,7 +373,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Refined Storage"
 			tasks: [
 				{
 					id: "06B652F2C9EA0322"
@@ -395,11 +388,6 @@
 				{
 					id: "62C84E7861D0E991"
 					item: "refinedstorage:crafter"
-					type: "item"
-				}
-				{
-					id: "0A68F4F4B6F2C487"
-					item: "botania:mana_fluxfield"
 					type: "item"
 				}
 			]
@@ -452,7 +440,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Craft one of each"
+			subtitle: "Challenge"
 			tasks: [
 				{
 					id: "61BC6B3C28C327BF"
@@ -470,7 +458,7 @@
 					type: "item"
 				}
 			]
-			title: "Challenge: Technophile"
+			title: "Technophile"
 			x: 0.0d
 			y: -6.0d
 		}
@@ -487,20 +475,30 @@
 				""
 				"To &edestroy and insert blocks&r from the world into your storage, use an &eDestructor.&r"
 				""
+				"The &eMana Fluxfield&r converts Botania Mana into FE for Refined Storage item manipulation!"
+				""
 				"Each block can have filters applied to it."
 			]
 			id: "6EF2C5B82615DD1B"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
-				icon: "botania:lexicon"
-				id: "5DE6A4583A76E4E5"
-				silent: true
-				title: "100 Experience x Lv."
-				type: "command"
-			}]
-			subtitle: "Craft one of each"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "botania:lexicon"
+					id: "5DE6A4583A76E4E5"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 8
+					id: "73E8823D7A15F046"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
+			subtitle: "Refined Storage"
 			tasks: [
 				{
 					id: "16E23820542D9533"
@@ -515,6 +513,11 @@
 				{
 					id: "21E2D50800CDD38A"
 					item: "refinedstorage:interface"
+					type: "item"
+				}
+				{
+					id: "1BE8765B0D9CC098"
+					item: "botania:mana_fluxfield"
 					type: "item"
 				}
 			]
@@ -536,7 +539,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Sophisticated Backpacks"
 			tasks: [
 				{
 					id: "27BA72C5B24C8F27"
@@ -582,7 +585,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Sophisticated Storage"
 			tasks: [
 				{
 					id: "228AB62E3C290839"
@@ -631,7 +634,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Sophisticated Storage"
 			tasks: [
 				{
 					id: "2F214FD2DB7CB5F2"
@@ -704,7 +707,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Sophisticated Storage"
 			tasks: [
 				{
 					id: "2D33DC885082CA5F"
@@ -738,6 +741,7 @@
 		}
 		{
 			dependencies: ["4F8DAFD8E626D7A1"]
+			description: ["Stay organized!"]
 			id: "629A6257109536AB"
 			rewards: [
 				{
@@ -765,7 +769,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Obtain one of each"
+			subtitle: "Challenge"
 			tasks: [
 				{
 					id: "0765FE1E964931AB"
@@ -814,7 +818,7 @@
 					type: "item"
 				}
 			]
-			title: "Challenge: Too Many Chests"
+			title: "Too Many Chests"
 			x: 2.5d
 			y: -6.0d
 		}
@@ -859,14 +863,41 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Complete all challenges"
+			subtitle: "Achievement"
 			tasks: [{
 				id: "7FAAD1441DAB60C3"
 				type: "checkmark"
 			}]
-			title: "Achievement: Professional Hoarder"
+			title: "Professional Hoarder"
 			x: 0.0d
 			y: -8.5d
+		}
+		{
+			dependencies: [
+				"4A3CBD5BF1BC9968"
+				"6EF2C5B82615DD1B"
+			]
+			description: ["The &eExternal Storage&r allows you to link &eRefined Storage&r with external storage blocks, such as blocks from &eSophisticated Storage&r!"]
+			id: "4E4A3F37E8B476D5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "botania:lexicon"
+				id: "632F0EE8C983348E"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Refined Storage"
+			tasks: [{
+				id: "3A278D31677ADF0F"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			title: "Compatibility"
+			x: 1.25d
+			y: -3.75d
 		}
 	]
 	title: "Storage Solutions"

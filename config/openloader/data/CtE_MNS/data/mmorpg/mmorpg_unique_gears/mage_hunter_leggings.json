@@ -51,12 +51,6 @@
       "max": 2.0,
       "min": 2.0,
       "stat": "cast_speed"
-    },
-    {
-      "type": "FLAT",
-      "max": 5.0,
-      "min": 5.0,
-      "stat": "magic_find"
     }
   ],
   "weight": 250

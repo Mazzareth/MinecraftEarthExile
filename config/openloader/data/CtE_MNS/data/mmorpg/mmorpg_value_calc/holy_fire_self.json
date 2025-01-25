@@ -1,0 +1,39 @@
+{
+  "base": {
+    "max": 2.25,
+    "min": 0.5
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 0.25,
+      "min": 0.175
+    },
+    "stat": "health"
+  },
+  "id": "holy_fire_self",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 0.25,
+        "min": 0.175
+      },
+      "stat": "weapon_damage"
+    },
+    {
+      "multi": {
+        "max": 0.25,
+        "min": 0.25
+      },
+      "stat": "health"
+    },
+    {
+      "multi": {
+        "max": 0.25,
+        "min": 0.25
+      },
+      "stat": "magic_shield"
+    }
+  ]
+}

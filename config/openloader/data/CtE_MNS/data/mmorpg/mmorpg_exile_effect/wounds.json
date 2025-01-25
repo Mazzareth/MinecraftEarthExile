@@ -13,8 +13,8 @@
               "type": "particles_in_radius",
               "map": {
                 "motion": "None",
-                "particle_count": 1.0,
-                "particle_type": "minecraft:dust",
+                "particle_count": 2.0,
+                "particle_type": "undergarden:falling_blood",
                 "radius": 1.0
               }
             }
@@ -41,8 +41,8 @@
   "stats": [
     {
       "type": "FLAT",
-      "max": -25.0,
-      "min": -25.0,
+      "max": -50.0,
+      "min": -50.0,
       "stat": "heal_effect_on_self"
     }
   ],

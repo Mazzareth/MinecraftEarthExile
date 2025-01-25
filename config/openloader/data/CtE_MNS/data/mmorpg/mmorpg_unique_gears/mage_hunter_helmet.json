@@ -24,33 +24,27 @@
     },
     {
       "type": "FLAT",
-      "max": 25.0,
-      "min": 20.0,
+      "max": 20.0,
+      "min": 15.0,
       "stat": "power_charge_on_crit"
     },
     {
       "type": "FLAT",
-      "max": 30.0,
-      "min": 20.0,
+      "max": 15.0,
+      "min": 10.0,
       "stat": "fire_penetration"
     },
     {
       "type": "FLAT",
-      "max": 30.0,
-      "min": 20.0,
+      "max": 15.0,
+      "min": 10.0,
       "stat": "water_penetration"
     },
     {
       "type": "FLAT",
-      "max": 30.0,
-      "min": 20.0,
-      "stat": "lightning_penetration"
-    },
-    {
-      "type": "FLAT",
       "max": 15.0,
-      "min": 15.0,
-      "stat": "magic_find"
+      "min": 10.0,
+      "stat": "lightning_penetration"
     }
   ],
   "weight": 250

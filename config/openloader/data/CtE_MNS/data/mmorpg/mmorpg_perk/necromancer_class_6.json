@@ -15,13 +15,13 @@
       "type": "FLAT",
       "scale_to_lvl": false,
       "stat": "chaos_penetration",
-      "v1": 25.0
+      "v1": 15.0
     },
     {
       "type": "FLAT",
       "scale_to_lvl": false,
       "stat": "fire_penetration",
-      "v1": 25.0
+      "v1": 15.0
     }
   ]
 }

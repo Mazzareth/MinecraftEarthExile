@@ -179,7 +179,7 @@
 					"desc": "rewards.gateways.loot_table.drops"
 				}
             ],
-			"max_wave_time": 1000,
+			"max_wave_time": 1800,
 			"setup_time": 100
 		}
 	],

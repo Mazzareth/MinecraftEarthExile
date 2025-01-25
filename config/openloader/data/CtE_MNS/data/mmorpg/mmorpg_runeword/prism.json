@@ -23,8 +23,8 @@
     },
     {
       "type": "FLAT",
-      "max": 20.0,
-      "min": 15.0,
+      "max": 10.0,
+      "min": 6.0,
       "stat": "elemental_resist"
     }
   ]

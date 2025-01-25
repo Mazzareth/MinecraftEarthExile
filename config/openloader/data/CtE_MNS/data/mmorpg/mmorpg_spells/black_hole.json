@@ -252,7 +252,7 @@
               "type": "sound",
               "map": {
                 "pitch": 1.0,
-                "sound": "minecraft:generic.explode",
+                "sound": "minecraft:entity.generic.explode",
                 "volume": 1.0
               }
             }

@@ -179,7 +179,8 @@
   "cast_finish_animation": {
     "id": "staff_ground"
   },
-  "config": {
+  "config": {
+
     "aggro_radius": 10,
     "cast_time_ticks": 0,
     "castingWeapon": "ANY_WEAPON",
@@ -208,6 +209,7 @@
       "song",
 	  "magic",
 	  "physical",
+	  "area",
 	  "cast_speed_to_cooldown"
       ]
     },

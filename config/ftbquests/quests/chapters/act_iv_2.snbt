@@ -15,7 +15,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6CE04F241B5FA059"]
+			dependencies: [
+				"09CFBF8766DA4706"
+				"30B56119C4EA7398"
+			]
 			description: [
 				"Your next task is to investigate &eThe End&r, and to slay the &eEnder Dragon&r. To get there, locate a &eStronghold&r, where you might find an &eEnd Portal Frame&r. You can activate the portal by slotting in &eEye of Enders&r into the frame."
 				""
@@ -24,12 +27,12 @@
 			id: "75454F0A3C4C3596"
 			rewards: [{
 				auto: "enabled"
-				command: "/mine_and_slash give exp @p 13500"
+				command: "/mine_and_slash give exp @p 19000"
 				elevate_perms: true
 				icon: "botania:lexicon"
 				id: "4D18B65191DEAB27"
 				silent: true
-				title: "13500 Experience"
+				title: "19000 Experience"
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -41,7 +44,7 @@
 				type: "advancement"
 			}]
 			title: "The End"
-			x: 15.5d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -97,17 +100,17 @@
 				""
 				"Instead of relying on the portals that spawn in the &eGatekeeper's House&r, you can craft them yourself."
 				""
-				"You can even buy the blocks from the &eTrading Terminal&r!"
+				"You can even buy the blocks from the &eTrading Terminal/Barter Board&r!"
 			]
 			id: "467EF949DCDD7863"
 			rewards: [{
 				auto: "enabled"
-				command: "/mine_and_slash give exp @p 10500"
+				command: "/mine_and_slash give exp @p 12500"
 				elevate_perms: true
 				icon: "botania:lexicon"
 				id: "1C5BD6EBA4C93030"
 				silent: true
-				title: "10500 Experience"
+				title: "12500 Experience"
 				type: "command"
 			}]
 			subtitle: "Deterministic Portal"
@@ -148,12 +151,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 11500"
+					command: "/mine_and_slash give exp @p 14500"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "13C6B993CC7FEA59"
 					silent: true
-					title: "11500 Experience"
+					title: "14500 Experience"
 					type: "command"
 				}
 			]
@@ -189,12 +192,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 11500"
+					command: "/mine_and_slash give exp @p 14500"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "1F5AACD729066105"
 					silent: true
-					title: "11500 Experience"
+					title: "14500 Experience"
 					type: "command"
 				}
 			]
@@ -225,12 +228,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 11000"
+					command: "/mine_and_slash give exp @p 13500"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "03BD8073B19FA10A"
 					silent: true
-					title: "11000 Experience"
+					title: "13500 Experience"
 					type: "command"
 				}
 			]
@@ -273,12 +276,12 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 13000"
+					command: "/mine_and_slash give exp @p 20000"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "0CEFB91DE0714449"
 					silent: true
-					title: "13000 Experience"
+					title: "20000 Experience"
 					type: "command"
 				}
 				{
@@ -336,6 +339,7 @@
 				""
 				"The Alchemist Has:"
 				"&b+50% Physical to Chaos Damage&r"
+				"&c+100% Projectile Damage Received&r"
 				"&a10% Chance of Dropping Daw Rune&r"
 			]
 			icon: {
@@ -347,12 +351,12 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 13000"
+					command: "/mine_and_slash give exp @p 20000"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "2B451560B8BFF45C"
 					silent: true
-					title: "13000 Experience"
+					title: "20000 Experience"
 					type: "command"
 				}
 				{
@@ -406,7 +410,7 @@
 				""
 				"You can also &eresummon&r the Starlit Crusher by using the &eNature Arc&r obtained from it on a &eNature Keystone&r."
 				""
-				"&cThe Starlit Crusher spawns at minimum level 55.&r"
+				"&cThe Starlit Crusher spawns at minimum level 50.&r"
 				""
 				"The Starlit Crusher Has:"
 				"&b+50% Physical to Lightning Damage&r"
@@ -431,12 +435,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 17500"
+					command: "/mine_and_slash give exp @p 25000"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "135D273C25E842F5"
 					silent: true
-					title: "17500 Experience"
+					title: "25000 Experience"
 					type: "command"
 				}
 				{
@@ -498,7 +502,7 @@
 				""
 				"You can also &eresummon&r the Arachnarch by using the &ePoisonous Arc&r obtained from it on a &ePoison Keystone&r."
 				""
-				"&cThe Arachnarch spawns at minimum level 55.&r"
+				"&cThe Arachnarch spawns at minimum level 50.&r"
 				""
 				"The Arachnarch Has:"
 				"&b+50% Physical to Chaos Damage&r"
@@ -522,12 +526,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 17500"
+					command: "/mine_and_slash give exp @p 25000"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "3376346B940F53CB"
 					silent: true
-					title: "17500 Experience"
+					title: "25000 Experience"
 					type: "command"
 				}
 				{
@@ -577,8 +581,6 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&cOnly Requires 1 task to complete.&r"
-				""
 				"The Gatekeeper did mention there would be civilization in the Everbright and Everdawn. You'll just need to find it."
 				""
 				"&eRequires 1 dependency to be completed.&r"
@@ -601,12 +603,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 12000"
+					command: "/mine_and_slash give exp @p 18000"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "45C316F7912839EF"
 					silent: true
-					title: "12000 Experience"
+					title: "18000 Experience"
 					type: "command"
 				}
 			]
@@ -620,38 +622,10 @@
 					type: "structure"
 				}
 				{
-					icon: "minecraft:soul_campfire"
-					id: "78E992AF23F05590"
-					structure: "blue_skies:village_calming_skies"
-					title: "Find a Village (Calming Skies)"
-					type: "structure"
-				}
-				{
-					icon: "minecraft:soul_campfire"
-					id: "7CCD0E5B3CA7EAFE"
-					structure: "blue_skies:village_slushlands"
-					title: "Find a Village (Slushlands)"
-					type: "structure"
-				}
-				{
 					icon: "minecraft:campfire"
 					id: "0C04E46B1BF636C0"
 					structure: "blue_skies:village_crystal_dunes"
 					title: "Find a Village (Crystal Dunes)"
-					type: "structure"
-				}
-				{
-					icon: "minecraft:campfire"
-					id: "38442C1814AB77D0"
-					structure: "blue_skies:village_shaded_woodlands"
-					title: "Find a Village (Shaded Woodlands)"
-					type: "structure"
-				}
-				{
-					icon: "minecraft:campfire"
-					id: "720141991EF4B5EA"
-					structure: "blue_skies:village_sunset_maple_forest"
-					title: "Find a Village (Sunset Maple Forest)"
 					type: "structure"
 				}
 			]
@@ -688,12 +662,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 12250"
+					command: "/mine_and_slash give exp @p 19250"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "0AC5615867DF791F"
 					silent: true
-					title: "12250 Experience"
+					title: "19250 Experience"
 					type: "command"
 				}
 			]
@@ -734,12 +708,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 12000"
+					command: "/mine_and_slash give exp @p 17000"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "12683C844A99C4C0"
 					silent: true
-					title: "12000 Experience"
+					title: "17000 Experience"
 					type: "command"
 				}
 			]
@@ -787,12 +761,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 13000"
+					command: "/mine_and_slash give exp @p 20000"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "05E99D1E12995F08"
 					silent: true
-					title: "13000 Experience"
+					title: "20000 Experience"
 					type: "command"
 				}
 				{
@@ -892,12 +866,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 10000"
+					command: "/mine_and_slash give exp @p 13000"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "5AE408B538326E95"
 					silent: true
-					title: "10000 Experience"
+					title: "13000 Experience"
 					type: "command"
 				}
 			]
@@ -943,12 +917,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 12500"
+					command: "/mine_and_slash give exp @p 15500"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "59D7A4D19D910329"
 					silent: true
-					title: "12500 Experience"
+					title: "15500 Experience"
 					type: "command"
 				}
 				{
@@ -1027,12 +1001,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 12500"
+					command: "/mine_and_slash give exp @p 15500"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "4058C769C50CDB26"
 					silent: true
-					title: "12500 Experience"
+					title: "15500 Experience"
 					type: "command"
 				}
 				{
@@ -1063,7 +1037,7 @@
 				}
 				{
 					entity: "blue_skies:infested_swarmer"
-					icon: "minecraft:poisonous_potato"
+					icon: "botania:mycelium_seeds"
 					id: "4E4337946DE5B20B"
 					type: "kill"
 					value: 16L
@@ -1130,7 +1104,7 @@
 			}]
 			title: "Complete All Act IV Quests!"
 			x: 10.5d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["10ABAF144ABC131E"]
@@ -1175,12 +1149,12 @@
 			id: "517A65DD1CDCA89F"
 			rewards: [{
 				auto: "enabled"
-				command: "/mine_and_slash give exp @p 11500"
+				command: "/mine_and_slash give exp @p 15500"
 				elevate_perms: true
 				icon: "botania:lexicon"
 				id: "621213B3B25F0F08"
 				silent: true
-				title: "11500 Experience"
+				title: "15500 Experience"
 				type: "command"
 			}]
 			subtitle: "Ever Exploration"
@@ -1200,12 +1174,12 @@
 			id: "6954FEF58C12CA7F"
 			rewards: [{
 				auto: "enabled"
-				command: "/mine_and_slash give exp @p 11500"
+				command: "/mine_and_slash give exp @p 15500"
 				elevate_perms: true
 				icon: "botania:lexicon"
 				id: "4D85B77A38196A19"
 				silent: true
-				title: "11500 Experience"
+				title: "15500 Experience"
 				type: "command"
 			}]
 			subtitle: "Ever Exploration"
@@ -1249,8 +1223,8 @@
 				type: "checkmark"
 			}]
 			title: "Book of Records"
-			x: 15.5d
-			y: -2.0d
+			x: 10.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["10ABAF144ABC131E"]
@@ -1259,12 +1233,12 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 12500"
+					command: "/mine_and_slash give exp @p 15500"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "4AACF55C8A2C99F6"
 					silent: true
-					title: "12500 Experience"
+					title: "15500 Experience"
 					type: "command"
 				}
 				{
@@ -1296,12 +1270,12 @@
 			id: "6EE535C73A769B4D"
 			rewards: [{
 				auto: "enabled"
-				command: "/mine_and_slash give exp @p 13000"
+				command: "/mine_and_slash give exp @p 17000"
 				elevate_perms: true
 				icon: "botania:lexicon"
 				id: "42CE0F3820716AC1"
 				silent: true
-				title: "13000 Experience"
+				title: "17000 Experience"
 				type: "command"
 			}]
 			subtitle: "M\\&S Professions"
@@ -1354,12 +1328,12 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 11000"
+					command: "/mine_and_slash give exp @p 15000"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "64EAE736F49AFC28"
 					silent: true
-					title: "11000 Experience"
+					title: "15000 Experience"
 					type: "command"
 				}
 				{
@@ -1398,17 +1372,17 @@
 		}
 		{
 			dependencies: ["260297A19CCA9015"]
-			description: ["Find more creatures in the Everbright dimension for research!"]
+			description: ["Find more creatures in the Everdawn dimension for research!"]
 			id: "1AD4461B780DE1AF"
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 11000"
+					command: "/mine_and_slash give exp @p 15000"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "02163ADE8B5C9F55"
 					silent: true
-					title: "11000 Experience"
+					title: "15000 Experience"
 					type: "command"
 				}
 				{
@@ -1465,12 +1439,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 13500"
+					command: "/mine_and_slash give exp @p 18500"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "69FC5BBDE8AC3CE0"
 					silent: true
-					title: "13500 Experience"
+					title: "18500 Experience"
 					type: "command"
 				}
 			]
@@ -1522,12 +1496,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 18500"
+					command: "/mine_and_slash give exp @p 25500"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "25E48201F98C883C"
 					silent: true
-					title: "18500 Experience"
+					title: "25500 Experience"
 					type: "command"
 				}
 			]
@@ -1571,12 +1545,12 @@
 				}
 				{
 					auto: "enabled"
-					command: "/mine_and_slash give exp @p 18500"
+					command: "/mine_and_slash give exp @p 25500"
 					elevate_perms: true
 					icon: "botania:lexicon"
 					id: "5E4FECB2A3D5C667"
 					silent: true
-					title: "18500 Experience"
+					title: "25500 Experience"
 					type: "command"
 				}
 			]
@@ -1594,30 +1568,98 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"30B56119C4EA7398"
-				"09CFBF8766DA4706"
+			dependencies: ["5F455D8A504B112D"]
+			description: ["Need a bit of an EXP boost? Consider eating &eExperience Gain Seafood&r crafted through Professions!"]
+			id: "221133BF7C60E9C3"
+			rewards: [
+				{
+					id: "58E05252C5F75132"
+					item: "mmorpg:material/fishing/2"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 17000"
+					elevate_perms: true
+					icon: "botania:lexicon"
+					id: "2C39F5BECE4AE2FF"
+					silent: true
+					title: "17000 Experience"
+					type: "command"
+				}
 			]
-			id: "6CE04F241B5FA059"
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "261373246C850AB3"
+				item: {
+					Count: 1
+					id: "mmorpg:seafood/legendary_exp"
+					tag: {
+						tier: 2
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Everbright Aquarium"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["61FABF4C4DB118C8"]
+			id: "04DE011FEEFE6147"
 			rewards: [{
-				auto: "disabled"
-				command: "/unlockdimensionrtp player @p minecraft:the_end"
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 12500"
 				elevate_perms: true
-				exclude_from_claim_all: true
-				icon: "minecraft:end_crystal"
-				id: "561632DACD8F0F75"
+				icon: "botania:lexicon"
+				id: "7649A7E781D80ED1"
 				silent: true
-				title: "Unlock End RTP"
+				title: "12500 Experience"
 				type: "command"
 			}]
-			subtitle: "Hot cum in your dirty mouth you whore"
+			shape: "gear"
 			tasks: [{
-				id: "7C25051C504AE633"
-				title: "Unlock End RTP"
-				type: "checkmark"
+				entity: "blue_skies:armored_frost_spirit"
+				icon: {
+					Count: 1
+					id: "undergarden:froststeel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "544B1E0331B8E417"
+				type: "kill"
+				value: 30L
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B6034E8571F3AFA"]
+			id: "42CC9D6AB01A1B7C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 12500"
+				elevate_perms: true
+				icon: "botania:lexicon"
+				id: "20605B6EF6CD2F14"
+				silent: true
+				title: "12500 Experience"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "blue_skies:infested_swarmer"
+				icon: "botania:mycelium_seeds"
+				id: "758BF3FC1A3D5AFD"
+				type: "kill"
+				value: 30L
+			}]
+			x: 6.0d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Lv. 35-55"]

@@ -14,7 +14,7 @@
               "map": {
                 "motion": "None",
                 "particle_count": 1.0,
-                "particle_type": "minecraft:snowball",
+                "particle_type": "minecraft:item_snowball",
                 "radius": 1.0
               }
             }

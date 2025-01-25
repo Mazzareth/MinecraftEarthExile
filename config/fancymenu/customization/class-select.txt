@@ -67,7 +67,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = &eYou can select from&f &c2&f &eof 7 Classes&f:%n%&cFighter&f%n%&9Elementalist&f%n%&2Hunter&f%n%&6Minstrel&f%n%&3Shaman&f%n%&5Warlock&f%n%&8Rogue&f%n%%n%Every level, you will receive 1 Skill Point.%n%Every 2 levels, you will receive 1 Passive Point.%n%%n%Note that Skills start with 0 &5Support Slots&f.%n%Starting at Skill level 4, they will receive 1 Support%n%Slot every 3 Skill levels (4, 7, 10, 13, 16) for a%n%maximum of 5.%n%%n%The slots are also gated by your current player%n%level. Lv. 1 = 1 Slot, Lv. 10 = 2 Slots, Lv. 20 = 3%n%Slots, etc.
+  description = &eYou can select from&f &c2&f &eof 10 Classes&f:%n%&cFighter&f%n%&9Elementalist&f%n%&2Hunter&f%n%&6Minstrel&f%n%&3Shaman&f%n%&5Warlock&f%n%&aRogue&f%n%&8Brawler&f%n%&4Crusader&f%n%&bChronomancer&f%n%%n%Every level, you will receive 1 Skill Point.%n%Every 2 levels, you will receive 1 Passive Point.%n%%n%Note that Skills start with 0 &5Support Slots&f.%n%Starting at Skill level 4, they will receive 1 Support%n%Slot every 3 Skill levels (4, 7, 10, 13, 16) for a%n%maximum of 5.%n%%n%The slots are also gated by your current player%n%level. Lv. 1 = 1 Slot, Lv. 10 = 2 Slots, Lv. 20 = 3%n%Slots, etc.
   label = 
   navigatable = true
   element_type = custom_button

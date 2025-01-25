@@ -9,7 +9,7 @@
         "on_damage"
       ],
       "ifs": [
-        "is_source_very_low_hp"
+        "is_target_very_low_hp"
 	  ],
       "order": "damage_layers",
       "side": "Target"

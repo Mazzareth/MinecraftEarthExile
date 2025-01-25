@@ -676,13 +676,13 @@
     "charges": 0,
     "cooldown_ticks": 40,
     "ene_cost": {
-      "max": 10.0,
-      "min": 7.0
+      "max": 4.5,
+      "min": 3.0
     },
     "imbues": 0,
     "mana_cost": {
-      "max": 9.0,
-      "min": 6.0
+      "max": 4.5,
+      "min": 3.0
     },
     "slows_when_casting": true,
     "style": "str",
@@ -691,11 +691,12 @@
     "swing_arm": true,
     "tags": {
       "tags": [
-      "area",
-      "damage",
-	  "melee",
-	  "cold",
-	  "chaos"
+        "weapon_skill",
+        "area",
+        "damage",
+	    "melee",
+	    "cold",
+	    "chaos"
       ]
     },
     "times_to_cast": 1,

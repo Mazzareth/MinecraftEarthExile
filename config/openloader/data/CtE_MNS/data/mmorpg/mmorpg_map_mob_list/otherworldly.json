@@ -445,16 +445,6 @@
       "weight": 25	
     },
     {
-      "type": "born_in_chaos_v1:mother_spider",
-      "canBeBoss": true,
-      "tags": {
-        "tags": [
-          "spider"
-        ]
-      },
-      "weight": 25	
-    },
-    {
       "type": "born_in_chaos_v1:skeleton_thrasher",
       "canBeBoss": true,
       "tags": {
@@ -496,16 +486,6 @@
     },
     {
       "type": "born_in_chaos_v1:zombie_lumberjack",
-      "canBeBoss": false,
-      "tags": {
-        "tags": [
-          "undead"
-        ]
-      },
-      "weight": 50	
-    },
-    {
-      "type": "born_in_chaos_v1:skeleton_demoman",
       "canBeBoss": false,
       "tags": {
         "tags": [

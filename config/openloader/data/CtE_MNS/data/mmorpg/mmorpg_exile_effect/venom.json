@@ -30,27 +30,6 @@
           ],
           "targets": []
         }
-      ],
-      "on_entity_attacked": [
-        {
-          "acts": [
-            {
-              "type": "damage",
-              "map": {
-                "element": "Shadow",
-                "value_calculation": "venom"
-              }
-            }
-          ],
-          "en_preds": [],
-          "ifs": [],
-          "targets": [
-            {
-              "type": "target",
-              "map": {}
-            }
-          ]
-        }
       ]
     },
     "on_cast": []
@@ -60,6 +39,12 @@
   },
   "stacks_affect_stats": true,
   "stats": [
+    {
+      "type": "FLAT",
+      "max": 100.0,
+      "min": 50.0,
+      "stat": "proc_venom_basic"
+    },
     {
       "type": "FLAT",
       "max": 50.0,

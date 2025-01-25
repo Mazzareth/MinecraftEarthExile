@@ -244,7 +244,7 @@
   },
   "cast_animation": {},
   "cast_finish_animation": {
-    "id": "single_arrow_shot"
+    "id": "arrow_hail"
   },
   "config": {
     "aggro_radius": 10,

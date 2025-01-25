@@ -14,7 +14,7 @@
               "map": {
                 "motion": "None",
                 "particle_count": 1.0,
-                "particle_type": "minecraft:flame",
+                "particle_type": "born_in_chaos_v1:soul_fire",
                 "radius": 1.0
               }
             }

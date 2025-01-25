@@ -4,5 +4,6 @@
   "ser": "proc_spell",
   "spellId": "frost_nova",
   "source": "Target",
-  "target": "Source"
+  "target": "Source",
+  "use_resource_costs": true
 }

@@ -45,7 +45,7 @@
 				icon: "nightlights:octopus_purple"
 				id: "13BF61F2B380DC9E"
 				type: "kill"
-				value: 48L
+				value: 24L
 			}]
 			title: "Otherworldly Beings II"
 			x: 0.0d
@@ -143,7 +143,7 @@
 			description: [
 				"It seems not all creatures here are innately hostile. But we need to show them we mean business."
 				""
-				"It's time to take care of some &ePiglins&r and some &eHoglins&r. You'll find them almost everywhere."
+				"It's time to take care of some &ePiglins&r and some &eHoglins&r. You'll find them most commonly in &eNether Wastes&r and &eCrimson Forests&r."
 			]
 			icon: "minecraft:piglin_head"
 			id: "29CADE48F14D6436"
@@ -194,6 +194,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["45535AECCE43183A"]
 			description: [
 				"In The Nether, you may come across aggressive, fiery creatures. While the &eWyrm&r and &eBlaze&r seem powerful, it is almost certain that there are more powerful magma creatures given the size and depth of The Nether."
@@ -221,6 +222,7 @@
 					type: "command"
 				}
 			]
+			shape: "gear"
 			subtitle: "Fiery Adventure"
 			tasks: [
 				{
@@ -288,7 +290,7 @@
 				}
 				id: "6EC7ADFF37CD9E71"
 				type: "kill"
-				value: 32L
+				value: 24L
 			}]
 			title: "Flame Spitters"
 			x: 4.5d
@@ -359,7 +361,7 @@
 				""
 				"This boss is very difficult, as it requires you to have a projectile weapon or spell to take care of its first phase. In the second phase, be prepared for the Wither to be up close and personal..."
 				""
-				"&o&eTip:&r &oHaving trouble defeating the Wither? Did you know that the higher level a mob is to you, the more bonus damage it receives? This bonus starts at a 5 level differential.&r"
+				"&o&eTip:&r &oHaving trouble defeating the Wither? Did you know that the higher level a mob is to you it takes less damage and deals more? This bonus starts at a 3 level differential.&r"
 				""
 				"&cThe Wither spawns at minimum level 30.&r"
 				""
@@ -402,17 +404,6 @@
 					title: "1 Talent Point"
 					type: "custom"
 				}
-				{
-					auto: "disabled"
-					command: "/unlockdimensionrtp player @p undergarden:undergarden"
-					elevate_perms: true
-					exclude_from_claim_all: true
-					icon: "minecraft:recovery_compass"
-					id: "4E7F21D2A7D687DC"
-					silent: true
-					title: "Unlock Undergarden RTP"
-					type: "command"
-				}
 			]
 			shape: "rsquare"
 			size: 1.25d
@@ -433,7 +424,7 @@
 			description: [
 				"Well, here is one of those big bads you've been tasked with removing. The &eWildfire&r is a powerful foe - you will need to be prepared."
 				""
-				"The plates spinning around the &eWildfire&r need to be popped off before it can receive any basic attack damage. You can still damage it with spells, but if you want to mow it down with basic attacks, you will need to &estrip it of its armor&r!"
+				"The plates spinning around the &eWildfire&r need to be popped off before it can receive any damage."
 				""
 				"You can find &eWildfire&r in &eCitadels.&r Alternatively, you can use a &eGateway of the Hellish Fortress&r."
 				""
@@ -550,7 +541,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You've seen in Nether Fortresses clues to another structure. \"The Citadel\" is etched into the walls of the Fortress in various locations. Maybe you can find the &eNether Citadel&r and investigate."
+				"You've seen in Nether Fortresses clues to another structure. \"The Citadel\" is etched into the walls of the Fortress in various locations. Maybe you can find the &eCitadel&r and investigate."
 				""
 				"&eRequires 1 dependency to be completed.&r"
 			]
@@ -659,7 +650,7 @@
 			description: [
 				"If the &eCrimson Mosquito&r drinks the blood of a &eMungus&r which is coated in &eWarped Fungus&r, then the mosquito will turn blue and start to grow in size - eventually turning into a &eWarped Mosco&r."
 				""
-				"Alternatively, you can feed a &eCrimson Mosquito with Warped Mixture&r. Unsure where to get that? You can &epurchase it from the Trading Terminal&r!"
+				"Alternatively, you can feed a &eCrimson Mosquito with Warped Mixture&r. Unsure where to get that? You can &epurchase it from the Trading Terminal/Barter Board&r!"
 				""
 				"That sounds like a very mutagenic process..."
 				""
@@ -722,7 +713,7 @@
 				""
 				"Conversely, &eGear Soul Cleaners&r are used to get rid of the stats of the gear while keeping the base item."
 				""
-				"&eGem Socket Extractors&r are used to remove &eGems&r from your socketed gear. There is no penalty for doing so, but the extractor will be consumed. There is also a &eRune Socket Extractor&r, but using that will cost &e1 Gear Potential&r."
+				"&eGem Extractors&r are used to remove &eGems&r from your socketed gear. There is no penalty for doing so, but the extractor will be consumed. There is also a &eRune Extractor&r, but using that will cost &e1 Gear Potential&r."
 			]
 			icon: "minecraft:paper"
 			id: "60D44B70BB06539B"
@@ -762,6 +753,8 @@
 				"The &eAwful Ghast&r can be found in the &eAwful Dungeons&r of The Nether. Awful Dungeons can be found in &eSoul Sand Valleys and Warped Forests&r where they appear as floating circular structures. You can summon it by placing a &eNether Star in the altar&r."
 				""
 				"The &eNether Keeper&r is a powerful foe found in the &eKeeping Castle&r of The Nether. Keeping Castles can be found in &eNether Wastes and Crimson Forests underground&r. You can summon it by placing a &eNether Star in the altar&r."
+				""
+				"&cNote that these structures cannot be found conventionally with the Explorer's Compass. You may need to find them manually.&r"
 				""
 				"The Awful Ghast Has:"
 				"&b+50% Physical to Fire Damage&r"
@@ -939,7 +932,7 @@
 		}
 		{
 			dependencies: ["52DAC9E8213D2624"]
-			description: ["Magnets are incredibly useful for dungeons and exploring as they will siphon any dropped items towards you. Hold one in hand and shift-right click to configure its range and filters."]
+			description: ["Magnets are incredibly useful for dungeons and exploring as they will siphon any dropped items towards you. Hold one in hand and shift-right click to configure its range and filters. Can even be upgraded to have a far larger range!"]
 			id: "25F1A1475A6E6F1D"
 			rewards: [{
 				auto: "enabled"
@@ -970,7 +963,7 @@
 			description: [
 				"&eLightman's Currency&r is a mod that adds those coins you get for killing things. You can use these coins to sometimes trade with villagers, purchase Support and Augment gems at the end of each Act, or set up shops and trade with other players."
 				""
-				"Even in singleplayer, you can purchase items from the trader. Craft to Exile 2 has some default items that can be bought regardless of world. Set up a &eTrading Terminal&r to check it out!"
+				"Even in singleplayer, you can purchase items from the trader. Craft to Exile 2 has some default items that can be bought regardless of world. Set up a &eTrading Terminal/Barter Board&r to check it out!"
 				""
 				"Examples of things you can buy:"
 				"- Mine and Slash Profession Materials"
@@ -1000,7 +993,7 @@
 		}
 		{
 			dependencies: ["114D74DF8284ACC3"]
-			description: ["Craft a &eTarget Dummy&r and place it down. You can hit it to view your damage per second!"]
+			description: ["Craft a &eTarget Dummy&r and place it down. You can hit it to view your damage per second! You can also enable the &5Damage Chat-Log&r option in the &eFeatures&r tab of the &eMNS Hub&r to view &eexact damage value breakdowns&r."]
 			id: "12B20146ED616389"
 			rewards: [{
 				auto: "enabled"
@@ -1024,9 +1017,9 @@
 		{
 			dependencies: ["45535AECCE43183A"]
 			description: [
-				"&eCurrencies are Orbs&r that can be used directly on your Gear. They will modify your Gear and empower them."
+				"&eCurrencies&r are various items that can be used directly on your Gear. They will modify your Gear and empower them."
 				""
-				"Each Gear comes with a set amount of &ePotential&r. Using a Currency on the Gear will reduce the Gear's &ePotential&r. Once the Potential has reached 0, you can no longer use Currency on it.'"
+				"Each Gear comes with a set amount of &ePotential&r. Using a Currency on the Gear will reduce the Gear's &ePotential&r. Once the Potential has reached 0, Currency with Potential Cost may no longer be applied to it. Not all Currencies use Potential, however, and may be used at any time."
 				""
 				""
 				"Certain Currencies, such as the &eOrb of Chaos,&r can add very powerful effects, but may cause negative effects to your Gear. &cWith the Orb of Chaos, there is a 25% chance that your item will turn into Coal&r."
@@ -1051,7 +1044,7 @@
 		{
 			dependencies: ["1D01AD334C7C70F1"]
 			description: [
-				"You may have noticed some &eNether&r mobs dealing more &cFire Damage.&r This in each dimension, mobs have an affinity towards a specific element. For example, in the Nether, mobs will deal a combination of Fire and Physical Damage."
+				"You may have noticed some &eNether&r mobs dealing more &cFire Damage.&r Mobs native to a specific dimension tend to have an affinity towards a specific element. For example, in the Nether, some mobs will deal a combination of Fire and Physical Damage."
 				""
 				"&oAlso note, this doesn't mean they will take less damage from the element they have an affinity for.&r"
 				""
@@ -1064,7 +1057,8 @@
 				"&lEverbright:&r &bCold&r + &eLightning&r"
 				"&lEverdawn:&r &cFire&r + &5Chaos&r"
 				"&lThe End:&r &cFire&r + &eLightning&r + &5Chaos&r"
-				"&lDeeper Darker:&r &5Chaos&r"
+				"&lThe Otherside:&r &5Chaos&r"
+				"&lThe Twilight Forest:&r &7None&r"
 			]
 			icon: "minecraft:paper"
 			id: "3F61325EA08B6DAA"
@@ -1228,7 +1222,7 @@
 		{
 			dependencies: ["52DAC9E8213D2624"]
 			description: [
-				"&ePhantom Creepers&r spawn in &eWarped Forests&r and the &eEnd&r. They split upon contact, so you'll need to handle them with care!"
+				"&ePhantom Creepers&r spawn in &eWarped Forests&r and &eThe End&r. They split upon contact, so you'll need to handle them with care!"
 				""
 				"The Phantom Creeper Has:"
 				"&b+25% Dodge Rating&r"

@@ -123,7 +123,7 @@
     "charge_name": "",
     "charge_regen": 0,
     "charges": 0,
-    "cooldown_ticks": 3600,
+    "cooldown_ticks": 1800,
     "ene_cost": {
       "max": 0.0,
       "min": 0.0
@@ -140,8 +140,7 @@
     "swing_arm": true,
     "tags": {
       "tags": [
-	  "magic",
-	  "buff"
+	  "magic"
       ]
     },
     "times_to_cast": 1,
@@ -159,6 +158,19 @@
   "max_lvl": 16,
   "min_lvl": 30,
   "show_other_spell_tooltip": "",
-  "statsForSkillGem": [],
+  "statsForSkillGem": [
+    {
+      "type": "FLAT",
+      "max": 32.0,
+      "min": 2.0,
+      "stat": "cdr"
+    },
+    {
+      "type": "FLAT",
+      "max": 48.0,
+      "min": 3.0,
+      "stat": "cast_speed"
+    }
+  ],
   "weight": 1000
 }

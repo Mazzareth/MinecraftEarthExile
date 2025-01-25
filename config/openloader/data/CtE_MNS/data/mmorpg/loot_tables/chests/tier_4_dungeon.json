@@ -87,7 +87,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -99,6 +99,21 @@
             }
           ],
           "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot"
         }
       ]
     },

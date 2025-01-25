@@ -5,8 +5,8 @@
   "stats": [
     {
       "type": "FLAT",
-      "max": 37.5,
-      "min": 7.5,
+      "max": 25.0,
+      "min": 5.0,
       "stat": "elemental_resist"
     }
   ],

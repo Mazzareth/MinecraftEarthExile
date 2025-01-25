@@ -225,7 +225,8 @@
       "heal",
 	  "magic",
 	  "area",
-      "chaining"
+      "chaining",
+	  "song"
       ]
     },
     "times_to_cast": 1,

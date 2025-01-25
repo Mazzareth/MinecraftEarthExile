@@ -42,5 +42,5 @@
 	#A multipler used to increase or decrease the base volume of all notes played by MIMI instruments.
 	#Allowed values: 0-10
 	#Range: 0 ~ 10
-	audioDeviceVolume = 10
+	audioDeviceVolume = 5
 

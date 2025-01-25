@@ -7,9 +7,9 @@
           {
             "type": "sound",
             "map": {
-              "pitch": 0.75,
-              "sound": "alexsmobs:april_fools_scream",
-              "volume": 0.5
+              "pitch": 2.0,
+              "sound": "blue_skies:entity.arachnarch.screech",
+              "volume": 1.0
             }
           }
         ],

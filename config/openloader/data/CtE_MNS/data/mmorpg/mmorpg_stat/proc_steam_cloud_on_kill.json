@@ -10,7 +10,6 @@
       ],
       "ifs": [
         "random_roll",
-        "spell_has_tag_not_steam_cloud",
         "is_steam_cloud_not_on_cd"
       ],
       "order": "final_damage",

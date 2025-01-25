@@ -12,15 +12,6 @@
               "potion_action": "GIVE_STACKS",
               "potion_dur": 12000.0
             }
-          },
-          {
-            "type": "exile_effect",
-            "map": {
-              "count": 1.0,
-              "exile_potion_id": "defender_stance",
-              "potion_action": "REMOVE_STACKS",
-              "potion_dur": 20.0
-            }
           }
           ],
           "en_preds": [],
@@ -48,15 +39,6 @@
               "exile_potion_id": "defender_stance",
               "potion_action": "GIVE_STACKS",
               "potion_dur": 12000.0
-            }
-          },
-          {
-            "type": "exile_effect",
-            "map": {
-              "count": 1.0,
-              "exile_potion_id": "fighter_stance",
-              "potion_action": "REMOVE_STACKS",
-              "potion_dur": 20.0
             }
           }
           ],
@@ -233,7 +215,7 @@
     "charge_name": "",
     "charge_regen": 0,
     "charges": 0,
-    "cooldown_ticks": 200,
+    "cooldown_ticks": 40,
     "ene_cost": {
       "max": 4.0,
       "min": 8.0

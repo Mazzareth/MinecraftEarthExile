@@ -10,7 +10,6 @@
       ],
       "ifs": [
         "random_roll",
-        "spell_has_tag_not_putrid_breath",
         "is_putrid_breath_not_on_cd"
       ],
       "order": "final_damage",

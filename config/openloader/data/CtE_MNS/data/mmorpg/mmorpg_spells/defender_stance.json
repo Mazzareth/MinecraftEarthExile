@@ -93,7 +93,7 @@
     "charge_name": "",
     "charge_regen": 0,
     "charges": 0,
-    "cooldown_ticks": 200,
+    "cooldown_ticks": 40,
     "ene_cost": {
       "max": 4.0,
       "min": 8.0

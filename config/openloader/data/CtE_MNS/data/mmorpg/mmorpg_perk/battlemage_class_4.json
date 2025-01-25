@@ -8,8 +8,8 @@
     {
       "type": "FLAT",
       "scale_to_lvl": false,
-      "stat": "critical_hit_per_10_strength",
-      "v1": 0.5
+      "stat": "critical_hit_per_perc_of_strength",
+      "v1": 5.0
     },
     {
       "type": "MORE",

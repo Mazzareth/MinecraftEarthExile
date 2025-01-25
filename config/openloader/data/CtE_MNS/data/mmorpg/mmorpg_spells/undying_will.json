@@ -133,7 +133,7 @@
   },
   "default_lvl": 0,
   "disabled_dims": [],
-  "effect_tip": "berserk",
+  "effect_tip": "",
   "identifier": "undying_will",
   "loc_name": "Undying Will",
   "lvl_based_on_spell": "",

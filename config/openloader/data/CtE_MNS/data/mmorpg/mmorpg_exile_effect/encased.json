@@ -37,7 +37,7 @@
             {
               "type": "damage",
               "map": {
-                "element": "Water",
+                "element": "Cold",
                 "value_calculation": "encased"
               }
             },

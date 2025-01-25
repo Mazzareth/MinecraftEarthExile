@@ -8,26 +8,14 @@
     {
       "type": "FLAT",
       "scale_to_lvl": false,
-      "stat": "fire_penetration",
-      "v1": 20.0
-    },
-    {
-      "type": "FLAT",
-      "scale_to_lvl": false,
-      "stat": "water_penetration",
-      "v1": 20.0
-    },
-    {
-      "type": "FLAT",
-      "scale_to_lvl": false,
-      "stat": "lightning_penetration",
-      "v1": 20.0
+      "stat": "elemental_penetration",
+      "v1": 18.0
     },
     {
       "type": "FLAT",
       "scale_to_lvl": false,
       "stat": "elemental_resist",
-      "v1": 15.0
+      "v1": 12.0
     }
   ]
 }
