@@ -21908,7 +21908,7 @@ hash = "e8beeae28dd31bebbfafe5c620fe7bd7e15da61d6dc38d35b324bb1b4119e90a"
 
 [[files]]
 file = "config/openloader/resources/resources.zip.pw.toml"
-hash = "86d6ec945ace2a9066475334bb2b15cc51e4d113ebf0333029deee111184102b"
+hash = "0579b1e88a1dea93e5bf77973a6c3ddb8187ac7e145c885637f1b69207d7fc94"
 metafile = true
 
 [[files]]
