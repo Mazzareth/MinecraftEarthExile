@@ -21907,6 +21907,11 @@ file = "config/openloader/resources/resources.zip"
 hash = "e8beeae28dd31bebbfafe5c620fe7bd7e15da61d6dc38d35b324bb1b4119e90a"
 
 [[files]]
+file = "config/openloader/resources/resources.zip.pw.toml"
+hash = "86d6ec945ace2a9066475334bb2b15cc51e4d113ebf0333029deee111184102b"
+metafile = true
+
+[[files]]
 file = "config/packetfixer.properties"
 hash = "71394785b3c23c4d9b9c6745a3701a2355728dbdd31912a02b51da570e93d452"
 

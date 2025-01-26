@@ -1,0 +1,11 @@
+name = "Resources Zip"
+filename = "resources.zip"
+side = "both"
+
+[download]
+url = "http://mazzareth.github.io/MinecraftEarthExile/config/openloader/resources/resources.zip"
+
+# A number of tools can generate the hash for you, including 7-zip and sha256sum
+# packwiz supports a number of hashes, including sha256, sha512, sha1 and md5
+hash-format = "sha256"
+hash = "e8beeae28dd31bebbfafe5c620fe7bd7e15da61d6dc38d35b324bb1b4119e90a"
