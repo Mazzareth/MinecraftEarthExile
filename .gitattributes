@@ -1,3 +1,5 @@
 *.fma filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *fma filter=lfs diff=lfs merge=lfs -text
+# Disable Git line ending conversion, to prevent packwiz index hashes changing when committing from Windows
+* -text
