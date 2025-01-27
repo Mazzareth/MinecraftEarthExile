@@ -23832,6 +23832,10 @@ file = "mods/L_Enders_Cataclysm-2.43- 1.20.1.jar"
 hash = "e19bdfd31e23cfdb6b96811de064a11617d119d45b2c597e758f899851db3d71"
 
 [[files]]
+file = "mods/Mekanism-1.20.1-10.4.14.homebaked.jar"
+hash = "76b695a4084fd3356ff49178babe718e1174fbb4d5ff229c6fc5a96bea4763c6"
+
+[[files]]
 file = "mods/Rats-1.20.1-8.1.3.jar"
 hash = "9a73aa327f8d48a06208bb6f47f03799e061eac8714f09301df0ef5d34ca5f3c"
 
@@ -24101,6 +24105,10 @@ hash = "b741a14460455f39b801d112b40e244e1c3e31ba8aa5450ba2adc8a745bb9688"
 metafile = true
 
 [[files]]
+file = "mods/carryon-forge-1.20.1-2.1.2.7.jar"
+hash = "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
+
+[[files]]
 file = "mods/cataclysmiccombat-1.4.jar"
 hash = "c1ec495af967da6be9660d0d4dbe508c2416583d5d1ef3f0958626e3eaa582fe"
 
@@ -24112,6 +24120,10 @@ metafile = true
 [[files]]
 file = "mods/cc-tweaked-1.20.1-forge-1.113.1.jar"
 hash = "12dedbf3436c214edd10a94762d57161eb0f5e966b36935a9c2a0964cf2b7e9f"
+
+[[files]]
+file = "mods/cc-tweaked-1.20.1-forge-1.114.3.jar"
+hash = "39b080ee92c4636d16757f34f65cb8d0719fcc41092cf90224da6b53168b0822"
 
 [[files]]
 file = "mods/cccbridge-mc1.20.1-forge-1.6.3.jar"
@@ -24345,6 +24357,14 @@ metafile = true
 [[files]]
 file = "mods/create_blue_skies_compat-forge-1.20.1-1.0.1.jar"
 hash = "d017524f4ea4993e4d7f3a4168085ccf34d157d464ac4cd17df65cb9082bee2e"
+
+[[files]]
+file = "mods/create_chimneys-1.3.0.jar"
+hash = "13ceb911b4de099e224ea4ba850a5158f471a508c23af2bcd8673369c974d2f3"
+
+[[files]]
+file = "mods/create_renewable_stones-1.20.1-1.2.2.jar"
+hash = "babccf6394f3998671133aa89038bcc39e318378e3995f33099022c50cce7704"
 
 [[files]]
 file = "mods/creativecore.pw.toml"
@@ -24885,6 +24905,10 @@ hash = "6a00998f7c4de370f6ca67d6774cf71c485136a6105b183fb440c953576aa7a2"
 metafile = true
 
 [[files]]
+file = "mods/kjscc-1.0.1-beta.jar"
+hash = "a081989251e91c200d1ccb0a5132fadbda54d83614e9fb6560a3b3808a5f973c"
+
+[[files]]
 file = "mods/kobolds.pw.toml"
 hash = "6f794b39d1a212235889ec0bd428097e49e97967e9ab2bb72c386c7432e6abde"
 metafile = true
@@ -24923,6 +24947,22 @@ metafile = true
 file = "mods/let-me-despawn.pw.toml"
 hash = "f1aa1a1b3746f0bad932aa0e3a95ee987b96efadf1107431c735923f3ae00890"
 metafile = true
+
+[[files]]
+file = "mods/letsdo-API-forge-1.2.15-forge.jar"
+hash = "d08b99df112cfffb46e289635c79d4ac8397223320abd6469b47e202e23fa28c"
+
+[[files]]
+file = "mods/letsdo-bakery-forge-1.1.15.jar"
+hash = "a20f1b1cba05c2cf9f12b28fa28649af417fb9a4b330641236bb1b71c63b0e09"
+
+[[files]]
+file = "mods/letsdo-brewery-forge-1.1.9.jar"
+hash = "f889cf1258b6365873b83fb3e533e9a58da4ee381377e55d58f13a4b3cfb4840"
+
+[[files]]
+file = "mods/letsdo-vinery-forge-1.4.38.jar"
+hash = "f1f8c014c936a74ab9a8aa60264a8d8cb250cbe25d2578179726df60d729342a"
 
 [[files]]
 file = "mods/library-of-exile.pw.toml"
@@ -25287,6 +25327,14 @@ hash = "3a7eaa64434e7449e5fe6bd089bc784499432dae7d6ca07174b55b10a3b32ec8"
 metafile = true
 
 [[files]]
+file = "mods/peripheralium-forge-1.20.1-0.6.15.jar"
+hash = "18889f1a2c49b9d5f947b23b310643a9836151eddeb60f0feec957a7b904dc93"
+
+[[files]]
+file = "mods/peripheralworks-forge-1.20.1-1.4.4.jar"
+hash = "7b91e21fed8f0d125a50eec88391debc1c0a2b4852a74fb5deb57e08a5535e10"
+
+[[files]]
 file = "mods/pick-up-notifier.pw.toml"
 hash = "9189983623b36c936ee4e3c7ad70407899a2fe9fe31498a5b6e1b8a03913f23e"
 metafile = true
@@ -25364,6 +25412,10 @@ metafile = true
 file = "mods/refined-storage.pw.toml"
 hash = "4f8fa2d8bba834bac3240024294ff9f2881fe20e11d775a93497dec5d25be571"
 metafile = true
+
+[[files]]
+file = "mods/refurbished_furniture-forge-1.20.1-1.0.8.jar"
+hash = "ca0ea8131e43b57068a10c2e69aa906652be73a9b74eb857ab77835a335bc7c7"
 
 [[files]]
 file = "mods/repurposed-structures.pw.toml"
@@ -25643,6 +25695,10 @@ metafile = true
 file = "mods/toast-control.pw.toml"
 hash = "1195cdfa90ac4ef4d5ebed8dbca1df990cf58b0a0fe3b9b965ccefa0cfd5a2e3"
 metafile = true
+
+[[files]]
+file = "mods/toms-peripherals-1.20.1-1.3.0.jar"
+hash = "eccefa33d840dfbe7f6fea2d5f81975edb840895089f1715a449e9241ba206c7"
 
 [[files]]
 file = "mods/too-fast.pw.toml"
