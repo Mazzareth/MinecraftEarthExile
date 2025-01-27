@@ -24018,6 +24018,10 @@ hash = "20af06028cf91aa47aa88681475c7000d9023812f896f66694e1d5ee810f815e"
 metafile = true
 
 [[files]]
+file = "mods/bjornlib-forge-1.0.19.5-1.20.1.jar"
+hash = "6be3c25b28346c2c858ab2eeb008a3e317b38bf4e8d83793511009516f6f07b2"
+
+[[files]]
 file = "mods/blockui.pw.toml"
 hash = "5be62cf52a3584f39286d261f9325a1ddfb0efb6f1838b9f368df6a28cab3d15"
 metafile = true
@@ -24228,6 +24232,10 @@ metafile = true
 file = "mods/comforts.pw.toml"
 hash = "db01ff332b926267e5343601473582e51cddd1dff7c0bfef0809dc9802c07480"
 metafile = true
+
+[[files]]
+file = "mods/computer_cartographer-1.20.1-1.0-forge.jar"
+hash = "95c19ed7f52b331585d3f422b663c0ef9bc6df8dc25512f01982491f11860edb"
 
 [[files]]
 file = "mods/config-menus-forge.pw.toml"
@@ -25327,8 +25335,8 @@ hash = "3a7eaa64434e7449e5fe6bd089bc784499432dae7d6ca07174b55b10a3b32ec8"
 metafile = true
 
 [[files]]
-file = "mods/peripheralium-forge-1.20.1-0.6.15.jar"
-hash = "18889f1a2c49b9d5f947b23b310643a9836151eddeb60f0feec957a7b904dc93"
+file = "mods/peripheralium-forge-1.20.1-0.7.0.jar"
+hash = "a9ed0455336e5afe77b3e393461084d3a1f29f33c007ddbcac36de0730304f94"
 
 [[files]]
 file = "mods/peripheralworks-forge-1.20.1-1.4.4.jar"
