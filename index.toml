@@ -23828,6 +23828,10 @@ file = "mods/DamageVignette-2.0.2-forge+mc1.20.jar"
 hash = "3d548feec36ca4c7125f430eeeafe8b1ccda5913e25bafcb93741fe9552056de"
 
 [[files]]
+file = "mods/EdivadLib-1.20.1-2.0.1.jar"
+hash = "b25fff32b50b08fac1c00827d564e316f933700c44760454002e656296b48b42"
+
+[[files]]
 file = "mods/ExtraStorage-1.20.1-4.0.7.jar"
 hash = "ed7b2b0fedd7c2c2c060af4a870ba73d34e586b7bde213501b2c86f7c947b672"
 
