@@ -24766,6 +24766,10 @@ hash = "01fccb8f3abe9c7f542ec610aef0c647bdc5a8ce0677c74e340ba4c2da0614af"
 metafile = true
 
 [[files]]
+file = "mods/fusion-1.0.6-forge-mc1.20.1.jar"
+hash = "5b6fb28c934600d53f57c8a443c5c54279c64e33e3098f7acd5003e09588b47f"
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "42a0f2975f5a46a3b460ac2e7d0886a88c1472d9bcf25e752735af3435bc61d9"
 metafile = true
