@@ -23820,8 +23820,16 @@ file = "mods/AdvancedPeripherals-1.20.1-0.7.41r.jar"
 hash = "acfd815b5a7481f06608ab99ad4b816e10a7f083ff7ea4b0a7450ade97c79aca"
 
 [[files]]
+file = "mods/CompactVoidMiners-R1.20.1-1.21.jar"
+hash = "8b07cda3d942de90a3a67969e588851ba33bb4104118a5f5b4e5f1d9ab9e1aea"
+
+[[files]]
 file = "mods/DamageVignette-2.0.2-forge+mc1.20.jar"
 hash = "3d548feec36ca4c7125f430eeeafe8b1ccda5913e25bafcb93741fe9552056de"
+
+[[files]]
+file = "mods/ExtraStorage-1.20.1-4.0.7.jar"
+hash = "ed7b2b0fedd7c2c2c060af4a870ba73d34e586b7bde213501b2c86f7c947b672"
 
 [[files]]
 file = "mods/ItemLocks-Forge-1.20.1-1.3.8.jar"
@@ -23834,6 +23842,14 @@ hash = "e19bdfd31e23cfdb6b96811de064a11617d119d45b2c597e758f899851db3d71"
 [[files]]
 file = "mods/Mekanism-1.20.1-10.4.14.homebaked.jar"
 hash = "76b695a4084fd3356ff49178babe718e1174fbb4d5ff229c6fc5a96bea4763c6"
+
+[[files]]
+file = "mods/Powah-5.0.8.jar"
+hash = "558d8b8751fab5a43dcb420aa343f0dbb444f8e6daa5bb5b36cc10f688839638"
+
+[[files]]
+file = "mods/RSInfinityBooster-1.20.1-1.0+41.jar"
+hash = "af6bd5436b8ed88681a9e85973abf99ba9a640b4d2e71da962aa73779ecf7114"
 
 [[files]]
 file = "mods/Rats-1.20.1-8.1.3.jar"
@@ -23871,6 +23887,14 @@ metafile = true
 file = "mods/alexs-mobs.pw.toml"
 hash = "5e1239fd67c97c042d09cf38664698c9d1a3cfbc50d779fc550c461cf6aeb565"
 metafile = true
+
+[[files]]
+file = "mods/allthecompressed-1.20.1-3.0.2.jar"
+hash = "5b5bebb47db29574dc8301db20026f62555344df9c4f265f296cc5bce68770f5"
+
+[[files]]
+file = "mods/alltheores-1.20.1-47.1.3-2.2.4.jar"
+hash = "b3aee8294e1a285f875192745194b910d945a09beeb050f25a2eb37ddc497408"
 
 [[files]]
 file = "mods/almanac-lib.pw.toml"
@@ -24230,6 +24254,10 @@ hash = "db01ff332b926267e5343601473582e51cddd1dff7c0bfef0809dc9802c07480"
 metafile = true
 
 [[files]]
+file = "mods/compactmachines-forge-6.0.3.jar"
+hash = "2661e00951be5e355bf68786fc4ffd573a22d41a86dbb414e954947dc7522f57"
+
+[[files]]
 file = "mods/computer_cartographer-1.20.1-1.0-forge.jar"
 hash = "95c19ed7f52b331585d3f422b663c0ef9bc6df8dc25512f01982491f11860edb"
 
@@ -24474,6 +24502,10 @@ metafile = true
 file = "mods/easy-magic.pw.toml"
 hash = "6e00b7d2b9e48e4286f7313f848b2520ebb26315672bfa4a27bef23d02db2ca8"
 metafile = true
+
+[[files]]
+file = "mods/effortlessbuilding-1.20.1-3.9-all.jar"
+hash = "226a3a50ea4e2e111cc32e783d82a8e08ce74077d122a7d3c0afb265429262b7"
 
 [[files]]
 file = "mods/elytra-slot.pw.toml"
@@ -25127,6 +25159,10 @@ hash = "d200393b4761cbfec1664fc1a8c1c2326665beaccf6dfb430741dbd03e3c208c"
 metafile = true
 
 [[files]]
+file = "mods/modular-routers-12.1.1+mc1.20.1.jar"
+hash = "73927003853e062806916ce6cb009203bd083d0169de7380e114835a1fb8659d"
+
+[[files]]
 file = "mods/monster-plus.pw.toml"
 hash = "5e78521a42d511205657dd73552015de57cf2da9c9e24739728a843a0e63d8b7"
 metafile = true
@@ -25414,6 +25450,14 @@ hash = "4f8fa2d8bba834bac3240024294ff9f2881fe20e11d775a93497dec5d25be571"
 metafile = true
 
 [[files]]
+file = "mods/refinedpolymorph-0.1.1-1.20.1.jar"
+hash = "39e4312a999aa686f3c91095dce424538708764be6d108634cf658647620f826"
+
+[[files]]
+file = "mods/refinedstorageaddons-0.10.0.jar"
+hash = "8371fe7932e88e3dd06401fd921a6ab2c52913287bd8994b096e47655c664491"
+
+[[files]]
 file = "mods/refurbished_furniture-forge-1.20.1-1.0.8.jar"
 hash = "ca0ea8131e43b57068a10c2e69aa906652be73a9b74eb857ab77835a335bc7c7"
 
@@ -25689,6 +25733,10 @@ metafile = true
 file = "mods/think-before-drop.pw.toml"
 hash = "03a32e9aa413c6b34e34d67239a503959f81c482560b4b765078055fc88ab379"
 metafile = true
+
+[[files]]
+file = "mods/thoriumreactors-1.20.1-0.1.7.1b-all.jar"
+hash = "fb25a27715acd09d39360fb92bdbe49b1c9bcb980d4a5623280c1f871cb4ef7c"
 
 [[files]]
 file = "mods/tips.pw.toml"
