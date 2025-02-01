@@ -23820,6 +23820,18 @@ file = "mods/AdvancedPeripherals-1.20.1-0.7.41r.jar"
 hash = "acfd815b5a7481f06608ab99ad4b816e10a7f083ff7ea4b0a7450ade97c79aca"
 
 [[files]]
+file = "mods/CommonCapabilities-1.20.1-2.9.4.jar"
+hash = "57443e616bd4864bc3f41816f822b92772829e846a1434ff5bb277e782e12193"
+
+[[files]]
+file = "mods/Cucumber-1.20.1-7.0.13.jar"
+hash = "c32b1b6cdeba1996a76c60ffaf2f17126e3d64228f607ed69f618f9780595591"
+
+[[files]]
+file = "mods/CyclopsCore-1.20.1-1.19.5.jar"
+hash = "8ee7c97766438ee71d7f5d5ce8a65312747bf0342c6922b57f6e994ffae0bab6"
+
+[[files]]
 file = "mods/DamageVignette-2.0.2-forge+mc1.20.jar"
 hash = "3d548feec36ca4c7125f430eeeafe8b1ccda5913e25bafcb93741fe9552056de"
 
@@ -23832,6 +23844,26 @@ file = "mods/ExtraStorage-1.20.1-4.0.7.jar"
 hash = "ed7b2b0fedd7c2c2c060af4a870ba73d34e586b7bde213501b2c86f7c947b672"
 
 [[files]]
+file = "mods/IntegratedCrafting-1.20.1-1.1.9.jar"
+hash = "d3d6c2ef28b279ea0b4f0983b022d87e7c3465d3ef42e801140648dde7a0baeb"
+
+[[files]]
+file = "mods/IntegratedDynamics-1.20.1-1.25.0.jar"
+hash = "ce82eceda6f0a66d2ed3d42bfeed5ca487e545892d175573fad14c84b4a26d24"
+
+[[files]]
+file = "mods/IntegratedScripting-1.20.1-1.0.11.jar"
+hash = "503ab83b55d601d5841b67eb718601dbe2242bcb2986eb8b41e6f11ee862c03b"
+
+[[files]]
+file = "mods/IntegratedTerminals-1.20.1-1.6.4.jar"
+hash = "8aa118654ed53646ff43497aba422957185946bf80fbd20ace4db9f59225f833"
+
+[[files]]
+file = "mods/IntegratedTunnels-1.20.1-1.8.33.jar"
+hash = "5d76ebbe355b546d8663376eb8a99a288f1dc645b140d8c2f6766b3ee9898f85"
+
+[[files]]
 file = "mods/ItemLocks-Forge-1.20.1-1.3.8.jar"
 hash = "b75dfb3d5bb5ff9b10b030cad94f324e28a54ee02c43ab865de7b5b4af8f0471"
 
@@ -23842,6 +23874,10 @@ hash = "e19bdfd31e23cfdb6b96811de064a11617d119d45b2c597e758f899851db3d71"
 [[files]]
 file = "mods/Mekanism-1.20.1-10.4.14.homebaked.jar"
 hash = "76b695a4084fd3356ff49178babe718e1174fbb4d5ff229c6fc5a96bea4763c6"
+
+[[files]]
+file = "mods/MysticalAgriculture-1.20.1-7.0.16.jar"
+hash = "56343e4d83b227620876462ddb4dc92c7108f22b8beccb5f89a5b0eb9857fc6b"
 
 [[files]]
 file = "mods/Powah-5.0.8.jar"
@@ -25498,6 +25534,10 @@ metafile = true
 file = "mods/riskofrain-mobs.pw.toml"
 hash = "f6519ac457862557732ac843a921c406bd2aca0b8097150b400fbe02f3cdc70e"
 metafile = true
+
+[[files]]
+file = "mods/rsrequestify-1.20.1-2.3.3.jar"
+hash = "dbf2c11fa5ae9c274c114e14435f015584a8545b77f8d7af739164f66d3601ab"
 
 [[files]]
 file = "mods/saturn.pw.toml"
